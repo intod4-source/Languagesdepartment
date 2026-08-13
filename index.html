@@ -12,20 +12,6 @@
 </head>
 <body>
 <div id="msg">Loading Languages Department Team System…</div>
-<script>
-(async()=>{
- try{
-  const files=['./bundle/00a.txt','./bundle/00b.txt','./bundle/01a.txt','./bundle/01b.txt','./bundle/02.txt','./bundle/03.txt','./bundle/04a.txt','./bundle/04b.txt','./bundle/05a.txt','./bundle/05b.txt','./bundle/06.txt'];
-  const parts=await Promise.all(files.map(async file=>{const r=await fetch(file,{cache:'no-store'});if(!r.ok)throw new Error(file+' HTTP '+r.status);return (await r.text()).trim()}));
-  const raw=atob(parts.join(''));
-  const bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
-  if(typeof DecompressionStream!=='function')throw new Error('This browser does not support gzip decompression');
-  let html=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
-  html=html.replace(/<div class="login-help">[\s\S]*?<\/div>/i,'');
-  html=html.replace('</body>','<script src="./auth-v2.js?v=e03a5176"><\/script></body>');
-  document.open();document.write(html);document.close();
- }catch(e){const el=document.getElementById('msg');if(el)el.textContent='Languages Department loading error: '+String(e)}
-})();
-</script>
+<script src="./loader-v2.js?v=ff2792a7"></script>
 </body>
 </html>
