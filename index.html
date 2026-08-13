@@ -21,6 +21,7 @@
   const bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
   if(typeof DecompressionStream!=='function')throw new Error('This browser does not support gzip decompression');
   let html=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+  html=html.replace(/<div class="login-help">[\s\S]*?<\/div>/i,'');
   html=html.replace('</body>','<script src="./auth-v2.js?v=e03a5176"><\/script></body>');
   document.open();document.write(html);document.close();
  }catch(e){const el=document.getElementById('msg');if(el)el.textContent='Languages Department loading error: '+String(e)}
