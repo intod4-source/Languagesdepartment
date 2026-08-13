@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="canonical" href="https://intod4-source.github.io/Languagesdepartment/">
+<title>Languages Department Team Management System</title>
+<style>html,body{margin:0;min-height:100%;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f3f6f4;color:#142019}#msg{padding:28px;font-size:17px}</style>
+</head>
+<body>
+<div id="msg">Loading Languages Department Team System…</div>
+<script>
+(async()=>{
+ try{
+  const files=['./bundle/00.txt','./bundle/01.txt','./bundle/02.txt','./bundle/03.txt','./bundle/04a.txt','./bundle/04b.txt','./bundle/05a.txt','./bundle/05b.txt','./bundle/06.txt'];
+  const parts=await Promise.all(files.map(async file=>{const r=await fetch(file,{cache:'no-store'});if(!r.ok)throw new Error(file+' HTTP '+r.status);return (await r.text()).trim()}));
+  const raw=atob(parts.join(''));
+  const bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
+  if(typeof DecompressionStream!=='function')throw new Error('This browser does not support gzip decompression');
+  const html=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+  document.open();document.write(html);document.close();
+ }catch(e){const el=document.getElementById('msg');if(el)el.textContent='Languages Department loading error: '+String(e)}
+})();
+</script>
+</body>
+</html>
