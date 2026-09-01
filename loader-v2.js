@@ -16,9 +16,18 @@
     setTimeout(()=>{
       const hint=document.querySelector('.login-help');
       if(hint) hint.remove();
-      const s=document.createElement('script');
-      s.src='./auth-v2.js?v=20260813fix3';
-      document.body.appendChild(s);
+      const auth=document.createElement('script');
+      auth.src='./auth-v2.js?v=20260901authfix1';
+      auth.onload=()=>{
+        const recovery=document.createElement('script');
+        recovery.src='./auth-recovery.js?v=20260901reset1';
+        document.body.appendChild(recovery);
+      };
+      auth.onerror=()=>{
+        const el=document.getElementById('msg')||document.body;
+        if(el) el.textContent='Languages Department authentication module failed to load. Please refresh the page.';
+      };
+      document.body.appendChild(auth);
     },0);
   } catch(e) {
     const el=document.getElementById('msg');
