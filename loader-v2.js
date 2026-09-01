@@ -17,10 +17,15 @@
       const hint=document.querySelector('.login-help');
       if(hint) hint.remove();
       const auth=document.createElement('script');
-      auth.src='./auth-v2.js?v=20260901authfix1';
+      auth.src='./auth-v2.js?v=20260901authfix2';
       auth.onload=()=>{
         const recovery=document.createElement('script');
-        recovery.src='./auth-recovery.js?v=20260901reset1';
+        recovery.src='./auth-recovery.js?v=20260901reset2';
+        recovery.onload=()=>{
+          const auto=document.createElement('script');
+          auto.src='./auth-autostart.js?v=20260901auto1';
+          document.body.appendChild(auto);
+        };
         document.body.appendChild(recovery);
       };
       auth.onerror=()=>{
