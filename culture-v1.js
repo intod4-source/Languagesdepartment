@@ -1,52 +1,334 @@
 (function(){
 'use strict';
 const ROOT='./',TOTAL=100,PASS=70;
-const G={Asia:'|Afghanistan|Armenia|Azerbaijan|Cambodia|India|Indonesia|Iran|Iraq|Jordan|Kazakhstan|Kuwait|Kyrgyzstan|Maldives|Myanmar|North Korea|Oman|Saudi Arabia|South Korea|Syria|Tajikistan|United Arab Emirates|Uzbekistan|Vietnam|Yemen|',Africa:'|Algeria|Angola|Botswana|Cameroon|Chad|Egypt|Gambia|Kenya|Liberia|Madagascar|Malawi|Mali|Mauritius|Niger|Nigeria|Senegal|Sierra Leone|Somalia|Sudan|Tanzania|Uganda|Zambia|Zimbabwe|',Europe:'|Albania|Andorra|Austria|Belgium|Denmark|Greece|Iceland|Ireland|Netherlands|Norway|Poland|Portugal|Romania|Russia|Serbia|Sweden|Switzerland|Ukraine|United Kingdom|',Americas:'|Argentina|Bermuda|Bolivia|Brazil|Canada|Chile|Colombia|Cuba|Guatemala|Guyana|Haiti|Suriname|Trinidad and Tobago|Uruguay|Venezuela|',Oceania:'|Australia|Fiji|New Zealand|'};
-const L={All:'All Countries',Asia:'Asia',Africa:'Africa',Europe:'Europe',Americas:'Americas',Oceania:'Oceania'};
-let list,selected,region='All',quiz,resultsView=false,editing=null;
-const $=s=>document.querySelector(s),esc=v=>String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),area=n=>Object.keys(G).find(k=>G[k].includes('|'+n+'|'))||'Global',mix=a=>[...a].sort(()=>Math.random()-.5);
-function css(){
-  let s=document.createElement('style');
-  s.textContent=`@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
-.ca{max-width:1240px;margin:auto;direction:ltr;text-align:left}.ca *{font-family:Arial,Tahoma,sans-serif}
-.ca [dir="rtl"],.ca-section h3,.ca-section p,.ca-editor [data-heading],.ca-editor [data-body],.ca-editor #ceSummary{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;direction:rtl;text-align:right}
-.ca-hero{padding:36px;border-radius:27px;color:#fff;background:linear-gradient(120deg,#062f3c,#087063 55%,#d49c32);margin-bottom:20px}
-.ca-k{font-size:11px;font-weight:800;letter-spacing:1px}.ca-hero h2{font-size:34px;margin:9px 0}.ca-hero p{max-width:700px;margin:0;line-height:1.7}
-.ca-stats,.ca-tabs,.ca-tools{display:flex;gap:10px;flex-wrap:wrap}.ca-stats{margin-top:22px}.ca-stat{padding:9px 14px;border:1px solid #ffffff38;background:#ffffff18;border-radius:12px}.ca-stat b{display:block;font-size:18px}.ca-stat span{font-size:11px}
-.ca-tools{margin:18px 0}.ca-search{flex:1;min-width:230px;text-align:left}.ca-tab{border:1px solid #cee0da;background:#fff;padding:8px 13px;border-radius:99px;font-weight:700;color:#35584f;cursor:pointer}.ca-tab.active,.ca-tab:hover{background:#086e5e;color:#fff}.ca-tabs{margin-bottom:18px}
-.ca-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:15px}.ca-card{text-align:left;padding:0;background:#fff;border:1px solid #d8e7e2;border-radius:18px;overflow:hidden;cursor:pointer;transition:.2s}.ca-card:hover{transform:translateY(-4px);box-shadow:0 15px 28px #174b4020;border-color:#5cac99}
-.ca-top{height:76px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(130deg,#e6f4ef,#fff1d9)}.ca-flag{font-size:40px}.ca-region{font-size:10px;font-weight:800;background:#ffffffd9;padding:6px 8px;border-radius:20px}.ca-body{padding:15px}.ca-card h3{margin:0 0 7px;color:#163e35;font-size:18px}.ca-card p{height:35px;overflow:hidden;margin:0;font-size:12px;color:#638078;line-height:1.5}.ca-foot{margin-top:13px;padding-top:11px;border-top:1px solid #e6efec;display:flex;justify-content:space-between;color:#087261;font-size:12px;font-weight:800}
-.ca-back{margin-bottom:14px}.ca-country{padding:24px;border:1px solid #cce3da;background:linear-gradient(130deg,#f9fcfa,#e5f2ec);border-radius:20px;display:flex;align-items:center;gap:18px}.ca-country .ca-flag{font-size:60px}.ca-country h2{margin:0;color:#163e35;font-size:29px}.ca-country p{margin:6px 0;color:#607a71}.ca-country .btn{margin-left:auto}
-.ca-layout{display:grid;grid-template-columns:1fr 280px;gap:16px;margin-top:16px}.ca-tip,.ca-section{border-radius:17px;padding:21px}.ca-tip{background:#fff9ed;border:1px solid #f0dfb8;color:#604a20}.ca-section{margin:14px 0;border:1px solid #dce9e5;background:#fff}.ca-section h3{margin:0 0 13px;padding-bottom:10px;border-bottom:2px solid #dcefe8;color:#086657;font-size:20px}.ca-section p{white-space:pre-line;line-height:2.2;margin:0;color:#263c36;text-align:justify}
-.ca-quiz{max-width:800px;margin:auto;background:#fff;border:1px solid #d6e7e1;border-radius:23px;padding:28px;box-shadow:0 12px 30px #174b4014}.ca-qtop{display:flex;justify-content:space-between}.ca-bar{height:8px;background:#e6f0ec;border-radius:9px;margin:17px 0 24px;overflow:hidden}.ca-bar i{display:block;height:100%;background:linear-gradient(90deg,#087563,#d29b32)}.ca-question{font-size:21px;font-weight:750;color:#183e35;line-height:1.7;margin-bottom:20px}.ca-options{display:grid;gap:10px}.ca-option{background:#fff;border:1px solid #d5e5df;border-radius:13px;padding:14px;text-align:right;font:inherit;color:#27483f;cursor:pointer}.ca-option:hover{background:#edf8f4;border-color:#10806c}
-.ca-score{text-align:center}.ca-ring{width:116px;height:116px;margin:14px auto;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#0b806a var(--p),#e7efec 0);position:relative}.ca-ring:before{content:'';position:absolute;inset:9px;background:#fff;border-radius:50%}.ca-ring b{position:relative;font-size:27px;color:#13463a}.ca-empty{padding:40px;text-align:center;color:#648078}
-.ca-editor{border:1px solid #b8d8cd;background:#f7fcf9;border-radius:20px;padding:22px}.ca-editor textarea,.ca-editor input{box-sizing:border-box;width:100%;margin:7px 0 15px;padding:12px;border:1px solid #c9ddd6;border-radius:10px;font:inherit;line-height:1.8;background:#fff}.ca-editor textarea{min-height:130px;resize:vertical}.ca-edit-row{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:8px 0}.ca-edit-card{background:#fff;border:1px solid #d6e7e1;border-radius:14px;padding:14px;margin:12px 0}.ca-edit-card label{font-weight:800;color:#135345}.ca-small{font-size:12px;color:#5d776f}
-#caQuiz{font-weight:900;letter-spacing:.5px;background:#d89114!important;border-color:#b87503!important;box-shadow:0 8px 20px #b8750355}
-@media(max-width:720px){.ca-hero{padding:24px}.ca-hero h2{font-size:27px}.ca-grid{grid-template-columns:1fr 1fr}.ca-layout{grid-template-columns:1fr}.ca-country{flex-wrap:wrap}.ca-country .btn{margin:0}}`;
-  document.head.appendChild(s);
+const REGIONS={Asia:'Afghanistan Armenia Azerbaijan Cambodia India Indonesia Iran Iraq Jordan Kazakhstan Kuwait Kyrgyzstan Maldives Myanmar Oman Saudi-Arabia South-Korea Syria Tajikistan United-Arab-Emirates Uzbekistan Vietnam Yemen',Africa:'Algeria Angola Botswana Cameroon Chad Egypt Gambia Kenya Liberia Madagascar Malawi Mali Mauritius Niger Nigeria Senegal Sierra-Leone Somalia Sudan Tanzania Uganda Zambia Zimbabwe',Europe:'Albania Andorra Austria Belgium Denmark Greece Iceland Ireland Netherlands Norway Poland Portugal Romania Russia Serbia Sweden Switzerland Ukraine United-Kingdom',Americas:'Argentina Bermuda Bolivia Brazil Canada Chile Colombia Cuba Guatemala Guyana Haiti Suriname Trinidad-and-Tobago Uruguay Venezuela',Oceania:'Australia Fiji New-Zealand'};
+let countries=[],chosen=null,quiz=null,editing=false,showResults=false;
+const $=q=>document.querySelector(q);
+const safe=v=>String(v??'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
+const shuffle=a=>[...a].sort(()=>Math.random()-.5);
+const region=n=>Object.keys(REGIONS).find(r=>REGIONS[r].split(' ').includes(String(n).replaceAll(' ','-')))||'Global';
+const headers=()=>({apikey:KEY,Authorization:'Bearer '+A.access_token,'Content-Type':'application/json'});
+
+function addStyle(){
+const link=document.createElement('link');
+link.rel='stylesheet';
+link.href='https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap';
+document.head.appendChild(link);
+const s=document.createElement('style');
+s.textContent=`
+.culture{max-width:1200px;margin:auto;font-family:Arial,sans-serif;color:#173c34}
+.culture-hero{background:linear-gradient(120deg,#063b3a,#087463,#d79b2e);color:#fff;padding:32px;border-radius:24px}
+.culture-hero h2{font-size:34px;margin:7px 0}
+.culture-stats,.culture-tools,.culture-tabs{display:flex;gap:10px;flex-wrap:wrap}
+.culture-stats{margin-top:20px}
+.culture-stats span{background:#ffffff18;border:1px solid #ffffff35;border-radius:11px;padding:9px 13px}
+.culture-tools{margin:18px 0}
+.culture-tools input{flex:1;min-width:220px;padding:11px;border:1px solid #cdded8;border-radius:9px}
+.culture-tabs{margin-bottom:17px}
+.culture-tabs button{background:#fff;border:1px solid #cbded7;border-radius:30px;padding:8px 13px;cursor:pointer}
+.culture-tabs button.active{background:#08715f;color:#fff}
+.culture-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.culture-card{background:#fff;border:1px solid #d6e6e1;border-radius:17px;padding:0;text-align:left;overflow:hidden;cursor:pointer}
+.culture-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px #164a3e20}
+.culture-card-top{background:linear-gradient(130deg,#e8f5f0,#fff2d9);padding:14px;display:flex;justify-content:space-between;align-items:center}
+.culture-flag{font-size:42px}
+.culture-card-body{padding:14px}
+.culture-card h3{margin:0 0 7px}
+.culture-card p{height:38px;overflow:hidden;color:#647d76;font-size:12px}
+.culture-country{display:flex;gap:17px;align-items:center;background:#eef8f4;border:1px solid #cee5dc;border-radius:20px;padding:22px}
+.culture-country h2{margin:0}
+.culture-country .btn{margin-left:auto}
+#cultureTest{background:#d88c0b!important;color:#fff!important;font-weight:900!important;padding:14px 20px!important;box-shadow:0 8px 20px #b8750350}
+.culture-urdu,.culture-section h3,.culture-section p,.culture-editor .urdu-field{font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;direction:rtl;text-align:right}
+.culture-section{background:#fff;border:1px solid #d8e7e2;border-radius:16px;padding:20px;margin:14px 0}
+.culture-section h3{color:#08705e;margin:0 0 12px;border-bottom:2px solid #e1f0eb;padding-bottom:9px}
+.culture-section p{font-size:17px;line-height:2.2;text-align:justify;white-space:pre-line;margin:0}
+.culture-quiz,.culture-editor{max-width:850px;margin:15px auto;background:#fff;border:1px solid #d5e6e0;border-radius:20px;padding:25px}
+.culture-progress{height:8px;background:#e5efec;border-radius:8px;overflow:hidden;margin:16px 0}
+.culture-progress i{display:block;height:100%;background:#09806b}
+.culture-option{display:block;width:100%;padding:13px;margin:9px 0;border:1px solid #d4e5df;border-radius:11px;background:#fff;cursor:pointer}
+.culture-option:hover{background:#eaf7f2}
+.culture-editor input,.culture-editor textarea{box-sizing:border-box;width:100%;padding:11px;margin:6px 0 13px;border:1px solid #cadfd7;border-radius:9px}
+.culture-editor textarea{min-height:130px}
+.culture-edit-card{border:1px solid #d8e7e2;padding:14px;border-radius:13px;margin:12px 0}
+.culture-row{display:flex;gap:9px;flex-wrap:wrap}
+.culture-empty{text-align:center;padding:35px;color:#667e77}
+@media(max-width:700px){.culture-grid{grid-template-columns:1fr 1fr}.culture-country{flex-wrap:wrap}.culture-country .btn{margin:0}.culture-hero{padding:22px}}
+`;
+document.head.appendChild(s);
 }
-async function catalogue(){if(list)return list;let r=await fetch(ROOT+'index.json',{cache:'no-store'});if(!r.ok)throw Error('Culture library could not load.');return list=await r.json()}
-function apiHeaders(){return {apikey:KEY,Authorization:'Bearer '+A.access_token,'Content-Type':'application/json'}}
-async function loadGuide(slug){
-  let r=await fetch(ROOT+slug+'.json',{cache:'no-store'});
-  if(!r.ok)throw Error('This country guide is not available.');
-  let c=await r.json();
-  try{
-    let o=await fetch(URL+'/rest/v1/culture_guide_overrides?country_slug=eq.'+encodeURIComponent(slug)+'&select=guide',{headers:apiHeaders()});
-    if(o.ok){let a=await o.json();if(a[0]?.guide)c=a[0].guide}
-  }catch(e){console.warn(e)}
-  return c
+
+async function catalogue(){
+if(countries.length)return countries;
+const r=await fetch(ROOT+'index.json',{cache:'no-store'});
+if(!r.ok)throw Error('Country list could not load.');
+countries=await r.json();
+return countries;
 }
-function home(a){return `<div class="ca"><section class="ca-hero"><div class="ca-k">LANGUAGES DEPARTMENT · GLOBAL LEARNING CENTRE</div><h2>Country Culture Academy</h2><p>Study local culture, etiquette and practical guidance before starting country-based work, then complete the 100-question assessment.</p><div class="ca-stats"><div class="ca-stat"><b>${a.length}</b><span>Country Guides</span></div><div class="ca-stat"><b>${TOTAL}</b><span>Questions / Marks</span></div><div class="ca-stat"><b>${PASS}</b><span>Passing Marks</span></div></div></section><div class="ca-tools"><input class="input ca-search" id="caSearch" placeholder="Search country or region…" value="${esc(filters.cultureSearch||'')}"><button class="btn btn-secondary" id="caClear">Clear</button></div><div class="ca-tabs">${Object.keys(L).map(x=>`<button class="ca-tab ${region===x?'active':''}" data-region="${x}">${L[x]}</button>`).join('')}</div><div class="ca-grid">${a.map(c=>`<button class="ca-card" data-country="${esc(c.slug)}"><div class="ca-top"><span class="ca-flag">${esc(c.flag)}</span><span class="ca-region">${L[area(c.name)]||area(c.name)}</span></div><div class="ca-body"><h3>${esc(c.name)}</h3><p>${esc(c.summary||'Country culture guidance')}</p><div class="ca-foot"><span>Read Guide</span><span>→</span></div></div></button>`).join('')||'<div class="ca-empty">No country found.</div>'}</div></div>`}
-function facts(c){let a=[];(c.sections||[]).forEach(s=>String(s.body||'').split('\n').forEach(l=>{let p=l.split('|').map(x=>x.trim()).filter(x=>x&&!/^[-+=]+$/.test(x));if(p.length>=2&&p[0].length<45&&p[1].length>1&&p[1].length<110)a.push({q:p[0],a:p[1]})}));return a.filter((x,i)=>a.findIndex(y=>y.q===x.q&&y.a===x.a)===i)}
-function test(c){let f=facts(c),h=[...new Set((c.sections||[]).map(s=>s.heading).filter(Boolean))],bank=[];f.forEach((x,i)=>bank.push({q:`${c.name} کے کلچر گائیڈ کے مطابق، ${x.q} کیا ہے؟`,a:x.a,o:mix([x.a,...f.filter((_,n)=>n!==i).map(y=>y.a).slice(0,3)])}));(c.sections||[]).forEach((s,i)=>{let t=String(s.body||'').replace(/\s+/g,' ').slice(0,125);if(t)bank.push({q:`درج ذیل عبارت کس عنوان کے تحت گائیڈ میں موجود ہے؟\n\n${t}…`,a:s.heading||'معلومات',o:mix([s.heading||'معلومات',...h.filter(x=>x!==s.heading).slice(i%Math.max(1,h.length-1),i%Math.max(1,h.length-1)+3),'مقامی رہنمائی'])})});if(!bank.length)bank=[{q:'کیا آپ نے اس ملک کا کلچر گائیڈ مکمل طور پر پڑھ لیا ہے؟',a:'جی ہاں',o:['جی ہاں','نہیں','جزوی طور پر','یاد نہیں']}];return Array.from({length:TOTAL},(_,i)=>{let x=bank[i%bank.length];return {...x,o:mix([x.a,...x.o.filter(y=>y!==x.a).slice(0,3)])}})}
-function guide(c){let s=(c.sections||[]).map(x=>`<article class="ca-section" dir="rtl"><h3>${esc(x.heading)}</h3><p>${esc(x.body)}</p></article>`).join('');return `<div class="ca"><button class="btn btn-secondary ca-back" id="caBack">← Back to Academy</button><section class="ca-country"><span class="ca-flag">${esc(c.flag)}</span><div><div class="ca-k" style="color:#0b735f">${L[area(c.name)]||area(c.name)} · CULTURE GUIDE</div><h2>${esc(c.name)}</h2><p>${esc(c.summary||'Study the guide, then complete the 100-question assessment. The passing score is 70 marks.')}</p></div><button class="btn btn-primary" id="caQuiz">START 100-QUESTION TEST</button></section><div class="ca-layout"><div class="ca-section" style="margin-top:0"><h3 style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">Learning Method</h3><p style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">Read the complete guide carefully. Each question carries one mark; the total is 100 marks and 70 marks are required to pass.</p></div><aside class="ca-tip"><b>Important Note</b><p style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">Respect local etiquette, language and social sensitivities in all country-based work.</p></aside></div>${s}${isAdmin()?'<button class="btn btn-secondary" id="caEdit">✎ Edit This Guide</button>':''}</div>`}
-function editor(c){let rows=(c.sections||[]).map((s,i)=>`<div class="ca-edit-card" data-edit-section="${i}"><label>Section Heading</label><input data-heading value="${esc(s.heading)}"><label>Urdu Text</label><textarea data-body>${esc(s.body)}</textarea><button class="btn btn-secondary" data-remove="${i}">Remove Section</button></div>`).join('');return `<div class="ca"><button class="btn btn-secondary ca-back" id="caCancelEdit">← Cancel without Saving</button><section class="ca-editor"><div class="ca-k" style="color:#0b735f">ADMINISTRATION · GUIDE EDITOR</div><h2>Edit ${esc(c.name)} Guide</h2><p class="ca-small">Urdu fields use Noori Nastaleeq, right-to-left direction and justified reading layout. Use the controls below to add, remove and edit each section.</p><label>Country Name</label><input id="ceName" value="${esc(c.name)}"><label>Short Introduction</label><textarea id="ceSummary">${esc(c.summary||'')}</textarea><div id="ceSections">${rows}</div><div class="ca-edit-row"><button class="btn btn-secondary" id="ceAdd">+ Add New Section</button><button class="btn btn-primary" id="ceSave">✓ Save Changes</button></div></section></div>`}
-function bindEditor(c){let host=$('#ceSections');$('#ceAdd').onclick=()=>{let n=document.createElement('div');n.className='ca-edit-card';n.innerHTML='<label>Section Heading</label><input data-heading value="New Heading"><label>Urdu Text</label><textarea data-body></textarea><button class="btn btn-secondary" data-remove>Remove Section</button>';host.appendChild(n);n.querySelector('[data-remove]').onclick=()=>n.remove()};host.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>b.closest('.ca-edit-card').remove());$('#caCancelEdit').onclick=()=>{editing=null;render()};$('#ceSave').onclick=async()=>{let b=$('#ceSave');b.disabled=true;b.textContent='Saving…';let g={...c,name:$('#ceName').value.trim()||c.name,summary:$('#ceSummary').value.trim(),sections:[...host.querySelectorAll('.ca-edit-card')].map(x=>({heading:x.querySelector('[data-heading]').value.trim(),body:x.querySelector('[data-body]').value.trim()})).filter(x=>x.heading||x.body)};try{let r=await fetch(URL+'/rest/v1/culture_guide_overrides?on_conflict=country_slug',{method:'POST',headers:{...apiHeaders(),Prefer:'resolution=merge-duplicates,return=representation'},body:JSON.stringify({country_slug:c.slug,guide:g,updated_by:A.user.id,updated_at:new Date().toISOString()})});if(!r.ok)throw Error('Could not save changes. Please try again.');editing=null;selected=c.slug;await render()}catch(e){b.disabled=false;b.textContent='✓ Save Changes';alert(e.message)}}}
-function qpage(){let x=quiz.a[quiz.i],p=Math.round(quiz.i/TOTAL*100);return `<div class="ca" dir="rtl"><button class="btn btn-secondary ca-back" id="caExit">گائیڈ پر واپس جائیں ←</button><section class="ca-quiz"><div class="ca-qtop"><div><div class="ca-k" style="color:#0b735f">${esc(quiz.c.name)} · کلچر ٹیسٹ</div><b>سوال ${quiz.i+1} از ${TOTAL}</b></div><small>ہر سوال: 1 نمبر</small></div><div class="ca-bar"><i style="width:${p}%"></i></div><div class="ca-question">${esc(x.q)}</div><div class="ca-options">${x.o.map((o,i)=>`<button class="ca-option" data-a="${i}"><b>${['الف','ب','ج','د'][i]}۔</b> ${esc(o)}</button>`).join('')}</div></section></div>`}
-async function record(){if(quiz.saved)return;quiz.saved=true;try{await fetch(URL+'/rest/v1/culture_quiz_results',{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+A.access_token,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify({user_id:A.user.id,user_name:session?.name||A.user.email,country:quiz.c.name,score:quiz.score,total:TOTAL})})}catch(x){console.warn(x)}}
-function result(){let p=quiz.score,ok=p>=PASS;return `<div class="ca" dir="rtl"><section class="ca-quiz ca-score"><div class="ca-k" style="color:#0b735f">ٹیسٹ مکمل ہو گیا</div><div class="ca-ring" style="--p:${p}%"><b>${p}%</b></div><h2>${ok?'مبارک ہو! آپ پاس ہیں':'کوشش جاری رکھیں'}</h2><p>آپ نے ${TOTAL} میں سے <b>${p}</b> نمبر حاصل کیے۔ پاسنگ نمبر ${PASS} ہیں۔</p><p>${ok?'آپ کا نتیجہ ڈیش بورڈ میں محفوظ ہو گیا ہے۔':'مزید مطالعہ کے بعد دوبارہ ٹیسٹ دیں۔'}</p><button class="btn btn-primary" id="caDone">گائیڈ پر واپس جائیں</button></section></div>`}
-async function dashboard(){let r=await fetch(URL+'/rest/v1/culture_quiz_results?select=user_name,country,score,total,completed_at&order=completed_at.desc&limit=200',{headers:{apikey:KEY,Authorization:'Bearer '+A.access_token}});if(!r.ok)throw Error('کلچر رزلٹس لوڈ نہیں ہو سکے۔');let a=await r.json();return `<div class="ca" dir="rtl"><button class="btn btn-secondary ca-back" id="caDashBack">اکیڈمی پر واپس جائیں ←</button><section class="ca-hero"><div class="ca-k">انتظامیہ</div><h2>کلچر ٹیسٹ رزلٹس ڈیش بورڈ</h2><p>مکمل ہونے والے ملک وار ٹیسٹس کی تازہ فہرست۔</p></section><section class="ca-section"><div style="overflow:auto"><table style="width:100%;border-collapse:collapse"><thead><tr><th style="padding:10px;text-align:right">نام</th><th style="padding:10px;text-align:right">ملک</th><th style="padding:10px;text-align:right">نمبر</th><th style="padding:10px;text-align:right">نتیجہ</th></tr></thead><tbody>${a.map(x=>`<tr><td style="padding:10px;border-top:1px solid #e5eeea">${esc(x.user_name)}</td><td style="padding:10px;border-top:1px solid #e5eeea">${esc(x.country)}</td><td style="padding:10px;border-top:1px solid #e5eeea">${x.score}/${x.total}</td><td style="padding:10px;border-top:1px solid #e5eeea"><b>${x.score>=PASS?'پاس':'فیل'}</b></td></tr>`).join('')||'<tr><td colspan="4" style="padding:20px">ابھی کوئی ٹیسٹ مکمل نہیں ہوا۔</td></tr>'}</tbody></table></div></section></div>`}
-async function render(){let h=$('#content');if(!h)return;h.innerHTML='<div class="ca-empty">کنٹری کلچر اکیڈمی کھولی جا رہی ہے…</div>';try{let all=await catalogue();if(resultsView){h.innerHTML=await dashboard();$('#caDashBack').onclick=()=>{resultsView=false;render()};return}if(quiz){h.innerHTML=quiz.i>=TOTAL?result():qpage();if(quiz.i>=TOTAL)$('#caDone').onclick=()=>{selected=quiz.c.slug;quiz=null;render()};else{$('#caExit').onclick=()=>{selected=quiz.c.slug;quiz=null;render()};h.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>{if(quiz.a[quiz.i].o[+b.dataset.a]===quiz.a[quiz.i].a)quiz.score++;quiz.i++;if(quiz.i>=TOTAL)record();render()})}return}if(selected){let c=await loadGuide(selected);if(editing){h.innerHTML=editor(c);bindEditor(c);return}h.innerHTML=guide(c);$('#caBack').onclick=()=>{selected=null;render()};$('#caQuiz').onclick=()=>{quiz={c,a:test(c),i:0,score:0};render()};let e=$('#caEdit');if(e)e.onclick=()=>{editing=c.slug;render()};return}let q=String(filters.cultureSearch||'').toLowerCase(),a=all.filter(c=>(region==='All'||area(c.name)===region)&&(!q||(`${c.name} ${L[area(c.name)]||area(c.name)}`).toLowerCase().includes(q)));h.innerHTML=home(a);$('#caSearch').oninput=x=>{filters.cultureSearch=x.target.value;render()};$('#caClear').onclick=()=>{filters.cultureSearch='';render()};if(isAdmin()){let b=document.createElement('button');b.className='btn btn-primary';b.textContent='Culture Results Dashboard';$('#caClear').after(b);b.onclick=()=>{resultsView=true;render()}}h.querySelectorAll('[data-region]').forEach(b=>b.onclick=()=>{region=b.dataset.region;render()});h.querySelectorAll('[data-country]').forEach(b=>b.onclick=()=>{selected=b.dataset.country;render()})}catch(x){h.innerHTML=`<div class="notice">${esc(x.message)}</div>`}}
-function install(){if(typeof pages==='undefined'||typeof NAV_ADMIN==='undefined'||typeof NAV_MEMBER==='undefined')return setTimeout(install,80);css();if(!NAV_ADMIN.some(x=>x[0]==='culture'))NAV_ADMIN.splice(1,0,['culture','Country Culture','◈']);if(!NAV_MEMBER.some(x=>x[0]==='culture'))NAV_MEMBER.splice(1,0,['culture','Country Culture','◈']);pages.culture=()=>{setTimeout(render,0);return '<div class="ca-empty">Country Culture Academy is opening…</div>'};if(typeof session!=='undefined'&&session)renderNav()}install();
+
+async function getGuide(slug){
+const r=await fetch(ROOT+slug+'.json',{cache:'no-store'});
+if(!r.ok)throw Error('This country guide could not load.');
+let guide=await r.json();
+try{
+const x=await fetch(URL+'/rest/v1/culture_guide_overrides?country_slug=eq.'+encodeURIComponent(slug)+'&select=guide',{headers:headers()});
+if(x.ok){
+const rows=await x.json();
+if(rows[0]?.guide)guide=rows[0].guide;
+}
+}catch(e){console.warn(e)}
+return guide;
+}
+
+function home(list){
+return `<div class="culture">
+<section class="culture-hero">
+<small>LANGUAGES DEPARTMENT · GLOBAL LEARNING CENTRE</small>
+<h2>Country Culture Academy</h2>
+<p>Choose a country, study its culture guide and complete the assessment.</p>
+<div class="culture-stats">
+<span><b>${list.length}</b> Country Guides</span>
+<span><b>100</b> Questions / Marks</span>
+<span><b>70</b> Passing Marks</span>
+</div>
+</section>
+<div class="culture-tools">
+<input id="cultureSearch" placeholder="Search country…">
+<button class="btn btn-secondary" id="cultureClear">Clear</button>
+</div>
+<div class="culture-tabs">
+${['All','Asia','Africa','Europe','Americas','Oceania'].map(x=>`<button data-region="${x}" class="${window.cultureRegion===x?'active':''}">${x}</button>`).join('')}
+</div>
+<div class="culture-grid">
+${list.map(c=>`<button class="culture-card" data-country="${safe(c.slug)}">
+<div class="culture-card-top"><span class="culture-flag">${safe(c.flag)}</span><small>${region(c.name)}</small></div>
+<div class="culture-card-body"><h3>${safe(c.name)}</h3><p class="culture-urdu">${safe(c.summary||'ملکی ثقافتی رہنمائی')}</p><b>Read Guide →</b></div>
+</button>`).join('')||'<div class="culture-empty">No country found.</div>'}
+</div></div>`;
+}
+
+function guidePage(c){
+return `<div class="culture">
+<button class="btn btn-secondary" id="cultureBack">← Back to Academy</button>
+<section class="culture-country">
+<span class="culture-flag">${safe(c.flag)}</span>
+<div><small>${region(c.name)} · CULTURE GUIDE</small><h2>${safe(c.name)}</h2><p class="culture-urdu">${safe(c.summary||'ملکی ثقافتی رہنمائی')}</p></div>
+<button class="btn btn-primary" id="cultureTest">START 100-QUESTION TEST</button>
+</section>
+${(c.sections||[]).map(s=>`<article class="culture-section"><h3>${safe(s.heading)}</h3><p>${safe(s.body)}</p></article>`).join('')}
+${isAdmin()?'<button class="btn btn-secondary" id="cultureEdit">✎ Edit This Guide</button>':''}
+</div>`;
+}
+
+function makeQuestions(c){
+let heads=(c.sections||[]).map(s=>s.heading).filter(Boolean);
+let bank=(c.sections||[]).filter(s=>s.body).map((s,i)=>({
+q:`درج ذیل معلومات کس عنوان سے متعلق ہیں؟\n\n${String(s.body).replace(/\s+/g,' ').slice(0,130)}…`,
+answer:s.heading,
+options:shuffle([s.heading,...heads.filter(x=>x!==s.heading).slice(i,i+3),'عمومی معلومات']).slice(0,4)
+}));
+if(!bank.length)bank=[{q:'کیا آپ نے کلچر گائیڈ مکمل پڑھ لی ہے؟',answer:'جی ہاں',options:['جی ہاں','نہیں','جزوی طور پر','یاد نہیں']}];
+return Array.from({length:TOTAL},(_,i)=>{
+let x=bank[i%bank.length],o=[...new Set([x.answer,...x.options])];
+while(o.length<4)o.push('دیگر معلومات');
+return {...x,options:shuffle(o.slice(0,4))};
+});
+}
+
+function quizPage(){
+let x=quiz.questions[quiz.index],progress=Math.round(quiz.index/TOTAL*100);
+return `<div class="culture">
+<button class="btn btn-secondary" id="quizExit">← Back to Guide</button>
+<section class="culture-quiz">
+<div><b>Question ${quiz.index+1} of ${TOTAL}</b><span style="float:right">1 Mark</span></div>
+<div class="culture-progress"><i style="width:${progress}%"></i></div>
+<h3 class="culture-urdu" style="white-space:pre-line">${safe(x.q)}</h3>
+${x.options.map(o=>`<button class="culture-option culture-urdu" data-answer="${safe(o)}">${safe(o)}</button>`).join('')}
+</section></div>`;
+}
+
+async function saveResult(){
+try{
+await fetch(URL+'/rest/v1/culture_quiz_results',{
+method:'POST',
+headers:{...headers(),Prefer:'return=minimal'},
+body:JSON.stringify({user_id:A.user.id,user_name:session?.name||A.user.email,country:quiz.country.name,score:quiz.score,total:TOTAL})
+});
+}catch(e){console.warn(e)}
+}
+
+function resultPage(){
+let passed=quiz.score>=PASS;
+return `<div class="culture"><section class="culture-quiz" style="text-align:center">
+<h2>${passed?'Congratulations — Passed':'Assessment Not Passed'}</h2>
+<h1>${quiz.score} / ${TOTAL}</h1>
+<p>Passing score: ${PASS}</p>
+<button class="btn btn-primary" id="quizDone">Return to Guide</button>
+</section></div>`;
+}
+
+function editorPage(c){
+return `<div class="culture">
+<button class="btn btn-secondary" id="editCancel">← Cancel</button>
+<section class="culture-editor">
+<small>ADMINISTRATION · GUIDE EDITOR</small>
+<h2>Edit ${safe(c.name)}</h2>
+<label>Country Name</label>
+<input id="editName" value="${safe(c.name)}">
+<label>Short Introduction</label>
+<textarea class="urdu-field" id="editSummary">${safe(c.summary||'')}</textarea>
+<div id="editSections">
+${(c.sections||[]).map(s=>`<div class="culture-edit-card">
+<label>Section Heading</label>
+<input class="urdu-field" data-heading value="${safe(s.heading)}">
+<label>Urdu Text</label>
+<textarea class="urdu-field" data-body>${safe(s.body)}</textarea>
+<button class="btn btn-secondary" data-remove>Remove Section</button>
+</div>`).join('')}
+</div>
+<div class="culture-row">
+<button class="btn btn-secondary" id="addSection">+ Add Section</button>
+<button class="btn btn-primary" id="saveGuide">Save Changes</button>
+</div>
+</section></div>`;
+}
+
+function bindEditor(c){
+const box=$('#editSections');
+box.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>b.parentElement.remove());
+$('#addSection').onclick=()=>{
+let d=document.createElement('div');
+d.className='culture-edit-card';
+d.innerHTML='<label>Section Heading</label><input class="urdu-field" data-heading><label>Urdu Text</label><textarea class="urdu-field" data-body></textarea><button class="btn btn-secondary" data-remove>Remove Section</button>';
+box.appendChild(d);
+d.querySelector('[data-remove]').onclick=()=>d.remove();
+};
+$('#editCancel').onclick=()=>{editing=false;renderCulture()};
+$('#saveGuide').onclick=async()=>{
+let b=$('#saveGuide');
+b.disabled=true;
+b.textContent='Saving…';
+const updated={
+...c,
+name:$('#editName').value.trim()||c.name,
+summary:$('#editSummary').value.trim(),
+sections:[...box.children].map(d=>({
+heading:d.querySelector('[data-heading]').value.trim(),
+body:d.querySelector('[data-body]').value.trim()
+})).filter(s=>s.heading||s.body)
+};
+const r=await fetch(URL+'/rest/v1/culture_guide_overrides?on_conflict=country_slug',{
+method:'POST',
+headers:{...headers(),Prefer:'resolution=merge-duplicates,return=minimal'},
+body:JSON.stringify({country_slug:c.slug,guide:updated,updated_by:A.user.id,updated_at:new Date().toISOString()})
+});
+if(!r.ok){
+b.disabled=false;
+b.textContent='Save Changes';
+return alert('Changes could not be saved.');
+}
+editing=false;
+renderCulture();
+};
+}
+
+async function resultsPage(){
+const r=await fetch(URL+'/rest/v1/culture_quiz_results?select=user_name,country,score,total,completed_at&order=completed_at.desc&limit=200',{headers:headers()});
+const rows=r.ok?await r.json():[];
+return `<div class="culture">
+<button class="btn btn-secondary" id="resultsBack">← Back</button>
+<section class="culture-hero"><h2>Culture Test Results</h2></section>
+<div class="culture-section" style="overflow:auto">
+<table style="width:100%">
+<tr><th>User</th><th>Country</th><th>Score</th><th>Result</th></tr>
+${rows.map(x=>`<tr><td>${safe(x.user_name)}</td><td>${safe(x.country)}</td><td>${x.score}/${x.total}</td><td>${x.score>=PASS?'Passed':'Failed'}</td></tr>`).join('')}
+</table></div></div>`;
+}
+
+async function renderCulture(){
+const host=$('#content');
+if(!host)return;
+host.innerHTML='<div class="culture-empty">Loading Country Culture…</div>';
+try{
+let all=await catalogue();
+
+if(showResults){
+host.innerHTML=await resultsPage();
+$('#resultsBack').onclick=()=>{showResults=false;renderCulture()};
+return;
+}
+
+if(quiz){
+if(quiz.index>=TOTAL){
+host.innerHTML=resultPage();
+$('#quizDone').onclick=()=>{chosen=quiz.country.slug;quiz=null;renderCulture()};
+return;
+}
+host.innerHTML=quizPage();
+$('#quizExit').onclick=()=>{chosen=quiz.country.slug;quiz=null;renderCulture()};
+host.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{
+if(b.dataset.answer===quiz.questions[quiz.index].answer)quiz.score++;
+quiz.index++;
+if(quiz.index===TOTAL)saveResult();
+renderCulture();
+});
+return;
+}
+
+if(chosen){
+let c=await getGuide(chosen);
+if(editing){
+host.innerHTML=editorPage(c);
+bindEditor(c);
+return;
+}
+host.innerHTML=guidePage(c);
+$('#cultureBack').onclick=()=>{chosen=null;renderCulture()};
+$('#cultureTest').onclick=()=>{quiz={country:c,questions:makeQuestions(c),index:0,score:0};renderCulture()};
+let edit=$('#cultureEdit');
+if(edit)edit.onclick=()=>{editing=true;renderCulture()};
+return;
+}
+
+let q=String(window.cultureSearch||'').toLowerCase();
+let selectedRegion=window.cultureRegion||'All';
+let filtered=all.filter(c=>
+(selectedRegion==='All'||region(c.name)===selectedRegion)&&
+(!q||c.name.toLowerCase().includes(q)||String(c.summary||'').includes(q))
+);
+
+host.innerHTML=home(filtered);
+$('#cultureSearch').value=window.cultureSearch||'';
+$('#cultureSearch').oninput=e=>{window.cultureSearch=e.target.value;renderCulture()};
+$('#cultureClear').onclick=()=>{window.cultureSearch='';renderCulture()};
+host.querySelectorAll('[data-region]').forEach(b=>b.onclick=()=>{window.cultureRegion=b.dataset.region;renderCulture()});
+host.querySelectorAll('[data-country]').forEach(b=>b.onclick=()=>{chosen=b.dataset.country;renderCulture()});
+
+if(isAdmin()){
+let b=document.createElement('button');
+b.className='btn btn-primary';
+b.textContent='Culture Results Dashboard';
+$('#cultureClear').after(b);
+b.onclick=()=>{showResults=true;renderCulture()};
+}
+}catch(e){
+host.innerHTML='<div class="notice">'+safe(e.message)+'</div>';
+}
+}
+
+function install(){
+if(typeof pages==='undefined'||typeof NAV_ADMIN==='undefined'||typeof NAV_MEMBER==='undefined'){
+return setTimeout(install,100);
+}
+window.cultureRegion='All';
+addStyle();
+if(!NAV_ADMIN.some(x=>x[0]==='culture'))NAV_ADMIN.splice(1,0,['culture','Country Culture','◈']);
+if(!NAV_MEMBER.some(x=>x[0]==='culture'))NAV_MEMBER.splice(1,0,['culture','Country Culture','◈']);
+pages.culture=()=>{
+setTimeout(renderCulture,0);
+return '<div class="culture-empty">Loading Country Culture…</div>';
+};
+if(typeof session!=='undefined'&&session)renderNav();
+}
+install();
 })();
