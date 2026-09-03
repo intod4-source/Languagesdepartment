@@ -4,7 +4,6 @@
   font.rel='stylesheet';
   font.href='https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap';
   document.head.appendChild(font);
-
   const style=document.createElement('style');
   style.textContent=`
     .ca{direction:ltr!important;text-align:left!important}
@@ -28,9 +27,7 @@
     .ca-editor-toolbar button:hover{background:#e8f5ef}
   `;
   document.head.appendChild(style);
-
   L={All:'All Countries',Asia:'Asia',Africa:'Africa',Europe:'Europe',Americas:'Americas',Oceania:'Oceania'};
-
   home=function(a){
     return `<div class="ca">
       <section class="ca-hero">
@@ -56,14 +53,12 @@
       </div>
     </div>`;
   };
-
   guide=function(c){
     let sections=(c.sections||[]).map(x=>`
       <article class="ca-section" dir="rtl">
         <h3>${esc(x.heading)}</h3>
         <p>${esc(x.body)}</p>
       </article>`).join('');
-
     return `<div class="ca">
       <button class="btn btn-secondary ca-back" id="caBack">← Back to Academy</button>
       <section class="ca-country">
@@ -75,7 +70,6 @@
         </div>
         <button class="btn btn-primary" id="caQuiz">START 100-QUESTION TEST</button>
       </section>
-
       <div class="ca-layout">
         <div class="ca-section" style="margin-top:0">
           <h3 style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">Learning Method</h3>
@@ -95,7 +89,6 @@
       ${isAdmin()?'<button class="btn btn-secondary" id="caEdit">✎ Edit This Guide</button>':''}
     </div>`;
   };
-
   editor=function(c){
     let rows=(c.sections||[]).map((s,i)=>`
       <div class="ca-edit-card" data-edit-section="${i}">
@@ -105,29 +98,23 @@
         <textarea data-body>${esc(s.body)}</textarea>
         <button class="btn btn-secondary" data-remove="${i}">Remove Section</button>
       </div>`).join('');
-
     return `<div class="ca">
       <button class="btn btn-secondary ca-back" id="caCancelEdit">← Cancel without Saving</button>
       <section class="ca-editor">
         <div class="ca-k" style="color:#0b735f">ADMINISTRATION · GUIDE EDITOR</div>
         <h2>Edit ${esc(c.name)} Guide</h2>
         <p class="ca-small">Urdu fields are right-to-left and use Noori Nastaleeq style. Use the editor controls below to review the formatting.</p>
-
         <div class="ca-editor-toolbar">
           <button type="button" data-format="right">Right Align</button>
           <button type="button" data-format="justify">Justify Text</button>
           <button type="button" data-format="large">Large Text</button>
           <button type="button" data-format="normal">Normal Text</button>
         </div>
-
         <label>Country Name</label>
         <input id="ceName" value="${esc(c.name)}">
-
         <label>Short Introduction</label>
         <textarea id="ceSummary">${esc(c.summary||'')}</textarea>
-
         <div id="ceSections">${rows}</div>
-
         <div class="ca-edit-row">
           <button class="btn btn-secondary" id="ceAdd">+ Add New Section</button>
           <button class="btn btn-primary" id="ceSave">✓ Save Changes</button>
@@ -138,7 +125,6 @@
 
   bindEditor=function(c){
     let host=$('#ceSections');
-
     function applyFormat(type){
       let active=document.activeElement;
       if(!active || !active.matches('textarea,input')) return;
@@ -147,9 +133,7 @@
       if(type==='large'){active.style.fontSize='20px'}
       if(type==='normal'){active.style.fontSize='17px'}
     }
-
     document.querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>applyFormat(b.dataset.format));
-
     $('#ceAdd').onclick=()=>{
       let n=document.createElement('div');
       n.className='ca-edit-card';
@@ -157,16 +141,12 @@
       host.appendChild(n);
       n.querySelector('[data-remove]').onclick=()=>n.remove();
     };
-
     host.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>b.closest('.ca-edit-card').remove());
-
     $('#caCancelEdit').onclick=()=>{editing=null;render()};
-
     $('#ceSave').onclick=async()=>{
       let b=$('#ceSave');
       b.disabled=true;
       b.textContent='Saving…';
-
       let g={
         ...c,
         name:$('#ceName').value.trim()||c.name,
@@ -176,7 +156,6 @@
           body:x.querySelector('[data-body]').value.trim()
         })).filter(x=>x.heading||x.body)
       };
-
       try{
         let r=await fetch(URL+'/rest/v1/culture_guide_overrides?on_conflict=country_slug',{
           method:'POST',
@@ -188,7 +167,6 @@
             updated_at:new Date().toISOString()
           })
         });
-
         if(!r.ok)throw Error('Could not save changes. Please try again.');
         editing=null;
         selected=c.slug;
@@ -200,7 +178,6 @@
       }
     };
   };
-
   qpage=function(){
     let x=quiz.a[quiz.i],p=Math.round(quiz.i/TOTAL*100);
     return `<div class="ca">
