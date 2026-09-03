@@ -22,9 +22,14 @@
         const recovery=document.createElement('script');
         recovery.src='./auth-recovery.js?v=20260901reset2';
         recovery.onload=()=>{
-          const auto=document.createElement('script');
-          auto.src='./auth-autostart.js?v=20260901auto1';
-          document.body.appendChild(auto);
+          const culture=document.createElement('script');
+          culture.src='./culture-v1.js?v=20260903culture1';
+          culture.onload=()=>{
+            const auto=document.createElement('script');
+            auto.src='./auth-autostart.js?v=20260901auto1';
+            document.body.appendChild(auto);
+          };
+          document.body.appendChild(culture);
         };
         document.body.appendChild(recovery);
       };

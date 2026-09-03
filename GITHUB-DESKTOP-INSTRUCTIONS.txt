@@ -1,0 +1,14 @@
+COUNTRY CULTURE LIBRARY — GITHUB DESKTOP UPDATE
+
+1. Install GitHub Desktop from https://desktop.github.com and sign in to the GitHub account that owns intod4-source/Languagesdepartment.
+2. In GitHub Desktop, select File > Clone repository > URL and enter:
+   https://github.com/intod4-source/Languagesdepartment.git
+3. After it opens the local repository folder, copy every item from the extracted update package into that repository folder.
+4. Permit replacement of auth-v2.js and loader-v2.js. Do not delete any existing repository file.
+5. GitHub Desktop will show the changes. Enter this summary:
+   Add Country Culture Library
+6. Select Commit to main, then Push origin.
+7. Wait 2–5 minutes and open:
+   https://intod4-source.github.io/Languagesdepartment/
+
+The update adds the Country Culture menu, 84 country culture guides, flags, search, and normal-user culture access.
