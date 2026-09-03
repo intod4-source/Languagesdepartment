@@ -1,20 +1,198 @@
+/* CULTURE ENGLISH UI + URDU NASTALEEQ EDITOR */
 (function(){
-'use strict';
-const ROOT='./',TOTAL=100,PASS=70;
-const G={Asia:'|Afghanistan|Armenia|Azerbaijan|Cambodia|India|Indonesia|Iran|Iraq|Jordan|Kazakhstan|Kuwait|Kyrgyzstan|Maldives|Myanmar|North Korea|Oman|Saudi Arabia|South Korea|Syria|Tajikistan|United Arab Emirates|Uzbekistan|Vietnam|Yemen|',Africa:'|Algeria|Angola|Botswana|Cameroon|Chad|Egypt|Gambia|Kenya|Liberia|Madagascar|Malawi|Mali|Mauritius|Niger|Nigeria|Senegal|Sierra Leone|Somalia|Sudan|Tanzania|Uganda|Zambia|Zimbabwe|',Europe:'|Albania|Andorra|Austria|Belgium|Denmark|Greece|Iceland|Ireland|Netherlands|Norway|Poland|Portugal|Romania|Russia|Serbia|Sweden|Switzerland|Ukraine|United Kingdom|',Americas:'|Argentina|Bermuda|Bolivia|Brazil|Canada|Chile|Colombia|Cuba|Guatemala|Guyana|Haiti|Suriname|Trinidad and Tobago|Uruguay|Venezuela|',Oceania:'|Australia|Fiji|New Zealand|'};
-const L={All:'تمام ممالک',Asia:'ایشیا',Africa:'افریقہ',Europe:'یورپ',Americas:'امریکہ',Oceania:'اوشیانا'};
-let list,selected,region='All',quiz,resultsView=false;
-const $=s=>document.querySelector(s),esc=v=>String(v||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),area=n=>Object.keys(G).find(k=>G[k].includes('|'+n+'|'))||'Global',mix=a=>[...a].sort(()=>Math.random()-.5);
-function css(){let s=document.createElement('style');s.textContent=`.ca{max-width:1240px;margin:auto;direction:rtl;text-align:right}.ca *{font-family:Tahoma,Arial,sans-serif}.ca-hero{padding:36px;border-radius:27px;color:#fff;background:linear-gradient(120deg,#062f3c,#087063 55%,#d49c32);position:relative;overflow:hidden;margin-bottom:20px}.ca-hero:after{content:'';position:absolute;width:340px;height:340px;border:1px solid #ffffff55;border-radius:50%;left:-105px;top:-170px}.ca-k{font-size:11px;font-weight:800;letter-spacing:1px}.ca-hero h2{font-size:34px;margin:9px 0}.ca-hero p{max-width:700px;margin:0;line-height:1.7}.ca-stats,.ca-tabs,.ca-tools{display:flex;gap:10px;flex-wrap:wrap}.ca-stats{margin-top:22px}.ca-stat{padding:9px 14px;border:1px solid #ffffff38;background:#ffffff18;border-radius:12px}.ca-stat b{display:block;font-size:18px}.ca-stat span{font-size:11px}.ca-tools{margin:18px 0}.ca-search{flex:1;min-width:230px;text-align:right}.ca-tab{border:1px solid #cee0da;background:#fff;padding:8px 13px;border-radius:99px;font-weight:700;color:#35584f;cursor:pointer}.ca-tab.active,.ca-tab:hover{background:#086e5e;color:#fff}.ca-tabs{margin-bottom:18px}.ca-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(225px,1fr));gap:15px}.ca-card{text-align:right;padding:0;background:#fff;border:1px solid #d8e7e2;border-radius:18px;overflow:hidden;cursor:pointer;transition:.2s}.ca-card:hover{transform:translateY(-4px);box-shadow:0 15px 28px #174b4020;border-color:#5cac99}.ca-top{height:76px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(130deg,#e6f4ef,#fff1d9)}.ca-flag{font-size:40px}.ca-region{font-size:10px;font-weight:800;background:#ffffffd9;padding:6px 8px;border-radius:20px}.ca-body{padding:15px}.ca-card h3{margin:0 0 7px;color:#163e35;font-size:18px}.ca-card p{height:35px;overflow:hidden;margin:0;font-size:12px;color:#638078;line-height:1.5}.ca-foot{margin-top:13px;padding-top:11px;border-top:1px solid #e6efec;display:flex;justify-content:space-between;color:#087261;font-size:12px;font-weight:800}.ca-back{margin-bottom:14px}.ca-country{padding:24px;border:1px solid #cce3da;background:linear-gradient(130deg,#f9fcfa,#e5f2ec);border-radius:20px;display:flex;align-items:center;gap:18px}.ca-country .ca-flag{font-size:60px}.ca-country h2{margin:0;color:#163e35;font-size:29px}.ca-country p{margin:6px 0;color:#607a71}.ca-country .btn{margin-right:auto}.ca-layout{display:grid;grid-template-columns:1fr 280px;gap:16px;margin-top:16px}.ca-tip,.ca-section{border-radius:17px;padding:21px}.ca-tip{background:#fff9ed;border:1px solid #f0dfb8;color:#604a20}.ca-section{margin:14px 0;border:1px solid #dce9e5;background:#fff}.ca-section h3{margin:0 0 13px;padding-bottom:10px;border-bottom:2px solid #dcefe8;color:#086657;font-size:18px}.ca-section p{white-space:pre-line;line-height:1.9;margin:0;color:#263c36}.ca-quiz{max-width:800px;margin:auto;background:#fff;border:1px solid #d6e7e1;border-radius:23px;padding:28px;box-shadow:0 12px 30px #174b4014}.ca-qtop{display:flex;justify-content:space-between}.ca-bar{height:8px;background:#e6f0ec;border-radius:9px;margin:17px 0 24px;overflow:hidden}.ca-bar i{display:block;height:100%;background:linear-gradient(90deg,#087563,#d29b32)}.ca-question{font-size:21px;font-weight:750;color:#183e35;line-height:1.7;margin-bottom:20px}.ca-options{display:grid;gap:10px}.ca-option{background:#fff;border:1px solid #d5e5df;border-radius:13px;padding:14px;text-align:right;font:inherit;color:#27483f;cursor:pointer}.ca-option:hover{background:#edf8f4;border-color:#10806c}.ca-score{text-align:center}.ca-ring{width:116px;height:116px;margin:14px auto;border-radius:50%;display:grid;place-items:center;background:conic-gradient(#0b806a var(--p),#e7efec 0);position:relative}.ca-ring:before{content:'';position:absolute;inset:9px;background:#fff;border-radius:50%}.ca-ring b{position:relative;font-size:27px;color:#13463a}.ca-empty{padding:40px;text-align:center;color:#648078}@media(max-width:720px){.ca-hero{padding:24px}.ca-hero h2{font-size:27px}.ca-grid{grid-template-columns:1fr 1fr}.ca-layout{grid-template-columns:1fr}.ca-country{flex-wrap:wrap}.ca-country .btn{margin:0}}`;document.head.appendChild(s)}
-async function catalogue(){if(list)return list;let r=await fetch(ROOT+'index.json',{cache:'no-store'});if(!r.ok)throw Error('کلچر لائبریری لوڈ نہیں ہو سکی۔');return list=await r.json()}
-function home(a){return `<div class="ca" dir="rtl"><section class="ca-hero"><div class="ca-k">لینگویجز ڈیپارٹمنٹ · عالمی سیکھنے کا مرکز</div><h2>کنٹری کلچر اکیڈمی</h2><p>مقامی کام سے پہلے متعلقہ ملک کی ثقافت، آداب اور ضروری رہنمائی کا مطالعہ کریں، پھر اپنا 100 نمبروں کا ٹیسٹ مکمل کریں۔</p><div class="ca-stats"><div class="ca-stat"><b>${a.length}</b><span>ملکی گائیڈز</span></div><div class="ca-stat"><b>${TOTAL}</b><span>سوالات / نمبر</span></div><div class="ca-stat"><b>${PASS}</b><span>پاسنگ نمبر</span></div></div></section><div class="ca-tools"><input class="input ca-search" id="caSearch" placeholder="ملک یا براعظم تلاش کریں…" value="${esc(filters.cultureSearch||'')}"><button class="btn btn-secondary" id="caClear">صاف کریں</button></div><div class="ca-tabs">${Object.keys(L).map(x=>`<button class="ca-tab ${region===x?'active':''}" data-region="${x}">${L[x]}</button>`).join('')}</div><div class="ca-grid">${a.map(c=>`<button class="ca-card" data-country="${esc(c.slug)}"><div class="ca-top"><span class="ca-flag">${esc(c.flag)}</span><span class="ca-region">${L[area(c.name)]||area(c.name)}</span></div><div class="ca-body"><h3>${esc(c.name)}</h3><p>${esc(c.summary||'ملکی ثقافتی رہنمائی')}</p><div class="ca-foot"><span>گائیڈ پڑھیں</span><span>←</span></div></div></button>`).join('')||'<div class="ca-empty">کوئی ملک نہیں ملا۔</div>'}</div></div>`}
-function facts(c){let a=[];(c.sections||[]).forEach(s=>String(s.body||'').split('\n').forEach(l=>{let p=l.split('|').map(x=>x.trim()).filter(x=>x&&!/^[-+=]+$/.test(x));if(p.length>=2&&p[0].length<45&&p[1].length>1&&p[1].length<110)a.push({q:p[0],a:p[1]})}));return a.filter((x,i)=>a.findIndex(y=>y.q===x.q&&y.a===x.a)===i)}
-function test(c){let f=facts(c),h=[...new Set((c.sections||[]).map(s=>s.heading).filter(Boolean))],bank=[];f.forEach((x,i)=>bank.push({q:`${c.name} کے کلچر گائیڈ کے مطابق، ${x.q} کیا ہے؟`,a:x.a,o:mix([x.a,...f.filter((_,n)=>n!==i).map(y=>y.a).slice(0,3)])}));(c.sections||[]).forEach((s,i)=>{let t=String(s.body||'').replace(/\s+/g,' ').slice(0,125);if(t)bank.push({q:`درج ذیل عبارت کس عنوان کے تحت گائیڈ میں موجود ہے؟\n\n${t}…`,a:s.heading||'معلومات',o:mix([s.heading||'معلومات',...h.filter(x=>x!==s.heading).slice(i%Math.max(1,h.length-1),i%Math.max(1,h.length-1)+3),'مقامی رہنمائی'])})});if(!bank.length)bank=[{q:'کیا آپ نے اس ملک کا کلچر گائیڈ مکمل طور پر پڑھ لیا ہے؟',a:'جی ہاں',o:['جی ہاں','نہیں','جزوی طور پر','یاد نہیں']}];return Array.from({length:TOTAL},(_,i)=>{let x=bank[i%bank.length];return {...x,o:mix([x.a,...x.o.filter(y=>y!==x.a).slice(0,3)])}})}
-function guide(c){let s=(c.sections||[]).map(x=>`<article class="ca-section"><h3>${esc(x.heading)}</h3><p>${esc(x.body)}</p></article>`).join('');return `<div class="ca" dir="rtl"><button class="btn btn-secondary ca-back" id="caBack">اکیڈمی پر واپس جائیں ←</button><section class="ca-country"><span class="ca-flag">${esc(c.flag)}</span><div><div class="ca-k" style="color:#0b735f">${L[area(c.name)]||area(c.name)} · کلچر گائیڈ</div><h2>${esc(c.name)}</h2><p>گائیڈ مکمل پڑھنے کے بعد 100 نمبروں کا ٹیسٹ دیں۔ 70 نمبر پاسنگ ہیں۔</p></div><button class="btn btn-primary" id="caQuiz">100 سوالات کا ٹیسٹ شروع کریں</button></section><div class="ca-layout"><div class="ca-section" style="margin-top:0"><h3>سیکھنے کا طریقہ</h3><p>گائیڈ کا مکمل مطالعہ کریں۔ ہر سوال ایک نمبر کا ہے؛ کل 100 نمبر ہیں اور 70 نمبر حاصل کرنے والا پاس کہلائے گا۔</p></div><aside class="ca-tip"><b>اہم ہدایت</b><p>مقامی کام میں ملک کے آداب، زبان اور معاشرتی حساسیت کا احترام ضروری ہے۔</p></aside></div>${s}</div>`}
-function qpage(){let x=quiz.a[quiz.i],p=Math.round(quiz.i/TOTAL*100);return `<div class="ca" dir="rtl"><button class="btn btn-secondary ca-back" id="caExit">گائیڈ پر واپس جائیں ←</button><section class="ca-quiz"><div class="ca-qtop"><div><div class="ca-k" style="color:#0b735f">${esc(quiz.c.name)} · کلچر ٹیسٹ</div><b>سوال ${quiz.i+1} از ${TOTAL}</b></div><small>ہر سوال: 1 نمبر</small></div><div class="ca-bar"><i style="width:${p}%"></i></div><div class="ca-question">${esc(x.q)}</div><div class="ca-options">${x.o.map((o,i)=>`<button class="ca-option" data-a="${i}"><b>${['الف','ب','ج','د'][i]}۔</b> ${esc(o)}</button>`).join('')}</div></section></div>`}
-async function record(){if(quiz.saved)return;quiz.saved=true;try{await fetch(URL+'/rest/v1/culture_quiz_results',{method:'POST',headers:{apikey:KEY,Authorization:'Bearer '+A.access_token,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify({user_id:A.user.id,user_name:session?.name||A.user.email,country:quiz.c.name,score:quiz.score,total:TOTAL})})}catch(x){console.warn(x)}}
-function result(){let p=quiz.score,ok=p>=PASS;return `<div class="ca" dir="rtl"><section class="ca-quiz ca-score"><div class="ca-k" style="color:#0b735f">ٹیسٹ مکمل ہو گیا</div><div class="ca-ring" style="--p:${p}%"><b>${p}%</b></div><h2>${ok?'مبارک ہو! آپ پاس ہیں':'کوشش جاری رکھیں'}</h2><p>آپ نے ${TOTAL} میں سے <b>${p}</b> نمبر حاصل کیے۔ پاسنگ نمبر ${PASS} ہیں۔</p><p>${ok?'آپ کا نتیجہ ڈیش بورڈ میں محفوظ ہو گیا ہے۔':'مزید مطالعہ کے بعد دوبارہ ٹیسٹ دیں۔'}</p><button class="btn btn-primary" id="caDone">گائیڈ پر واپس جائیں</button></section></div>`}
-async function dashboard(){let r=await fetch(URL+'/rest/v1/culture_quiz_results?select=user_name,country,score,total,completed_at&order=completed_at.desc&limit=200',{headers:{apikey:KEY,Authorization:'Bearer '+A.access_token}});if(!r.ok)throw Error('کلچر رزلٹس لوڈ نہیں ہو سکے۔');let a=await r.json();return `<div class="ca" dir="rtl"><button class="btn btn-secondary ca-back" id="caDashBack">اکیڈمی پر واپس جائیں ←</button><section class="ca-hero"><div class="ca-k">انتظامیہ</div><h2>کلچر ٹیسٹ رزلٹس ڈیش بورڈ</h2><p>مکمل ہونے والے ملک وار ٹیسٹس کی تازہ فہرست۔</p></section><section class="ca-section"><div style="overflow:auto"><table style="width:100%;border-collapse:collapse"><thead><tr><th style="padding:10px;text-align:right">نام</th><th style="padding:10px;text-align:right">ملک</th><th style="padding:10px;text-align:right">نمبر</th><th style="padding:10px;text-align:right">نتیجہ</th></tr></thead><tbody>${a.map(x=>`<tr><td style="padding:10px;border-top:1px solid #e5eeea">${esc(x.user_name)}</td><td style="padding:10px;border-top:1px solid #e5eeea">${esc(x.country)}</td><td style="padding:10px;border-top:1px solid #e5eeea">${x.score}/${x.total}</td><td style="padding:10px;border-top:1px solid #e5eeea"><b>${x.score>=PASS?'پاس':'فیل'}</b></td></tr>`).join('')||'<tr><td colspan="4" style="padding:20px">ابھی کوئی ٹیسٹ مکمل نہیں ہوا۔</td></tr>'}</tbody></table></div></section></div>`}
-async function render(){let h=$('#content');if(!h)return;h.innerHTML='<div class="ca-empty">کنٹری کلچر اکیڈمی کھولی جا رہی ہے…</div>';try{let all=await catalogue();if(resultsView){h.innerHTML=await dashboard();$('#caDashBack').onclick=()=>{resultsView=false;render()};return}if(quiz){h.innerHTML=quiz.i>=TOTAL?result():qpage();if(quiz.i>=TOTAL)$('#caDone').onclick=()=>{selected=quiz.c.slug;quiz=null;render()};else{$('#caExit').onclick=()=>{selected=quiz.c.slug;quiz=null;render()};h.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>{if(quiz.a[quiz.i].o[+b.dataset.a]===quiz.a[quiz.i].a)quiz.score++;quiz.i++;if(quiz.i>=TOTAL)record();render()})}return}if(selected){let r=await fetch(ROOT+selected+'.json',{cache:'no-store'});if(!r.ok)throw Error('اس ملک کا گائیڈ دستیاب نہیں ہے۔');let c=await r.json();h.innerHTML=guide(c);$('#caBack').onclick=()=>{selected=null;render()};$('#caQuiz').onclick=()=>{quiz={c,a:test(c),i:0,score:0};render()};return}let q=String(filters.cultureSearch||'').toLowerCase(),a=all.filter(c=>(region==='All'||area(c.name)===region)&&(!q||(`${c.name} ${L[area(c.name)]||area(c.name)}`).toLowerCase().includes(q)));h.innerHTML=home(a);$('#caSearch').oninput=x=>{filters.cultureSearch=x.target.value;render()};$('#caClear').onclick=()=>{filters.cultureSearch='';render()};if(isAdmin()){let b=document.createElement('button');b.className='btn btn-primary';b.textContent='کلچر رزلٹس ڈیش بورڈ';$('#caClear').after(b);b.onclick=()=>{resultsView=true;render()}}h.querySelectorAll('[data-region]').forEach(b=>b.onclick=()=>{region=b.dataset.region;render()});h.querySelectorAll('[data-country]').forEach(b=>b.onclick=()=>{selected=b.dataset.country;render()})}catch(x){h.innerHTML=`<div class="notice">${esc(x.message)}</div>`}}
-function install(){if(typeof pages==='undefined'||typeof NAV_ADMIN==='undefined'||typeof NAV_MEMBER==='undefined')return setTimeout(install,80);css();if(!NAV_ADMIN.some(x=>x[0]==='culture'))NAV_ADMIN.splice(1,0,['culture','Country Culture','◈']);if(!NAV_MEMBER.some(x=>x[0]==='culture'))NAV_MEMBER.splice(1,0,['culture','Country Culture','◈']);pages.culture=()=>{setTimeout(render,0);return '<div class="ca-empty">کنٹری کلچر اکیڈمی کھولی جا رہی ہے…</div>'};if(typeof session!=='undefined'&&session)renderNav()}install();
+  const font=document.createElement('link');
+  font.rel='stylesheet';
+  font.href='https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap';
+  document.head.appendChild(font);
+  const style=document.createElement('style');
+  style.textContent=`
+    .ca{direction:ltr!important;text-align:left!important}
+    .ca [dir="rtl"],.ca .ur-text,.ca-section h3,.ca-section p,
+    .ca-editor [data-heading],.ca-editor [data-body],.ca-editor #ceSummary{
+      font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif!important;
+      direction:rtl!important;text-align:right!important
+    }
+    .ca-section p{line-height:2.25!important;text-align:justify!important;font-size:17px}
+    .ca-editor textarea,.ca-editor input[data-heading]{
+      font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif!important;
+      direction:rtl!important;text-align:right!important;line-height:2.15!important;font-size:17px!important
+    }
+    #caQuiz{
+      background:#d89114!important;border-color:#a96800!important;
+      color:#fff!important;font-weight:900!important;letter-spacing:.7px!important;
+      padding:14px 20px!important;box-shadow:0 8px 20px #b8750366!important
+    }
+    .ca-editor-toolbar{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 18px}
+    .ca-editor-toolbar button{border:1px solid #c8ded6;background:#fff;border-radius:8px;padding:8px 11px;cursor:pointer}
+    .ca-editor-toolbar button:hover{background:#e8f5ef}
+  `;
+  document.head.appendChild(style);
+  L={All:'All Countries',Asia:'Asia',Africa:'Africa',Europe:'Europe',Americas:'Americas',Oceania:'Oceania'};
+  home=function(a){
+    return `<div class="ca">
+      <section class="ca-hero">
+        <div class="ca-k">LANGUAGES DEPARTMENT · GLOBAL LEARNING CENTRE</div>
+        <h2>Country Culture Academy</h2>
+        <p>Study local culture, etiquette and practical guidance before starting country-based work, then complete the 100-question assessment.</p>
+        <div class="ca-stats">
+          <div class="ca-stat"><b>${a.length}</b><span>Country Guides</span></div>
+          <div class="ca-stat"><b>${TOTAL}</b><span>Questions / Marks</span></div>
+          <div class="ca-stat"><b>${PASS}</b><span>Passing Marks</span></div>
+        </div>
+      </section>
+      <div class="ca-tools">
+        <input class="input ca-search" id="caSearch" placeholder="Search country or region…" value="${esc(filters.cultureSearch||'')}">
+        <button class="btn btn-secondary" id="caClear">Clear</button>
+      </div>
+      <div class="ca-tabs">${Object.keys(L).map(x=>`<button class="ca-tab ${region===x?'active':''}" data-region="${x}">${L[x]}</button>`).join('')}</div>
+      <div class="ca-grid">${a.map(c=>`
+        <button class="ca-card" data-country="${esc(c.slug)}">
+          <div class="ca-top"><span class="ca-flag">${esc(c.flag)}</span><span class="ca-region">${L[area(c.name)]||area(c.name)}</span></div>
+          <div class="ca-body"><h3>${esc(c.name)}</h3><p>${esc(c.summary||'Country culture guidance')}</p><div class="ca-foot"><span>Read Guide</span><span>→</span></div></div>
+        </button>`).join('')||'<div class="ca-empty">No country found.</div>'}
+      </div>
+    </div>`;
+  };
+  guide=function(c){
+    let sections=(c.sections||[]).map(x=>`
+      <article class="ca-section" dir="rtl">
+        <h3>${esc(x.heading)}</h3>
+        <p>${esc(x.body)}</p>
+      </article>`).join('');
+    return `<div class="ca">
+      <button class="btn btn-secondary ca-back" id="caBack">← Back to Academy</button>
+      <section class="ca-country">
+        <span class="ca-flag">${esc(c.flag)}</span>
+        <div>
+          <div class="ca-k" style="color:#0b735f">${L[area(c.name)]||area(c.name)} · CULTURE GUIDE</div>
+          <h2>${esc(c.name)}</h2>
+          <p>${esc(c.summary||'Study the guide, then complete the 100-question assessment. The passing score is 70 marks.')}</p>
+        </div>
+        <button class="btn btn-primary" id="caQuiz">START 100-QUESTION TEST</button>
+      </section>
+      <div class="ca-layout">
+        <div class="ca-section" style="margin-top:0">
+          <h3 style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">Learning Method</h3>
+          <p style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">
+            Read the complete guide carefully. Each question carries one mark; the total is 100 marks and 70 marks are required to pass.
+          </p>
+        </div>
+        <aside class="ca-tip">
+          <b>Important Note</b>
+          <p style="font-family:Arial,Tahoma,sans-serif;direction:ltr;text-align:left">
+            Respect local etiquette, language and social sensitivities in all country-based work.
+          </p>
+        </aside>
+      </div>
+
+      ${sections}
+      ${isAdmin()?'<button class="btn btn-secondary" id="caEdit">✎ Edit This Guide</button>':''}
+    </div>`;
+  };
+  editor=function(c){
+    let rows=(c.sections||[]).map((s,i)=>`
+      <div class="ca-edit-card" data-edit-section="${i}">
+        <label>Section Heading</label>
+        <input data-heading value="${esc(s.heading)}">
+        <label>Urdu Text</label>
+        <textarea data-body>${esc(s.body)}</textarea>
+        <button class="btn btn-secondary" data-remove="${i}">Remove Section</button>
+      </div>`).join('');
+    return `<div class="ca">
+      <button class="btn btn-secondary ca-back" id="caCancelEdit">← Cancel without Saving</button>
+      <section class="ca-editor">
+        <div class="ca-k" style="color:#0b735f">ADMINISTRATION · GUIDE EDITOR</div>
+        <h2>Edit ${esc(c.name)} Guide</h2>
+        <p class="ca-small">Urdu fields are right-to-left and use Noori Nastaleeq style. Use the editor controls below to review the formatting.</p>
+        <div class="ca-editor-toolbar">
+          <button type="button" data-format="right">Right Align</button>
+          <button type="button" data-format="justify">Justify Text</button>
+          <button type="button" data-format="large">Large Text</button>
+          <button type="button" data-format="normal">Normal Text</button>
+        </div>
+        <label>Country Name</label>
+        <input id="ceName" value="${esc(c.name)}">
+        <label>Short Introduction</label>
+        <textarea id="ceSummary">${esc(c.summary||'')}</textarea>
+        <div id="ceSections">${rows}</div>
+        <div class="ca-edit-row">
+          <button class="btn btn-secondary" id="ceAdd">+ Add New Section</button>
+          <button class="btn btn-primary" id="ceSave">✓ Save Changes</button>
+        </div>
+      </section>
+    </div>`;
+  };
+  bindEditor=function(c){
+    let host=$('#ceSections');
+    function applyFormat(type){
+      let active=document.activeElement;
+      if(!active || !active.matches('textarea,input')) return;
+      if(type==='right'){active.style.textAlign='right'}
+      if(type==='justify'){active.style.textAlign='justify'}
+      if(type==='large'){active.style.fontSize='20px'}
+      if(type==='normal'){active.style.fontSize='17px'}
+    }
+    document.querySelectorAll('[data-format]').forEach(b=>b.onclick=()=>applyFormat(b.dataset.format));
+    $('#ceAdd').onclick=()=>{
+      let n=document.createElement('div');
+      n.className='ca-edit-card';
+      n.innerHTML='<label>Section Heading</label><input data-heading value="New Heading"><label>Urdu Text</label><textarea data-body></textarea><button class="btn btn-secondary" data-remove>Remove Section</button>';
+      host.appendChild(n);
+      n.querySelector('[data-remove]').onclick=()=>n.remove();
+    };
+    host.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>b.closest('.ca-edit-card').remove());
+
+    $('#caCancelEdit').onclick=()=>{editing=null;render()};
+
+    $('#ceSave').onclick=async()=>{
+      let b=$('#ceSave');
+      b.disabled=true;
+      b.textContent='Saving…';
+      let g={
+        ...c,
+        name:$('#ceName').value.trim()||c.name,
+        summary:$('#ceSummary').value.trim(),
+        sections:[...host.querySelectorAll('.ca-edit-card')].map(x=>({
+          heading:x.querySelector('[data-heading]').value.trim(),
+          body:x.querySelector('[data-body]').value.trim()
+        })).filter(x=>x.heading||x.body)
+      };
+      try{
+        let r=await fetch(URL+'/rest/v1/culture_guide_overrides?on_conflict=country_slug',{
+          method:'POST',
+          headers:{...apiHeaders(),Prefer:'resolution=merge-duplicates,return=representation'},
+          body:JSON.stringify({
+            country_slug:c.slug,
+            guide:g,
+            updated_by:A.user.id,
+            updated_at:new Date().toISOString()
+          })
+        });
+
+        if(!r.ok)throw Error('Could not save changes. Please try again.');
+        editing=null;
+        selected=c.slug;
+        await render();
+      }catch(e){
+        b.disabled=false;
+        b.textContent='✓ Save Changes';
+        alert(e.message);
+      }
+    };
+  };
+  qpage=function(){
+    let x=quiz.a[quiz.i],p=Math.round(quiz.i/TOTAL*100);
+    return `<div class="ca">
+      <button class="btn btn-secondary ca-back" id="caExit">← Back to Guide</button>
+      <section class="ca-quiz">
+        <div class="ca-qtop">
+          <div><div class="ca-k" style="color:#0b735f">${esc(quiz.c.name)} · CULTURE TEST</div><b>Question ${quiz.i+1} of ${TOTAL}</b></div>
+          <small>1 Mark per Question</small>
+        </div>
+        <div class="ca-bar"><i style="width:${p}%"></i></div>
+        <div class="ca-question" dir="rtl" style="font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;text-align:right">${esc(x.q)}</div>
+        <div class="ca-options">${x.o.map((o,i)=>`<button class="ca-option" data-a="${i}" dir="rtl" style="font-family:'Jameel Noori Nastaleeq','Noto Nastaliq Urdu',serif;text-align:right"><b>${['الف','ب','ج','د'][i]}۔</b> ${esc(o)}</button>`).join('')}</div>
+      </section>
+    </div>`;
+  };
 })();
