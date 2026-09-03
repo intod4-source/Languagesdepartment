@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  const DATA_ROOT = './culture-data/';
+  const DATA_ROOT = './';
   let catalogue = null;
   let selected = null;
   const $ = (s) => document.querySelector(s);
