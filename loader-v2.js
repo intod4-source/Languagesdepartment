@@ -23,7 +23,7 @@
         recovery.src='./auth-recovery.js?v=20260901reset2';
         recovery.onload=()=>{
           const culture=document.createElement('script');
-          culture.src='./culture-v1.js?v=20260904learning1';
+          culture.src='./culture-v1.js?v=20260904nextfix1';
           culture.onload=()=>{
             const auto=document.createElement('script');
             auto.src='./auth-autostart.js?v=20260901auto1';
