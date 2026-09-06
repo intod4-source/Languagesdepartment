@@ -1,0 +1,3272 @@
+{
+  "schema_version": 1,
+  "course_slug": "bangladesh-bangla",
+  "country_slug": "bangladesh",
+  "country_name": "Bangladesh",
+  "language": "Bangla",
+  "native_language": "বাংলা",
+  "flag": "🇧🇩",
+  "title": "Bangla for Travel & Dawah",
+  "urdu_title": "سفر اور نیکی کی دعوت کے لیے عملی بنگالی",
+  "description": "Learn useful Bangla through guided lesson cards, Roman pronunciation, Urdu meanings and varied knowledge checks.",
+  "categories": [
+    "روزمرہ گفتگو",
+    "ائیرپورٹ، امیگریشن اور سفر",
+    "نیکی کی دعوت کے مکمل مکالمے"
+  ],
+  "lessons": [
+    {
+      "id": "bangla-001",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۱ — عبداللہ: عادل، وہ کون ہیں؟",
+      "bangla": "আবদুল্লাহ: আদিল, উনি কে?",
+      "roman": "Abdullah: Adil, uni ke?",
+      "urdu": "عبداللہ: عادل، وہ کون ہیں؟",
+      "words": [
+        {
+          "bangla": "আবদুল্লাহ",
+          "urdu": "عبداللہ",
+          "roman": "Abdullah"
+        },
+        {
+          "bangla": "আদিল",
+          "urdu": "عادل",
+          "roman": "Adil"
+        },
+        {
+          "bangla": "উনি",
+          "urdu": "وہ",
+          "roman": "Uni"
+        },
+        {
+          "bangla": "কে",
+          "urdu": "کون",
+          "roman": "Ke"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-002",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۲ — عادل: وہ میرے دوست رحیم ہیں۔",
+      "bangla": "আদিল: উনি আমার বন্ধু রহিম।",
+      "roman": "Adil: Uni amar bondhu Rahim.",
+      "urdu": "عادل: وہ میرے دوست رحیم ہیں۔",
+      "words": [
+        {
+          "bangla": "আদিল",
+          "urdu": "عادل",
+          "roman": "Adil"
+        },
+        {
+          "bangla": "উনি",
+          "urdu": "وہ",
+          "roman": "Uni"
+        },
+        {
+          "bangla": "আমার",
+          "urdu": "میرے",
+          "roman": "Amar"
+        },
+        {
+          "bangla": "বন্ধু",
+          "urdu": "دوست",
+          "roman": "Bondhu"
+        },
+        {
+          "bangla": "রহিম",
+          "urdu": "رحیم",
+          "roman": "Rahim"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-003",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۳ — آپ کیسے ہیں؟",
+      "bangla": "আপনি কেমন আছেন?",
+      "roman": "Apni kemon aachhen?",
+      "urdu": "آپ کیسے ہیں؟",
+      "words": [
+        {
+          "bangla": "আপনি",
+          "urdu": "آپ",
+          "roman": "Apni"
+        },
+        {
+          "bangla": "কেমন",
+          "urdu": "کیسے",
+          "roman": "Kemon"
+        },
+        {
+          "bangla": "আছেন",
+          "urdu": "ہیں",
+          "roman": "Aachhen"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-004",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۴ — میں ٹھیک ہوں۔",
+      "bangla": "আমি ভালো আছি।",
+      "roman": "Ami bhalo aachhi.",
+      "urdu": "میں ٹھیک ہوں۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "ভালো",
+          "urdu": "ٹھیک / اچھا",
+          "roman": "Bhalo"
+        },
+        {
+          "bangla": "আছি",
+          "urdu": "ہوں",
+          "roman": "Aachhi"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-005",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۵ — آپ کا نام کیا ہے؟",
+      "bangla": "আপনার নাম কী?",
+      "roman": "Apnar naam ki?",
+      "urdu": "آپ کا نام کیا ہے؟",
+      "words": [
+        {
+          "bangla": "আপনার",
+          "urdu": "آپ کا",
+          "roman": "Apnar"
+        },
+        {
+          "bangla": "নাম",
+          "urdu": "نام",
+          "roman": "Naam"
+        },
+        {
+          "bangla": "কী",
+          "urdu": "کیا",
+          "roman": "Ki"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-006",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۶ — میرا نام احمد ہے۔",
+      "bangla": "আমার নাম আহমেদ।",
+      "roman": "Amar naam Ahmed.",
+      "urdu": "میرا نام احمد ہے۔",
+      "words": [
+        {
+          "bangla": "আমার",
+          "urdu": "میرا",
+          "roman": "Amar"
+        },
+        {
+          "bangla": "নাম",
+          "urdu": "نام",
+          "roman": "Naam"
+        },
+        {
+          "bangla": "আহমেদ",
+          "urdu": "احمد",
+          "roman": "Ahmed"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-007",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۷ — مجھے بنگالی سمجھ نہیں آتی۔",
+      "bangla": "আমি বাংলা বুঝি না।",
+      "roman": "Ami Bangla bujhi na.",
+      "urdu": "مجھے بنگالی سمجھ نہیں آتی۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "বাংলা",
+          "urdu": "بنگالی",
+          "roman": "Bangla"
+        },
+        {
+          "bangla": "বুঝি",
+          "urdu": "سمجھتا ہوں",
+          "roman": "Bujhi"
+        },
+        {
+          "bangla": "না",
+          "urdu": "نہیں",
+          "roman": "Na"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-008",
+      "category": "روزمرہ گفتگو",
+      "title": "جملہ ۸ — براہِ کرم آہستہ بولیں۔",
+      "bangla": "দয়া করে আস্তে বলুন।",
+      "roman": "Doya kore aaste bolun.",
+      "urdu": "براہِ کرم آہستہ بولیں۔",
+      "words": [
+        {
+          "bangla": "দয়া করে",
+          "urdu": "براہِ کرم",
+          "roman": "Doya kore"
+        },
+        {
+          "bangla": "আস্তে",
+          "urdu": "آہستہ",
+          "roman": "Aaste"
+        },
+        {
+          "bangla": "বলুন",
+          "urdu": "بولیں",
+          "roman": "Bolun"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-009",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۹ — آپ کہاں جا رہے ہیں؟",
+      "bangla": "আপনি কোথায় যাচ্ছেন?",
+      "roman": "Apni kothay jachhen?",
+      "urdu": "آپ کہاں جا رہے ہیں؟",
+      "words": [
+        {
+          "bangla": "আপনি",
+          "urdu": "آپ",
+          "roman": "Apni"
+        },
+        {
+          "bangla": "কোথায়",
+          "urdu": "کہاں",
+          "roman": "Kothay"
+        },
+        {
+          "bangla": "যাচ্ছেন",
+          "urdu": "جا رہے ہیں",
+          "roman": "Jachhen"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-010",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۰ — میں ڈھاکا کے فیضانِ مدینہ جا رہا ہوں۔",
+      "bangla": "আমি ঢাকার ফয়জানে মদিনায় যাচ্ছি।",
+      "roman": "Ami Dhakar Foyzane Modinay jachchhi.",
+      "urdu": "میں ڈھاکا کے فیضانِ مدینہ جا رہا ہوں۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "ঢাকার",
+          "urdu": "ڈھاکا کے",
+          "roman": "Dhakar"
+        },
+        {
+          "bangla": "ফয়জানে মদিনায়",
+          "urdu": "فیضانِ مدینہ",
+          "roman": "Foyzane Modinay"
+        },
+        {
+          "bangla": "যাচ্ছি",
+          "urdu": "جا رہا ہوں",
+          "roman": "Jachchhi"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-011",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۱ — آپ وہاں کیا کرنے جا رہے ہیں؟",
+      "bangla": "আপনি সেখানে কী করতে যাচ্ছেন?",
+      "roman": "Apni shekhane ki korte jachhen?",
+      "urdu": "آپ وہاں کیا کرنے جا رہے ہیں؟",
+      "words": [
+        {
+          "bangla": "আপনি",
+          "urdu": "آپ",
+          "roman": "Apni"
+        },
+        {
+          "bangla": "সেখানে",
+          "urdu": "وہاں",
+          "roman": "Shekhane"
+        },
+        {
+          "bangla": "কী",
+          "urdu": "کیا",
+          "roman": "Ki"
+        },
+        {
+          "bangla": "করতে",
+          "urdu": "کرنے",
+          "roman": "Korte"
+        },
+        {
+          "bangla": "যাচ্ছেন",
+          "urdu": "جا رہے ہیں",
+          "roman": "Jachhen"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-012",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۲ — میں وہاں اجتماع میں شرکت کرنے جا رہا ہوں۔",
+      "bangla": "আমি সেখানে ইজতেমায় যোগ দিতে যাচ্ছি।",
+      "roman": "Ami shekhane ijtemay jog dite jachchhi.",
+      "urdu": "میں وہاں اجتماع میں شرکت کرنے جا رہا ہوں۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "সেখানে",
+          "urdu": "وہاں",
+          "roman": "Shekhane"
+        },
+        {
+          "bangla": "ইজতেমায়",
+          "urdu": "اجتماع میں",
+          "roman": "Ijtemay"
+        },
+        {
+          "bangla": "যোগ দিতে",
+          "urdu": "شرکت کرنے",
+          "roman": "Jog dite"
+        },
+        {
+          "bangla": "যাচ্ছি",
+          "urdu": "جا رہا ہوں",
+          "roman": "Jachchhi"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-013",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۳ — اپنا پاسپورٹ دکھائیں۔",
+      "bangla": "আপনার পাসপোর্ট দেখান।",
+      "roman": "Apnar passport dekhan.",
+      "urdu": "اپنا پاسپورٹ دکھائیں۔",
+      "words": [
+        {
+          "bangla": "আপনার",
+          "urdu": "اپنا",
+          "roman": "Apnar"
+        },
+        {
+          "bangla": "পাসপোর্ট",
+          "urdu": "پاسپورٹ",
+          "roman": "Passport"
+        },
+        {
+          "bangla": "দেখান",
+          "urdu": "دکھائیں",
+          "roman": "Dekhan"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-014",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۴ — آپ کے سفر کا مقصد کیا ہے؟",
+      "bangla": "আপনার ভ্রমণের উদ্দেশ্য কী?",
+      "roman": "Apnar bhromoner uddeshyo ki?",
+      "urdu": "آپ کے سفر کا مقصد کیا ہے؟",
+      "words": [
+        {
+          "bangla": "আপনার",
+          "urdu": "آپ کے",
+          "roman": "Apnar"
+        },
+        {
+          "bangla": "ভ্রমণের",
+          "urdu": "سفر کا",
+          "roman": "Bhromoner"
+        },
+        {
+          "bangla": "উদ্দেশ্য",
+          "urdu": "مقصد",
+          "roman": "Uddeshyo"
+        },
+        {
+          "bangla": "কী",
+          "urdu": "کیا ہے",
+          "roman": "Ki"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-015",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۵ — میں اجتماع میں شرکت کرنے آیا ہوں۔",
+      "bangla": "আমি ইজতেমায় যোগ দিতে এসেছি।",
+      "roman": "Ami ijtemay jog dite eshechhi.",
+      "urdu": "میں اجتماع میں شرکت کرنے آیا ہوں۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "ইজতেমায়",
+          "urdu": "اجتماع میں",
+          "roman": "Ijtemay"
+        },
+        {
+          "bangla": "যোগ দিতে",
+          "urdu": "شرکت کرنے",
+          "roman": "Jog dite"
+        },
+        {
+          "bangla": "এসেছি",
+          "urdu": "آیا ہوں",
+          "roman": "Eshechhi"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-016",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۶ — آپ یہاں کتنے دن رہیں گے؟",
+      "bangla": "আপনি এখানে কত দিন থাকবেন?",
+      "roman": "Apni ekhane koto din thakben?",
+      "urdu": "آپ یہاں کتنے دن رہیں گے؟",
+      "words": [
+        {
+          "bangla": "আপনি",
+          "urdu": "آپ",
+          "roman": "Apni"
+        },
+        {
+          "bangla": "এখানে",
+          "urdu": "یہاں",
+          "roman": "Ekhane"
+        },
+        {
+          "bangla": "কত দিন",
+          "urdu": "کتنے دن",
+          "roman": "Koto din"
+        },
+        {
+          "bangla": "থাকবেন",
+          "urdu": "رہیں گے",
+          "roman": "Thakben"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-017",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۷ — میں یہاں سات دن رہوں گا۔",
+      "bangla": "আমি এখানে সাত দিন থাকব।",
+      "roman": "Ami ekhane shat din thakbo.",
+      "urdu": "میں یہاں سات دن رہوں گا۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "এখানে",
+          "urdu": "یہاں",
+          "roman": "Ekhane"
+        },
+        {
+          "bangla": "সাত দিন",
+          "urdu": "سات دن",
+          "roman": "Shat din"
+        },
+        {
+          "bangla": "থাকব",
+          "urdu": "رہوں گا",
+          "roman": "Thakbo"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-018",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۸ — آپ کہاں قیام کریں گے؟",
+      "bangla": "আপনি কোথায় থাকবেন?",
+      "roman": "Apni kothay thakben?",
+      "urdu": "آپ کہاں قیام کریں گے؟",
+      "words": [
+        {
+          "bangla": "আপনি",
+          "urdu": "آپ",
+          "roman": "Apni"
+        },
+        {
+          "bangla": "কোথায়",
+          "urdu": "کہاں",
+          "roman": "Kothay"
+        },
+        {
+          "bangla": "থাকবেন",
+          "urdu": "قیام کریں گے",
+          "roman": "Thakben"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-019",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۱۹ — میں فیضانِ مدینہ میں قیام کروں گا۔",
+      "bangla": "আমি ফয়জানে মদিনায় থাকব।",
+      "roman": "Ami Foyzane Modinay thakbo.",
+      "urdu": "میں فیضانِ مدینہ میں قیام کروں گا۔",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "ফয়জানে মদিনায়",
+          "urdu": "فیضانِ مدینہ میں",
+          "roman": "Foyzane Modinay"
+        },
+        {
+          "bangla": "থাকব",
+          "urdu": "قیام کروں گا",
+          "roman": "Thakbo"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-020",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۰ — کیا آپ کے پاس واپسی کا ٹکٹ ہے؟",
+      "bangla": "আপনার ফিরতি টিকিট আছে?",
+      "roman": "Apnar firti ticket achhe?",
+      "urdu": "کیا آپ کے پاس واپسی کا ٹکٹ ہے؟",
+      "words": [
+        {
+          "bangla": "আপনার",
+          "urdu": "آپ کے پاس",
+          "roman": "Apnar"
+        },
+        {
+          "bangla": "ফিরতি",
+          "urdu": "واپسی کا",
+          "roman": "Firti"
+        },
+        {
+          "bangla": "টিকিট",
+          "urdu": "ٹکٹ",
+          "roman": "Ticket"
+        },
+        {
+          "bangla": "আছে",
+          "urdu": "ہے",
+          "roman": "Achhe"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-021",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۱ — جی ہاں، یہ میرا واپسی کا ٹکٹ ہے۔",
+      "bangla": "জি, এটা আমার ফিরতি টিকিট।",
+      "roman": "Ji, eta amar firti ticket.",
+      "urdu": "جی ہاں، یہ میرا واپسی کا ٹکٹ ہے۔",
+      "words": [
+        {
+          "bangla": "জি",
+          "urdu": "جی ہاں",
+          "roman": "Ji"
+        },
+        {
+          "bangla": "এটা",
+          "urdu": "یہ",
+          "roman": "Eta"
+        },
+        {
+          "bangla": "আমার",
+          "urdu": "میرا",
+          "roman": "Amar"
+        },
+        {
+          "bangla": "ফিরতি টিকিট",
+          "urdu": "واپسی کا ٹکٹ",
+          "roman": "Firti ticket"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-022",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۲ — مجھے اپنا سامان کہاں ملے گا؟",
+      "bangla": "আমি আমার লাগেজ কোথায় পাব?",
+      "roman": "Ami amar luggage kothay pabo?",
+      "urdu": "مجھے اپنا سامان کہاں ملے گا؟",
+      "words": [
+        {
+          "bangla": "আমি",
+          "urdu": "میں",
+          "roman": "Ami"
+        },
+        {
+          "bangla": "আমার",
+          "urdu": "اپنا",
+          "roman": "Amar"
+        },
+        {
+          "bangla": "লাগেজ",
+          "urdu": "سامان",
+          "roman": "Luggage"
+        },
+        {
+          "bangla": "কোথায়",
+          "urdu": "کہاں",
+          "roman": "Kothay"
+        },
+        {
+          "bangla": "পাব",
+          "urdu": "پاؤں گا",
+          "roman": "Pabo"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-023",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۳ — میرا سامان نہیں مل رہا۔",
+      "bangla": "আমার লাগেজ পাওয়া যাচ্ছে না।",
+      "roman": "Amar luggage pawa jachchhe na.",
+      "urdu": "میرا سامان نہیں مل رہا۔",
+      "words": [
+        {
+          "bangla": "আমার",
+          "urdu": "میرا",
+          "roman": "Amar"
+        },
+        {
+          "bangla": "লাগেজ",
+          "urdu": "سامان",
+          "roman": "Luggage"
+        },
+        {
+          "bangla": "পাওয়া যাচ্ছে",
+          "urdu": "مل رہا",
+          "roman": "Pawa jachchhe"
+        },
+        {
+          "bangla": "না",
+          "urdu": "نہیں",
+          "roman": "Na"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-024",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۴ — ٹیکسی اسٹینڈ کہاں ہے؟",
+      "bangla": "ট্যাক্সি স্ট্যান্ড কোথায়?",
+      "roman": "Taxi stand kothay?",
+      "urdu": "ٹیکسی اسٹینڈ کہاں ہے؟",
+      "words": [
+        {
+          "bangla": "ট্যাক্সি স্ট্যান্ড",
+          "urdu": "ٹیکسی اسٹینڈ",
+          "roman": "Taxi stand"
+        },
+        {
+          "bangla": "কোথায়",
+          "urdu": "کہاں ہے",
+          "roman": "Kothay"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-025",
+      "category": "ائیرپورٹ، امیگریشن اور سفر",
+      "title": "جملہ ۲۵ — براہِ کرم مجھے فیضانِ مدینہ لے چلیں۔",
+      "bangla": "দয়া করে আমাকে ফয়জানে মদিনায় নিয়ে চলুন।",
+      "roman": "Doya kore amake Foyzane Modinay niye cholun.",
+      "urdu": "براہِ کرم مجھے فیضانِ مدینہ لے چلیں۔",
+      "words": [
+        {
+          "bangla": "দয়া করে",
+          "urdu": "براہِ کرم",
+          "roman": "Doya kore"
+        },
+        {
+          "bangla": "আমাকে",
+          "urdu": "مجھے",
+          "roman": "Amake"
+        },
+        {
+          "bangla": "ফয়জানে মদিনায়",
+          "urdu": "فیضانِ مدینہ",
+          "roman": "Foyzane Modinay"
+        },
+        {
+          "bangla": "নিয়ে চলুন",
+          "urdu": "لے چلیں",
+          "roman": "Niye cholun"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "bangla-026",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "ابتدائی گفتگو",
+      "bangla": "প্রাথমিক কথোপকথন",
+      "roman": "Prathomik kothopokothon",
+      "urdu": "ابتدائی گفتگو",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۔ احمد۔السلام علیکم ورحمۃاللہ وبرکاتہ",
+          "bangla": "আহমেদ। আপনার উপর শান্তি বর্ষিত হোক",
+          "roman": "ahmed. aapnar upor shanti borshito hok"
+        },
+        {
+          "urdu": "۲۔ اسد۔وعلیکم السلام ورحمۃاللہ وبرکاتہ",
+          "bangla": "আসাদ। আপনার উপর শান্তি বর্ষিত হোক, আল্লাহ আপনার প্রতি রহম করুন এবং আপনাকে আশীর্বাদ করুন",
+          "roman": "asad. aapnar upor shanti borshito hok, allah aapnar proti rohom karun ebong aapnake aashirbad korun"
+        },
+        {
+          "urdu": "۳۔ احمد۔آپ کیسے ہیں اسد بھائی",
+          "bangla": "আহমেদ। আসাদ ভাই কেমন আছেন?",
+          "roman": "ahmed. asad bhai kemon achen?"
+        },
+        {
+          "urdu": "۴۔ اسد۔الحمدللہ میں ٹھیک ہوں،آپ کیسے ہیں",
+          "bangla": "আসাদ। আলহামদুলিল্লাহ আমি ভালো আছি, কেমন আছেন?",
+          "roman": "asad. alhamdulillah ami bhalo achi, kemon achen?"
+        },
+        {
+          "urdu": "۵۔ احمد۔الحمدللہ میں بھی ٹھیک ہوں ،اسد بھائی آپ نمازعصرکے بعد کہاں ہوتے ہیں",
+          "bangla": "আহমেদ- আলহামদুলিল্লাহ আমিও ভালো আছি আসাদ ভাই, আসরের নামাজের পর কোথায় আছেন?",
+          "roman": "ahmed- alhamdulillah amio bhalo achi asad vai, asarer namajer por kothay achen?"
+        },
+        {
+          "urdu": "۶۔ اسد۔ میں نماز عصرکے بعد اپنے کمرے میں ہی ہوتا ہوں",
+          "bangla": "আসাদ। আসরের নামাজের পর আমার রুমে থাকি",
+          "roman": "asad. asarer namajer por aamar roome thaki"
+        },
+        {
+          "urdu": "۷۔ احمد۔اسد بھائی میں سوچ رہاتھا کےہم ہرروز نماز عصر کے بعد کسی ایک اچھے موضوع پر ایک حدیث پاک پڑھا کریں گے۔",
+          "bangla": "আহমাদ- আসাদ ভাই, ভাবছিলাম প্রতিদিন আসরের নামাজের পর একটা ভালো বিষয়ে একটা হাদিস পড়ব।",
+          "roman": "ahmad- asad vai, vabchilam protidin asarer namajer por ekta bhalo bishoye ekta hadis porb."
+        },
+        {
+          "urdu": "۸۔ اسد۔جی ٹھیک یے یہ توبہت اچھی بات ہے",
+          "bangla": "আসাদ: হ্যাঁ, খুব ভালো",
+          "roman": "asad: hyan, khub valo"
+        },
+        {
+          "urdu": "۹۔ اسد۔احمد بھائی آپ کہاں جارہے ہیں",
+          "bangla": "আসাদ- আহমদ ভাই, কোথায় যাচ্ছেন?",
+          "roman": "asad- ahmad vai, kothay jacchen?"
+        },
+        {
+          "urdu": "۱۰۔ احمد۔ میں آپ کی طرف ہی جارہاتھا،لیکن آپ کہاں جارہے ہیں",
+          "bangla": "আহমেদ। আমি তোমার দিকে যাচ্ছিলাম, কিন্তু তুমি কোথায় যাচ্ছ?",
+          "roman": "ahmed. ami tomar dike jacchilam, kintu tumi kothay jacch?"
+        },
+        {
+          "urdu": "۱۱۔ اسد۔احمد بھائی میں تو کھانا کھانے جارہا تھا",
+          "bangla": "আসাদ- আহমেদ ভাই আমি খেতে যাচ্ছিলাম",
+          "roman": "asad- ahmed bhai ami khete jacchilam"
+        },
+        {
+          "urdu": "۱۲۔ احمد۔اسد بھائی ابھی نمازکا ٹائم ہے میرےخیال سے پہلے ہم نماز پڑھ لیں پھر کھانا کھانے چلیں گے،حدیث پاک میں ہے جو بندہ ایک نماز باجماعت ادا کرتا ہے اللہ پاک اسے ستائس نمزوں کا ثواب عطافرماتا ہے",
+          "bangla": "আহমেদ- আসাদ ভাই, নামাজের সময় হয়ে গেছে, আমার মনে হয় আগে নামাজ পড়া উচিত, তারপর খেতে যাব। পবিত্র হাদিসে আছে, যে ব্যক্তি এক নামাজ জামাতে আদায় করবে, আল্লাহ তাকে উত্তম নামাজের সওয়াব দান করবেন।",
+          "roman": "ahmed- asad vai, namajer shomoy hoye geche, aamar mone hoy age namaj pora uchito, tarpor khete jab. pobitro hadise ache, je byakti ek namaj jamate aday korbe, allah take uttam namajer saoab dan korben."
+        },
+        {
+          "urdu": "۱۳۔ احمد۔اسد بھائی آپ یہاں کیا کر رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি এখানে কি করছেন?",
+          "roman": "ahmed. asad bhai aapni ekhane ki korchen?"
+        },
+        {
+          "urdu": "۱۴۔ اسد۔احمد بھائی بس ایسے ہی موبائل استعمال کررہا ہوں۔",
+          "bangla": "আসাদ- আহমেদ ভাই, আমিও একই মোবাইল ব্যবহার করছি।",
+          "roman": "asad- ahmed vai, amio eki mobile byabohar korchi."
+        },
+        {
+          "urdu": "۱۵۔ احمد۔اسد بھائی حدیث پاک میں ہے کہ جب بھی آپ مسجدمیں داخل ہوں تو نفل اعتکاف کی نیت کر لیا کریں کہ جب تک آپ مسجد میں رہے گے ثواب ملتا رہے گا",
+          "bangla": "আহমাদ- আসাদ ভাই, পবিত্র হাদিসে আছে যে, যখনই মসজিদে প্রবেশ করবে তখনই নফল ইতিকাফের নিয়ত করবে, যতক্ষণ মসজিদে থাকবে ততক্ষণ সওয়াব পাবে।",
+          "roman": "ahmad- asad vai, pobitro hadise ache je, jakhani mosjide probesh korbe tokhoni nofol itikafer niyot korbe, jatakkhan mosjide thakbe totokkhon saoab pabe."
+        },
+        {
+          "urdu": "۱۶۔ احمد۔اسد بھائی کیا کر رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই কি করছেন?",
+          "roman": "ahmed. asad bhai ki korchen?"
+        },
+        {
+          "urdu": "۱۷۔ اسد۔میں میوزک سن رہاہوں",
+          "bangla": "আসাদ: আমি গান শুনছি",
+          "roman": "asad: ami gan shunchi"
+        },
+        {
+          "urdu": "۱۸۔ احمد۔اسد بھائی میوزک سننا تو حرام ہے",
+          "bangla": "আহমদ- আসাদ ভাই, গান শোনা হারাম",
+          "roman": "ahmod- asad vai, gan shona haram"
+        },
+        {
+          "urdu": "۱۹۔ اسد۔احمد بھائی کیا آپ میوزک کے بارے میں مجھے کچھ بتا سکتے ہیں",
+          "bangla": "আসাদ আহমেদ ভাই আপনি কি আমাকে গান সম্পর্কে কিছু বলতে পারেন?",
+          "roman": "asad ahmed bhai aapni ki aamake gan somporke kichu bolte paren?"
+        },
+        {
+          "urdu": "۲۰۔ احمد۔جی اسد بھائی حدیث پاک ہےکہ جو شخص کسی گانے والی کے گانے سنے تو قیامت کے دن اس کے کانوں میں پگھلا ہوا سیسہ ڈالا جائے گا",
+          "bangla": "আহমাদ- হ্যাঁ আসাদ ভাই, হাদিসটি বিশুদ্ধ যে, যে ব্যক্তি কোনো গায়কের গান শুনবে, কিয়ামতের দিন তার কানে গলিত সীসা ঢেলে দেওয়া হবে।",
+          "roman": "ahmad- ha asad vai, hadisti bishuddho je, je byakti kono gayoker gan shunbe, kiyamoter din tar kane golito sisa dhele deoa hobe."
+        },
+        {
+          "urdu": "۲۱۔ اسد۔میں نیت کرتا ہوں کہ آئندہ دوبارہ گانے نیں سنوں گا جزاکم اللہ خیرا",
+          "bangla": "আসাদ। ভবিষ্যতে আর গান না শোনার ইচ্ছা আছে",
+          "roman": "asad. vobissote r gan na shonar ichha ache"
+        },
+        {
+          "urdu": "۲۲۔ احمد۔ آمین",
+          "bangla": "আহমেদ। আমীন",
+          "roman": "ahmed. amin"
+        }
+      ]
+    },
+    {
+      "id": "bangla-027",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "پارک میں",
+      "bangla": "পার্কে",
+      "roman": "parke",
+      "urdu": "پارک میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۳۔ احمد۔اسد بھائی یہاں کیا کر رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই এখানে কি করছেন?",
+          "roman": "ahmed. asad bhai ekhane ki korchen?"
+        },
+        {
+          "urdu": "۲۴۔ اسد۔بس ایسے ہی فارغ بیٹھا تھا",
+          "bangla": "আসাদ এমনি বসে ছিল",
+          "roman": "asad emni bose chil"
+        },
+        {
+          "urdu": "۲۵۔ احمد۔اسد بھائی ایسے فارغ بیٹھنے کا تو کوئی فائدہ نہیں",
+          "bangla": "আহমেদ- আসাদ ভাই, এভাবে অলস বসে থাকার কোনো মানে হয় না",
+          "roman": "ahmed- asad vai, evabe olosh bose thakar kono mane hoy na"
+        },
+        {
+          "urdu": "۲۶۔ اسد۔میرے پاس کوئی کام نہیں تھا یس لئے یہاں آکر بیٹھ گیا",
+          "bangla": "আসাদ: আমার কিছু করার ছিল না, তাই এখানে এসে বসলাম",
+          "roman": "asad: aamar kichu korar chilo na, tai ekhane ese boslam"
+        },
+        {
+          "urdu": "۲۷۔ احمد۔اسد بھائی ہم چاہیے کہ جب بھی ہمارے پاس فارغ وقت ہو تو میں ذکراللہ کرتے رہیں نبی پاک ﷺ پر درود پاک پڑھتے رہیں",
+          "bangla": "আহমেদ- আসাদ ভাই, অবসর সময় পেলেই আল্লাহর জিকির করা উচিত।",
+          "roman": "ahmed- asad vai, abasar shomoy pelei allahar jikir kora uchito."
+        },
+        {
+          "urdu": "۲۸۔ احمد۔اسد بھائی کیا کررہےہیں",
+          "bangla": "আহমেদ। আসাদ ভাই কি করছেন?",
+          "roman": "ahmed. asad bhai ki korchen?"
+        },
+        {
+          "urdu": "۲۹۔ اسد۔دوست کا انتظار کررہا ہوں ابھی تک نہیں آیا",
+          "bangla": "আসাদ। আমি আমার বন্ধুর জন্য অপেক্ষা করছি। সে এখনো আসেনি",
+          "roman": "asad. ami aamar bondhur jonno apekkha korchi. se ekhono aseni"
+        },
+        {
+          "urdu": "۳۰۔ احمد۔تو اسد بھائی آپ کال کر کے پوچھ لیں",
+          "bangla": "আহমেদ। তাই আসাদ ভাই আপনি ফোন করে জিজ্ঞেস করুন",
+          "roman": "ahmed. tai asad bhai aapni phone kore jignesh korun"
+        },
+        {
+          "urdu": "۳۱۔ اسد۔جی کی ہے بس وہ پہنچنے والا ہے",
+          "bangla": "আসাদ। হ্যাঁ, তিনি আসতে চলেছেন",
+          "roman": "asad. hyan, tini ashte chlechen"
+        },
+        {
+          "urdu": "۳۲۔ احمد۔ آپ لوگ کہاں جارہے ہیں",
+          "bangla": "আহমেদ। কোথায় যাচ্ছেন?",
+          "roman": "ahmed. kothay jacchen?"
+        },
+        {
+          "urdu": "۳۳۔ اسد۔احمد بھائی دوست کے ساتھ مارکیٹ جار رہا ہوں",
+          "bangla": "বন্ধুর সাথে বাজারে যাচ্ছি আসাদ-আহমেদ",
+          "roman": "bondhur sathe bajare jacchi asad-ahmed"
+        },
+        {
+          "urdu": "۳۴۔ احمد۔ تو آپ کیا خریدیں گے",
+          "bangla": "আহমেদ। তাহলে কি কিনবেন?",
+          "roman": "ahmed. tahole ki kinben?"
+        },
+        {
+          "urdu": "۳۵۔ اسد۔میں تو بس دوست کے ساتھ جا رہا ہوں وہ تو ہر روز مارکیٹ جاتا ہے بہت ٹائم ضائعہ کرتا ہے، ایسے ہی گھومتا رہتا ہے",
+          "bangla": "আসাদ। আমি শুধু আমার বন্ধুর সাথে যাচ্ছি। সে প্রতিদিন বাজারে গিয়ে অনেক সময় নষ্ট করে।",
+          "roman": "asad. ami shudhu aamar bondhur sathe jacchi. se protidin bajare giye onek shomoy noshto kore."
+        },
+        {
+          "urdu": "۳۶۔ احمد۔ اسد بھائی آیسے نہیں کہتے اس طرح کسی کی برائی کرنا غیبت کہلاتا ہے اور غیبت کرنے سے منع کیا گیا ہے اور غیبت کرنے ولے کے متعلق بہت سخت عزاب ہے",
+          "bangla": "আহমেদ। আসাদ ভাই, এভাবে বলবেন না, এটাকে গীবত বলা হয় এবং গীবত করা হারাম এবং গীবতকারীর জন্য কঠিন শাস্তি রয়েছে।",
+          "roman": "ahmed. asad vai, evabe bolben na, etake giibot bola hoy ebong giibot kora haram ebong geebotkarir jonno kothin shasti rayeeche."
+        },
+        {
+          "urdu": "۳۷۔ اسد۔احمد بھائی معذرت نہیں پتا تھا آئندہ میں ایسا نہیں کروں گا",
+          "bangla": "আসাদ- আহমেদ ভাই, আমি দুঃখিত, আমি জানতাম না, আমি ভবিষ্যতে এটা করব না",
+          "roman": "asad- ahmed vai, ami dukkhito, ami jantam na, ami vobissote eta korbo na"
+        }
+      ]
+    },
+    {
+      "id": "bangla-028",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "لائیبریرئ میں",
+      "bangla": "লাইব্রেরিতে",
+      "roman": "librerite",
+      "urdu": "لائیبریرئ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۸۔ احمد۔اسد بھائی کونسی کتاب پڑھ رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই কোন বই পড়ছেন?",
+          "roman": "ahmed. asad bhai kono boi porchen?"
+        },
+        {
+          "urdu": "۳۹۔ اسد۔ ناول پڑھ رہاہوں",
+          "bangla": "আসাদ। আমি একটা উপন্যাস পড়ছি",
+          "roman": "asad. ami ekta uponyas porchi"
+        },
+        {
+          "urdu": "۴۰۔ احمد۔ یہ کس موضوع پر ہے",
+          "bangla": "আহমেদ। এই কি বিষয়?",
+          "roman": "ahmed. ei ki bishay?"
+        },
+        {
+          "urdu": "۴۱۔ اسد۔کچھ خاص نہیں بس ایک انگریز کی کہانی لکھی ہوئی ہے",
+          "bangla": "আসাদ। বিশেষ কিছু নয়, শুধু একজন ইংরেজের লেখা গল্প",
+          "roman": "asad. bishesh kichu nay, shudhu ekjon ingrejer lekha golp"
+        },
+        {
+          "urdu": "۴۲۔ احمد۔ اسد بھائی اس سے بہتر تو سیرت مصطفی ﷺ کی کوئی کتاب پڑھ لیں",
+          "bangla": "আহমেদ। আসাদ ভাই, এর চেয়ে উত্তম, সিরাত মুস্তফা (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) এর একটি বই পড়ুন।",
+          "roman": "ahmed. asad vai, er cheye uttom, sirat mustafa (sallallahu alaihi oya sallam) er ekti boi porun."
+        },
+        {
+          "urdu": "۴۳۔ اسد۔ اس میں کیا لکھا ہوتا ہے",
+          "bangla": "আসাদ। কি লেখা আছে তাতে?",
+          "roman": "asad. ki lekha ache tate?"
+        },
+        {
+          "urdu": "۴۴۔ احمد ۔ اسد بھائی وہ کتاب ہمارے پیارے نبی ﷺ کی زندگی پر مشتمل ہے کہ انہوں نے آپنی زندگی کیسے گزاری۔",
+          "bangla": "আহমেদ। আসাদ ভাই, সেই বইটিতে রয়েছে আমাদের প্রিয় নবীর জীবন, তিনি কীভাবে জীবনযাপন করেছিলেন।",
+          "roman": "ahmed. asad vai, sei boitite royeche amader priyo nabir jibon, tini kibhabe jeebonjapon korechilen."
+        },
+        {
+          "urdu": "۴۵۔ اسد ۔ یہ تو بہت اچھی کتاب ہے جزاکم اللہ خیرا",
+          "bangla": "আসাদ এটি একটি খুব ভাল বই",
+          "roman": "asad eti ekti khub bhalo boi"
+        },
+        {
+          "urdu": "۴۶۔ احمد ۔ آمیین",
+          "bangla": "আহমেদ। আমীন",
+          "roman": "ahmed. amin"
+        }
+      ]
+    },
+    {
+      "id": "bangla-029",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "ہوٹل کے راستے میں",
+      "bangla": "বাসস্থানের পথে",
+      "roman": "basosthaner pothe",
+      "urdu": "ہوٹل کے راستے میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۴۷۔ احمد۔اسد بھائی ےہیاں کیا کر رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি কি করছেন?",
+          "roman": "ahmed. asad bhai aapni ki korchen?"
+        },
+        {
+          "urdu": "۴۸۔ اسد۔بس دوستوں کے ساتھ کھڑا تھا",
+          "bangla": "আসাদ তার বন্ধুদের সাথে শুধু দাঁড়িয়ে ছিল",
+          "roman": "asad tar bondhuder sathe shudhu danreeye chil"
+        },
+        {
+          "urdu": "۴۹۔ احمد ۔ اسد بھائی اگر آپ ٹھورا راستہ چھوڑکرکھڑٖے ہوجائیں",
+          "bangla": "আহমেদ। আসাদ ভাই, আপনি যদি সঠিক পথ ছেড়ে উঠে দাঁড়ান",
+          "roman": "ahmed. asad vai, aapni jodi sathik poth chere uthe danran"
+        },
+        {
+          "urdu": "۵۰۔ اسد ۔ یہاں کھڑا ہونے میں کوئی مسئلہ ہے کیا",
+          "bangla": "আসাদ এখানে দাঁড়িয়ে কোন সমস্যা আছে?",
+          "roman": "asad ekhane danreeye kono samasya ache?"
+        },
+        {
+          "urdu": "۵۱۔ احمد ۔ نہیں اسد بھائی اگر آپ ایک طرف کھڑے ہو جائے گے تو گزرنے والوں کے لئے آسانی ہو گی حدیث پاک میں راستے کے حقوق میں ہے کہ کسی کو اذیت نہ پہنچنا اگر آپ درمیان میں کھڑے ہوں گے تو گزرنے والوں کو تکلیف ہو گی",
+          "bangla": "আহমেদ। না আসাদ ভাই, একপাশে দাঁড়ালে পথচারীদের সহজ হবে। পবিত্র হাদিসে বলা হয়েছে, কাউকে কষ্ট দেওয়া উচিত নয়। মাঝখানে দাঁড়ালে পথচারীরা কষ্ট পাবে।",
+          "roman": "ahmed. na asad vai, ekpashe danrale pathcharider sohoj hobe. pobitro hadise bola hayeeche, kauke kosto deoa uchit nay. majhkhane danrale pathcharira kosto pabe."
+        },
+        {
+          "urdu": "۵۲۔ اسد ۔ بہت شکریہ احمد بھائی",
+          "bangla": "আসাদ ভাই আপনাকে অনেক ধন্যবাদ আহমেদ",
+          "roman": "asad bhai aapnake onek dhonnobad ahmed"
+        },
+        {
+          "urdu": "۵۳۔ اسد ۔ احمد بھائی جب بھی یونیورسٹی میں داخل ہوتے ہیں تو سکیورٹی گاڑڈ بہت تنگ کرتے ہیں",
+          "bangla": "আসাদ আহমদ ভাই যখনই বিশ্ববিদ্যালয়ে প্রবেশ করেন তখনই নিরাপত্তারক্ষীরা খুব কড়া",
+          "roman": "asad ahmad bhai jakhani bishwabidyaloye probesh koren tokhoni nirapattarokkhira khub kora"
+        },
+        {
+          "urdu": "۵۴۔ احمد ۔ وہ کس طرح تنگ کرتے ہیں",
+          "bangla": "আহমেদ। তারা কিভাবে উত্যক্ত করে",
+          "roman": "ahmed. tara kibhabe uttyakto kore"
+        },
+        {
+          "urdu": "۵۵۔ اسد ۔ ہر روز گیٹ پے روک لیتے ہیں اور کاڑ چیک کرتے ہیں",
+          "bangla": "আসাদ প্রতিদিন তারা গেটে থামে এবং ক্ষতি পরীক্ষা করে",
+          "roman": "asad protidin tara gete thame ebong khoti porikkha kore"
+        },
+        {
+          "urdu": "۵۶۔ احمد ۔ اسد بھائی یہ تو انکا کام ہے وہ ہماری حفاظت کے لئے تو کھڑے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই, এটা তাদের কাজ, তারা আমাদের নিরাপত্তার জন্য দাঁড়িয়ে আছে",
+          "roman": "ahmed. asad vai, eta taader kaj, tara amader nirapattar jonno danreeye ache"
+        },
+        {
+          "urdu": "۵۷۔ اسد ۔ لیکن ہم تو ہر روز یہاں سے گزرتے ہیں",
+          "bangla": "আসাদ কিন্তু আমরা প্রতিদিন এখান দিয়ে যাই",
+          "roman": "asad kintu amra protidin ekhan diye jai"
+        },
+        {
+          "urdu": "۵۸۔ احمد ۔ اسد بھائی اگر آپ ہر روز سلام کرتے ہو گزرے گے تو وہ آپ کو پہچان لیں گے پھر ہر روز نہیں روکے گے ،اور سلام کرنا تو سنت بھی ہے",
+          "bangla": "আহমেদ। আসাদ ভাই, আপনি যদি প্রতিদিন সালাম দিয়ে যান, তারা আপনাকে চিনবে এবং তারপর তারা আপনাকে প্রতিদিন বাধা দেবে না, এবং সালাম করাও একটি সুন্নত।",
+          "roman": "ahmed. asad vai, aapni jodi protidin salam diye jan, tara aapnake chinbe ebong tarpor tara aapnake protidin badha debe na, ebong salam karao ekti sunnoto."
+        },
+        {
+          "urdu": "۵۹۔ اسد ۔ احمد بھائی آؤ کھلینے چلیں",
+          "bangla": "আসাদ আহমেদ ভাই, আসুন, চলুন",
+          "roman": "asad ahmed vai, asun, chalun"
+        },
+        {
+          "urdu": "۶۰۔ احمد ۔ اسد بھائی میں کھلینا پسند نہیں کرتا",
+          "bangla": "আহমেদ। আসাদ ভাই আমি খুলতে পছন্দ করি না",
+          "roman": "ahmed. asad bhai ami khulte pochondo kori na"
+        },
+        {
+          "urdu": "۶۱۔ اسد ۔ وہ کیوں احمد بھائی",
+          "bangla": "আসাদ কেন আহমেদ ভাই?",
+          "roman": "asad keno ahmed vai?"
+        },
+        {
+          "urdu": "۶۲۔ احمد ۔ اکثر اوقات کھیل کے دوران گالیاں دیتے ہیں",
+          "bangla": "আহমেদ। খেলা চলাকালীন প্রায়ই গালাগালি",
+          "roman": "ahmed. khela cholakalin prayi galagali"
+        },
+        {
+          "urdu": "۶۳۔ اسد ۔ احمد بھائی وہ تو ہنسی مزاح کرتے ہیں",
+          "bangla": "আসাদ আহমদ ভাই, তারা মজার",
+          "roman": "asad ahmad vai, tara mojar"
+        },
+        {
+          "urdu": "۶۴۔ احمد ۔ پیارے بھائی کسی کو گالی دینا کبیرہ گناہ ہے",
+          "bangla": "আহমেদ। প্রিয় ভাই, কাউকে গালি দেওয়া মহাপাপ",
+          "roman": "ahmed. priyo vai, kauke gali deoa mohapap"
+        },
+        {
+          "urdu": "۶۵۔ اسد ۔ کیا اس کے متعلق کوئی حدیث پاک ہے",
+          "bangla": "আসাদ এ সম্পর্কে কোন সহীহ হাদীস আছে কি?",
+          "roman": "asad a somporke kono sahih hadis ache ki?"
+        },
+        {
+          "urdu": "۶۶۔ احمد ۔ جی اسد بھائی پیارے آقا کی حدیث پاک ہے کہ مسلمان کو گالی دینا کبیرہ گناہ ہے",
+          "bangla": "আহমেদ। হ্যা আসাদ ভাই, প্রিয় হুজুরের হাদিস বিশুদ্ধ যে, মুসলমানকে গালি দেওয়া মহাপাপ।",
+          "roman": "ahmed. hya asad vai, priyo hujurer hadis bishuddho je, musalmanke gali deoa mohapap."
+        },
+        {
+          "urdu": "۶۷۔ احمد ۔ اسد بھائی کھانے کا ٹائم ہو گیا",
+          "bangla": "আহমেদ। আসাদ ভাই, খাওয়ার সময় হয়ে গেছে",
+          "roman": "ahmed. asad vai, khawar shomoy hoye geche"
+        },
+        {
+          "urdu": "۶۸۔ اسد ۔ جی مجھے بھی بھوک لگی ہوئی ہے",
+          "bangla": "আসাদ হ্যাঁ, আমারও খিদে পেয়েছে",
+          "roman": "asad hyan, amaro khide peyeche"
+        },
+        {
+          "urdu": "۶۹۔ احمد ۔ یونیورسٹی کے میس پے چلتے ہیں",
+          "bangla": "আহমেদ। চলো ইউনিভার্সিটির মেসে যাই",
+          "roman": "ahmed. chalo universityr mese jai"
+        },
+        {
+          "urdu": "۷۰۔ اسد ۔ احمد بھائی انکا کھانا صحیح نہیں ہوتا",
+          "bangla": "আসাদ আহমদ ভাই, তাদের খাবার ঠিক নেই",
+          "roman": "asad ahmad vai, taader khabar thik nei"
+        },
+        {
+          "urdu": "۷۱۔ احمد ۔ پیارے بھائی کھانے میں عیب نہیں نکالتے",
+          "bangla": "আহমেদ। প্রিয় ভাইয়েরা খাবারে দোষ খুঁজে না",
+          "roman": "ahmed. priyo vaiyera khabare dosh khuje na"
+        },
+        {
+          "urdu": "۷۲۔ اسد ۔ اس کے متعلق حدیث پاک میں بیان ہے کیا",
+          "bangla": "আসাদ এ সম্পর্কে পবিত্র হাদীসে কোন বক্তব্য আছে কি?",
+          "roman": "asad a somporke pobitro hadise kono boktabya ache ki?"
+        },
+        {
+          "urdu": "۷۳۔ احمد ۔ حضرت ابو ھریرۃ نے فرمایا آُپ صَلَّی اللہُ تَعَالٰی عَلَیْہِ وَاٰلِہٖ وَسَلَّمَ۔ نے کبھی کسی کھانے کو عیب نہیں لگایا(یعنی برا نہیں کہا)اگر خواہش ہوتی تو کھالیتے اور اگر نا پسند فرماتے تو چھوڑ دیتے",
+          "bangla": "আহমেদ। হজরত আবু হুরায়রা (রা.) বলেন, আল্লাহ তাঁর ওপর বরকত বর্ষণ করুন। তিনি কখনই কোন খাবারের দোষ করেননি (অর্থাৎ খারাপ কথা বলেননি), তিনি চাইলে খেতেন এবং পছন্দ না হলে ছেড়ে দিতেন।",
+          "roman": "ahmed. hajrat abu hurayra (ra.) bolen, allah tanr opor barkat borshon korun. tini kakhani kono khabarer dosh korenni (orthat kharap kotha bolenni), tini chaile kheten ebong pochondo na hale chere diten."
+        },
+        {
+          "urdu": "۷۴۔ اسد ۔ احمد بھائی بہت شکریہ آئندہ میں کبھی آیسا نہیں کروں گا",
+          "bangla": "আসাদ আহমেদ ভাই আপনাকে অনেক ধন্যবাদ, আমি আর কখনো এমন করব না",
+          "roman": "asad ahmed bhai aapnake onek dhonyabad, ami r kokhono emon korbo na"
+        },
+        {
+          "urdu": "۷۵۔ احمد ۔ پیارے بھائی آپ کا انگلش لینگویج کورس کیسا جا رہا ہے",
+          "bangla": "আহমেদ। প্রিয় ভাই, আপনার ইংরেজি ভাষা কোর্স কেমন চলছে?",
+          "roman": "ahmed. priyo vai, aapnar engreji bhasha course kemon cholche?"
+        },
+        {
+          "urdu": "۷۶۔ اسد ۔ احمد بھائی کوئی خاص فائدہ نہیں ہو رہا",
+          "bangla": "আসাদ আহমেদ ভাই বিশেষ সুবিধা পাচ্ছেন না",
+          "roman": "asad ahmed bhai bishesh subidha pacchen na"
+        },
+        {
+          "urdu": "۷۷۔ احمد ۔ وہ کیوں",
+          "bangla": "আহমেদ। কেন যে?",
+          "roman": "ahmed. keno je?"
+        },
+        {
+          "urdu": "۷۸۔ اسد ۔ استاد صاحب صحیح نہیں پڑھاتے",
+          "bangla": "আসাদ শিক্ষক ঠিকমতো পড়ান না",
+          "roman": "asad shikkhak thikmoto poran na"
+        },
+        {
+          "urdu": "۷۹۔ احمد ۔ اسد بھائی کیا آپ کلاس کے بعد سبق یاد کرتے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই, আপনার কি মনে আছে ক্লাসের পর পাঠ",
+          "roman": "ahmed. asad vai, aapnar ki mone ache classer por path"
+        },
+        {
+          "urdu": "۸۰۔ اسد ۔ احمد بھائی اتنا ٹائم ہی نہیں ملتا",
+          "bangla": "আসাদ আহমেদ ভাই তেমন সময় পান না",
+          "roman": "asad ahmed bhai temon shomoy pan na"
+        },
+        {
+          "urdu": "۸۱۔ احمد ۔ اسد بھائی یہ تو غلط بات ہے اس طرح استاد کو برا بھلا نہیں کہ سکتے",
+          "bangla": "আহমেদ। আসাদ ভাই, এটা একটা ভুল কাজ, তাই শিক্ষককে খারাপ বলা যাবে না",
+          "roman": "ahmed. asad vai, eta ekta bhul kaj, tai shikkhakke kharap bola jabe na"
+        },
+        {
+          "urdu": "۸۲۔ اسد ۔ تو کیا اس طرح کہنا غلط بات ہے",
+          "bangla": "আসাদ তাই বলে কি ভুল?",
+          "roman": "asad tai bole ki vul?"
+        },
+        {
+          "urdu": "۸۳۔ احمد ۔ جی حدیث پاک میں ہے جو چھوٹوں پر رحم اور بڑوں کا ادب نہیں کرتا وہ ہم میں سے نہیں اور یہ استاد کے آدب کے خلاف ہے",
+          "bangla": "আহমেদ। হ্যাঁ, পবিত্র হাদিসে আছে যে, যে ব্যক্তি ছোটদের প্রতি দয়া করে না এবং বড়দের সম্মান করে না সে আমাদের দলভুক্ত নয় এবং তা শিক্ষকের শিষ্টাচারের পরিপন্থী।",
+          "roman": "ahmed. hyan, pobitro hadise ache je, je byakti chotoder proti doya kore na ebong boroder somman kore na se amader dolvukto noy ebong ta shikkhaker sistacharer poripanthi."
+        },
+        {
+          "urdu": "۸۴۔ اسد ۔ بہت شکریہ احمد بھائی",
+          "bangla": "আসাদ ভাই আপনাকে অনেক ধন্যবাদ আহমেদ",
+          "roman": "asad bhai aapnake onek dhonnobad ahmed"
+        },
+        {
+          "urdu": "۸۵۔ احمد ۔ اسد بھائی پھل کے چھلکے راستے میں نہیں پھینکتے",
+          "bangla": "আহমেদ। আসাদ ভাই ফলের খোসা রাস্তায় ফেলবেন না",
+          "roman": "ahmed. asad bhai foler khosa rastay felben na"
+        },
+        {
+          "urdu": "۸۶۔ اسد ۔ سب لوگ ایسے ہی تو کرتے تو آپ کیوں منع کر رہیے ہیں",
+          "bangla": "আসাদ সবাই যদি একি করতো তাহলে নিষেধ করছো কেন?",
+          "roman": "asad sobai jodi eki korto tahole nishedh korcho ken?"
+        },
+        {
+          "urdu": "۸۷۔ احمد ۔ پیارے بھائی راستے میں تکلیف دہ ڈالنا ناجائز اور گناہ ہے",
+          "bangla": "আহমেদ। প্রিয় ভাই, পথে ক্ষতি সাধন করা অবৈধ ও গুনাহ",
+          "roman": "ahmed. priyo vai, pathe khoti sadhan kora aboidho o gunah"
+        },
+        {
+          "urdu": "۸۸۔ اسد ۔ کیا اس طراھ کرنے سے منع کیا گیا ہے",
+          "bangla": "আসাদ এটা করা কি হারাম?",
+          "roman": "asad eta kora ki haram?"
+        },
+        {
+          "urdu": "۸۹۔ احمد ۔ جی حدیث پاک میں ہے کہ راستہ سے تکلیف دہ چیز ہٹانا صدقہ ہے",
+          "bangla": "আহমেদ। হ্যাঁ, পবিত্র হাদিসে বলা হয়েছে যে, কোন কষ্টদায়ক জিনিসকে পথ থেকে সরিয়ে দেওয়াই সদকা",
+          "roman": "ahmed. hyan, pobitro hadise bola hoyeche je, kono kashtodayok jiniske poth theke soriye deoai sadka"
+        },
+        {
+          "urdu": "۹۰۔ احمد ۔ پیارے بھائی اتنی اونچی آواز میں مت بولو",
+          "bangla": "আহমেদ। প্রিয় ভাই, এত জোরে কথা বলবেন না",
+          "roman": "ahmed. priyo vai, eto jore kotha bolben na"
+        },
+        {
+          "urdu": "۹۱۔ اسد ۔ احمد بھائی اب تو ہم اپنے کمرے ہیں",
+          "bangla": "আসাদ আহমদ ভাই, এখন আমরা আমাদের রুমে",
+          "roman": "asad ahmad vai, ekhon amra amader rume"
+        },
+        {
+          "urdu": "۹۲۔ احمد ۔ لیکن جو ہمارے پڑوس میں ہیں انکو تکلیف ہو گی",
+          "bangla": "আহমেদ। কিন্তু আমাদের আশেপাশের যারা ক্ষতিগ্রস্ত হবে",
+          "roman": "ahmed. kintu amader ashepasher jara khotigrosto hobe"
+        },
+        {
+          "urdu": "۹۳۔ اسد ۔ انہیں کیسے تکلیف ہوگی",
+          "bangla": "আসাদ তারা কিভাবে কষ্ট পাবে?",
+          "roman": "asad tara kibhabe kosto pabe?"
+        },
+        {
+          "urdu": "۹۴۔ احمد ۔ پیارے بھائی ان میں سے کچھ پڑہھ رہے ہوں گے اور کچھ آرام کر رہے ہوں گے اور حدیث پاک میں ہے کہ جس کے شر سے اس کا پڑوسی بے خوف نہ ہو وہ جنت میں جائے گا",
+          "bangla": "আহমেদ। প্রিয় ভাইয়েরা, তাদের কেউ হয়তো পড়াশোনা করছে আবার কেউ বিশ্রাম নিচ্ছে, পবিত্র হাদিসে আছে যে প্রতিবেশীর অনিষ্টকে ভয় করে না সে বেহেশতে যাবে।",
+          "roman": "ahmed. priyo vaiyeera, taader keu hoyto porashona korche abar keu bishram nicche, pobitro hadise ache je protibesir anistke voy kore na se beheshte jabe."
+        },
+        {
+          "urdu": "۹۵۔ احمد ۔ اسد بھائی کیا بنا رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই কি করছেন?",
+          "roman": "ahmed. asad bhai ki korchen?"
+        },
+        {
+          "urdu": "۹۶۔ اسد ۔کھانا بنا رہا ہوں",
+          "bangla": "আসাদ: আমি রান্না করছি",
+          "roman": "asad: ami ranna korchi"
+        },
+        {
+          "urdu": "۹۷۔ احمد ۔ یہ پانی کا نل آپ نے کھولا تھا",
+          "bangla": "আহমেদ। এই জলের কল আপনার দ্বারা খোলা হয়েছে",
+          "roman": "ahmed. ei joler call aapnar dwara khola hayeeche"
+        },
+        {
+          "urdu": "۹۸۔ اسد ۔ جی میں نے پانی لیا تھا",
+          "bangla": "আসাদ হ্যাঁ, পানি নিলাম",
+          "roman": "asad hyan, pani nilam"
+        },
+        {
+          "urdu": "۹۹۔ احمد ۔ پیارے بھائی اسے فورا بند کرنا چائیے تھا",
+          "bangla": "আহমেদ। প্রিয় ভাই এটা অবিলম্বে বন্ধ করা উচিত ছিল",
+          "roman": "ahmed. priyo bhai eta obilombe bondho kora uchit chil"
+        },
+        {
+          "urdu": "۱۰۰۔ اسد ۔ دراصل ابھی اور پانی چاہیے تھا",
+          "bangla": "আসাদ আসলে আরও পানির প্রয়োজন ছিল",
+          "roman": "asad asole aro panir proyojon chil"
+        },
+        {
+          "urdu": "۱۰۱۔ احمد ۔ اسد بھائی اس طرح تو بہت زیادہ پانی ضائعہ ہو جائے گا",
+          "bangla": "আহমেদ। আসাদ ভাই, এভাবে অনেক পানি নষ্ট হবে",
+          "roman": "ahmed. asad vai, evabe onek pani noshto hobe"
+        },
+        {
+          "urdu": "۱۰۲۔ اسد ۔ احمد بھائی ہھر کیا ہوا پانی ہی تو ہے",
+          "bangla": "আসাদ আহমেদ ভাই, পানির কি হয়েছে?",
+          "roman": "asad ahmed vai, panir ki hayeeche?"
+        },
+        {
+          "urdu": "۱۰۳۔ احمد ۔ پیارے بھائی پانی اللہ پاک کی بہت بڑی نعمت ہے اور اسے ضائعہ کرنا گناہ ہے",
+          "bangla": "আহমেদ। প্রিয় ভাই, পানি আল্লাহর একটি বড় নেয়ামত এবং তা অপচয় করা গুনাহ",
+          "roman": "ahmed. priyo vai, pani allahar ekti boro neyamot ebong ta apachay kora gunah"
+        }
+      ]
+    },
+    {
+      "id": "bangla-030",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "مسجد میں",
+      "bangla": "মসজিদে",
+      "roman": "mosjide",
+      "urdu": "مسجد میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۰۴۔ احمد ۔ اسد بھائی قران پاک پڑھ ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই পবিত্র কোরআন পড়েছেন",
+          "roman": "ahmed. asad bhai pobitro quran porechen"
+        },
+        {
+          "urdu": "۱۰۵۔ اسد ۔ جی میں تو ہر روز ایک پارہ پڑھتا ہوں",
+          "bangla": "আসাদ হ্যাঁ, আমি প্রতিদিন একটি করে আয়াত পড়ি",
+          "roman": "asad hyan, ami protidin ekti kore ayat pori"
+        },
+        {
+          "urdu": "۱۰۶۔ احمد ۔ یہ تو بہت اچھی بات ہے",
+          "bangla": "আহমেদ। এটা খুবই ভালো",
+          "roman": "ahmed. eta khubi valo"
+        },
+        {
+          "urdu": "۱۰۷۔ اسد ۔ میں تو 10 منٹ میں ایک پارہ پڑھ لیتا ہوں",
+          "bangla": "আসাদ আমি 10 মিনিটে একটি আয়াত পড়ি",
+          "roman": "asad ami 10 minite ekti ayat pori"
+        },
+        {
+          "urdu": "۱۰۸۔ احمد ۔ لیکن اسد بھائی قران پاک میں ہے کہ اسے خوب ٹھر ٹھر کر پڑو",
+          "bangla": "আহমেদ। কিন্তু আসাদ ভাই, পবিত্র কোরানে আছে ভালোভাবে মীমাংসা করতে হবে",
+          "roman": "ahmed. kintu asad vai, pobitro korane ache bhalobhabe mimangsa korte habe"
+        },
+        {
+          "urdu": "۱۰۹۔ اسد ۔ تو کیا قران پاک تیز پڑھنے سے گناہ ملتا ہے",
+          "bangla": "আসাদ তাই, পবিত্র কুরআন দ্রুত পাঠ করা কি গুনাহ?",
+          "roman": "asad tai, pobitro kuran druto path kora ki gunah?"
+        },
+        {
+          "urdu": "۱۱۰۔ احمد ۔ جی پیارے بھائی جب آپ قران پاک تیزی سے پڑھ گے تو بہت سارے الفاظ صحیح مخارج ادا نہیں ہوں گے",
+          "bangla": "আহমেদ। হ্যাঁ, প্রিয় ভাই, আপনি যখন পবিত্র কুরআন দ্রুত পড়বেন, তখন অনেক শব্দের সঠিক ব্যাখ্যা হবে না",
+          "roman": "ahmed. hyan, priyo vai, aapni jokhon pobitro kuran druto porben, tokhon onek shobder sathik byakhya habe na"
+        },
+        {
+          "urdu": "۱۱۱۔ اسد ۔ جزاکم اللہ خیرا",
+          "bangla": "আসাদ জাযাকুম আল্লাহ খায়ের",
+          "roman": "asad jazakum allah khayer"
+        },
+        {
+          "urdu": "۱۱۲۔ احمد .آمیین",
+          "bangla": "আহমেদ। আমীন",
+          "roman": "ahmed. amin"
+        }
+      ]
+    },
+    {
+      "id": "bangla-031",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "دوست کیساتھ کلاس روم میں",
+      "bangla": "বন্ধুদের সাথে ক্লাসরুমে",
+      "roman": "bondhuder sathe clasrume",
+      "urdu": "دوست کیساتھ کلاس روم میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۱۳۔ احمد ۔ اسد بھائی یہ کیا کر رہے ہیں",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি কি করছেন?",
+          "roman": "ahmed. asad bhai aapni ki korchen?"
+        },
+        {
+          "urdu": "۱۱۴۔ اسد ۔ کیا ہوا میں نے تو ایسا کچھ نہیں کیا",
+          "bangla": "আসাদ কি হয়েছে, আমি তেমন কিছু করিনি",
+          "roman": "asad ki hayeeche, ami temon kichu korini"
+        },
+        {
+          "urdu": "۱۱۵۔ احمد ۔ اسد بھائی ہمیں اچھے الفاظ کے ساتھ دوسروں کو مخطب کرنا چایئے",
+          "bangla": "আহমেদ। আসাদ ভাই, আমাদের উচিত অন্যকে ভালো কথায় সম্বোধন করা",
+          "roman": "ahmed. asad vai, amader uchit anyoke bhalo kothay sambodhan kora"
+        },
+        {
+          "urdu": "۱۱۶۔ اسد ۔ لیکن میں نےتو ایسا کوئی غلط لفظ نہیں بولا",
+          "bangla": "আসাদ কিন্তু আমি এমন কোন ভুল কথা বলিনি",
+          "roman": "asad kintu ami emon kono bhul kotha bolini"
+        },
+        {
+          "urdu": "۱۱۷۔ احمد ۔ پیارے بھائی آپ اور جی سے دوسروں کے ساتھ پیش آنا چاہئیے",
+          "bangla": "আহমেদ। প্রিয় ভাই, আপনার এবং জি অন্যদের সম্মানের সাথে আচরণ করা উচিত",
+          "roman": "ahmed. priyo vai, aapnar ebong ji anyader sommaner sathe achoron kora uchito"
+        },
+        {
+          "urdu": "۱۱۸۔ اسد ۔ بہت شکریہ میں آئندہ احتیاط کروں گا",
+          "bangla": "আসাদ আপনাকে অনেক ধন্যবাদ, আমি পরের বার সাবধানে থাকব",
+          "roman": "asad aapnake onek dhonyabad, ami porer bar sabdhane thakab"
+        }
+      ]
+    },
+    {
+      "id": "bangla-032",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "نماز کے وقت",
+      "bangla": "পূজায়",
+      "roman": "pujay",
+      "urdu": "نماز کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۱۹۔ احمد ۔ اسد بھائی سجدے میں دونوں پاؤں کی انگلیاں لگانا ضروری ہے",
+          "bangla": "আহমেদ। আসাদ ভাই, সেজদায় দুই পায়ের আঙ্গুল রাখা জরুরী",
+          "roman": "ahmed. asad vai, sejday dui payer angul rakha joruri"
+        },
+        {
+          "urdu": "۱۲۰۔ اسد ۔احمد بھائی سجدے میں کتنی انگلیاں لگانا ضروری ہیں",
+          "bangla": "আসাদ-আহমদ ভাই সাজদায় কয়টি আঙ্গুল রাখতে হবে",
+          "roman": "asad-ahmod bhai sajdai koyti angul rakhte hobe"
+        },
+        {
+          "urdu": "۱۲۱۔ احمد ۔ سجدے میں دونوں پاؤں کی تین تین انگلیاں واجب ہے",
+          "bangla": "আহমেদ। সেজদায় উভয় পায়ের তিনটি আঙ্গুল ওয়াজিব",
+          "roman": "ahmed. sejday ubhoy payer tinti angul oyajib"
+        },
+        {
+          "urdu": "۱۲۲۔ اسد۔اگر کوئی شخص ایک بھی انگلی نہ لگائے تو اس کی نماز ہو جائےگی کیا",
+          "bangla": "আসাদ। কোন ব্যক্তি একটি আঙ্গুল স্পর্শ না করলে তার নামায পূর্ণ হবে কি?",
+          "roman": "asad. kono byakti ekti angul sparsha na korle tar namaj purno habe ki?"
+        },
+        {
+          "urdu": "۱۲۳۔ احمد ۔سجدے میں دونوں پاؤں کی ایک ایک انگلی لگانا فرض ہے ورگرنہ نماز نہیں ہو گی",
+          "bangla": "আহমাদ: সেজদায় উভয় পায়ের এক আঙ্গুল রাখা ওয়াজিব, অন্যথায় নামাজ হবে না",
+          "roman": "ahmad: sejday ubhoy payer ek angul rakha oyajib, anyothay namaj habe na"
+        }
+      ]
+    },
+    {
+      "id": "bangla-033",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "مارکیٹ میں",
+      "bangla": "সুপার মার্কেটে",
+      "roman": "super markete",
+      "urdu": "مارکیٹ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۲۴۔ اسد۔احمد بھائی میں سیب خریدنا چاہتا ہوں",
+          "bangla": "আসাদ। আহমদ ভাই, আমি আপেল কিনতে চাই",
+          "roman": "asad. ahmad vai, ami apple kinte chai"
+        },
+        {
+          "urdu": "۱۲۵۔ احمد ۔جی اسد بھائی خرید لیتے ہیں",
+          "bangla": "আহমদ-জি আসাদ ভাই কিনে নেন",
+          "roman": "ahmod-ji asad bhai kine nen"
+        },
+        {
+          "urdu": "۱۲۶۔ اسد۔ اس دوکان سے خرید لیتے ہیں",
+          "bangla": "আসাদ। এই দোকান থেকে কিনুন",
+          "roman": "asad. ei dokaan theke kinun"
+        },
+        {
+          "urdu": "۱۲۷۔ احمد۔بھائی سیب میٹھے ہیں کیا",
+          "bangla": "আহমেদ। ভাই, আপেল কি মিষ্টি?",
+          "roman": "ahmed. vai, apple ki misti?"
+        },
+        {
+          "urdu": "۱۲۸۔ اسد۔احمد ایک سیب اٹھا کر چیک کر لیں",
+          "bangla": "আসাদ-আহমদ একটি আপেল বাছাই এবং পরীক্ষা করুন",
+          "roman": "asad-ahmod ekti apple bachai ebong porikkha korun"
+        },
+        {
+          "urdu": "۱۲۹۔ احمد۔پیارے بھائی اس طرح بغیر اجازت کے سیب لینا اچھی بات نہیں ہے",
+          "bangla": "আহমেদ। প্রিয় ভাই, এভাবে অনুমতি ছাড়া আপেল নেওয়া ঠিক নয়",
+          "roman": "ahmed. priyo vai, evabe anumati chara apple neoya thik nay"
+        }
+      ]
+    },
+    {
+      "id": "bangla-034",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "مارکیٹ کے راستے پر",
+      "bangla": "সুপার মার্কেটের পথে",
+      "roman": "super marketer pothe",
+      "urdu": "مارکیٹ کے راستے پر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۳۰۔ احمد ۔اسد بھائی راستے میں موبائل استعمال نہیں کرتے ۔",
+          "bangla": "আহমদ- আসাদ ভাইরা পথে মোবাইল ফোন ব্যবহার করবেন না।",
+          "roman": "ahmod- asad vaira pathe mobile phone byabohar korben na."
+        },
+        {
+          "urdu": "۱۳۱۔ اسد۔ وہ کیوں احمد بھائی ۔",
+          "bangla": "আসাদ। এমন কেন আহমদ ভাই?",
+          "roman": "asad. emon keno ahmad vai?"
+        },
+        {
+          "urdu": "۱۳۲۔ احمد ۔پیارے بھائی جب آپ کی توجہ موبائل میں ہوگی تو آپ گر سکتے ہیں اور چوٹ بھی لگ سکتی ہے",
+          "bangla": "আহমেদ।প্রিয় ভাই, আপনার মোবাইলে মনোযোগ থাকলে আপনি পড়ে গিয়ে আঘাত পেতে পারেন",
+          "roman": "ahmed.priy vai, aapnar mobiley monojog thakle aapni pore giye aghat pete paren"
+        }
+      ]
+    },
+    {
+      "id": "bangla-035",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کتابوں کی دوکان پر",
+      "bangla": "বইয়ের দোকানে",
+      "roman": "boiyer dokane",
+      "urdu": "کتابوں کی دوکان پر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۳۳۔ اسد۔احمد بھائی میں ایک کتاب خریدنا چاہتا ہوں ۔",
+          "bangla": "আসাদ- আহমদ ভাই, আমি একটা বই কিনতে চাই।",
+          "roman": "asad- ahmad vai, ami ekta boi kinte chai."
+        },
+        {
+          "urdu": "۱۳۴۔ احمد ۔کونسی کتاب خریدنا چاہتا ہیں",
+          "bangla": "আহমেদ: আপনি কোন বই কিনতে চান?",
+          "roman": "ahmed: aapni kono boi kinte chan?"
+        },
+        {
+          "urdu": "۱۳۵۔ اسد ۔ایسےناول کی کوئی کتاب خریدنا چاہتا ہوں ۔",
+          "bangla": "আসাদ: এরকম একটা উপন্যাসের বই কিনতে চাই।",
+          "roman": "asad: erokom ekta uponyaser boi kinte chai."
+        },
+        {
+          "urdu": "۱۳۶۔ احمد ۔بھائی کوئی ایسی کتاب لیں جس سے آپ کو کوئی فائدہ بھی ہو",
+          "bangla": "আহমেদ- ভাই, যে কোনো বই নিয়ে যান যে কোনো কাজে লাগবে",
+          "roman": "ahmed- vai, je kono boi niye jan je kono kaje lagbe"
+        },
+        {
+          "urdu": "۱۳۷۔ اسد۔ناول پڑھنے سے بھی تو فائدہ ہوتا ہے",
+          "bangla": "আসাদ। একটি উপন্যাস পড়াও উপকারী",
+          "roman": "asad. ekti uponyas porao upokari"
+        },
+        {
+          "urdu": "۱۳۸۔ احمد۔ مطلب ایسی کتاب لیں جو دینی موضوعات پر مشتمل ہو",
+          "bangla": "আহমেদ। মানে, ধর্মীয় বিষয় সম্বলিত বই নিন",
+          "roman": "ahmed. mane, dharmiyo bishoy sambalito boi nin"
+        },
+        {
+          "urdu": "۱۳۹۔ اسد ۔ ناول میں بھی تو کافی علم والی باتیں ہوتی ہیں",
+          "bangla": "আসাদ উপন্যাসেও অনেক জ্ঞান আছে",
+          "roman": "asad uponyaseo onek gyan ache"
+        },
+        {
+          "urdu": "۱۴۰۔ احمد ۔آپ علم سے کیا مراد لیتے ہیں",
+          "bangla": "আহমদ : জ্ঞান বলতে কী বোঝ?",
+          "roman": "ahmad : gyan bolte ki bojho?"
+        },
+        {
+          "urdu": "۱۴۱۔ اسد۔ کسی بھی چیز کے بارے میں معلومات ہو اچھی ہی ہوتی ہے",
+          "bangla": "আসাদ। যে কোনো বিষয়ে তথ্য ভালো",
+          "roman": "asad. je kono bishoye tathya valo"
+        },
+        {
+          "urdu": "۱۴۲۔ احمد ۔ اسد بھائی ایسی ہمیشہ ایسی کتاب پڑھنی چاہیے جو فحش گفگتو پر مشتمل نہ ہو",
+          "bangla": "আহমেদ। আসাদ ভাই, একটা বই সবসময় পড়া উচিত যাতে অশ্লীল গসিপ নেই",
+          "roman": "ahmed. asad vai, ekta boi sobsomoy pora uchit jate aslil gossip nei"
+        }
+      ]
+    },
+    {
+      "id": "bangla-036",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "حلال",
+      "bangla": "হালালে",
+      "roman": "halale",
+      "urdu": "حلال",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۴۳۔ احمد ۔ اسد بھائی آپ نے ساری لیٹیں کیوں اون کی ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, সব চাদর উলের বানালেন কেন?",
+          "roman": "ahmed. asad vai, shob chador uler banalen ken?"
+        },
+        {
+          "urdu": "۱۴۴۔ اسد ۔ مسجد میں اندھیرا ہے اس لیے ۔",
+          "bangla": "আসাদ তাই মসজিদে অন্ধকার।",
+          "roman": "asad tai mosjide andhokar."
+        },
+        {
+          "urdu": "۱۴۵۔ احمد ۔ اس کے لئے تو ایک لیٹ کافی تھی ۔",
+          "bangla": "আহমেদ। এর জন্য একটি ল্যাটই যথেষ্ট ছিল।",
+          "roman": "ahmed. er jonno ekti latoi jathest chil."
+        },
+        {
+          "urdu": "۱۴۶۔ اسد ۔ زیادہ روشنی اچھی لگ رہی ہے ۔",
+          "bangla": "আসাদ মোর আলো ভালো লাগছে।",
+          "roman": "asad mor alo bhalo lagche."
+        },
+        {
+          "urdu": "۱۴۷۔ احمد ۔ لیکن ابھی ایک لیٹ کی حاجت ہے اگر اس سے زیادہ استعمال کریں تو اصراف میں آئےگا ۔",
+          "bangla": "আহমেদ। কিন্তু এখন একটা ল্যাটের দরকার আছে, তার বেশি ব্যবহার করলে নষ্ট হয়ে যাবে।",
+          "roman": "ahmed. kintu ekhon ekta later dorkar ache, tar beshi byabohar korle noshto hoye jabe."
+        },
+        {
+          "urdu": "۱۴۸۔ اسد ۔ احمد بھائی یہ اصراف کیا ہوتا ہے ۔",
+          "bangla": "আসাদ আহমেদ ভাই, এই অপচয় কি?",
+          "roman": "asad ahmed vai, ei apachay ki?"
+        },
+        {
+          "urdu": "۱۴۹۔ احمد ۔ ضروت سے زیادہ چیزوں کااستعمال کرنا ۔",
+          "bangla": "আহমেদ। প্রয়োজনের চেয়ে বেশি জিনিস ব্যবহার করা।",
+          "roman": "ahmed. proyojoner cheye beshi jinish byabohar kora."
+        }
+      ]
+    },
+    {
+      "id": "bangla-037",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "امتحانات کے وقت",
+      "bangla": "পরীক্ষার সময়",
+      "roman": "porikkhar samay",
+      "urdu": "امتحانات کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۵۰۔ احمد ۔ اسد بھائی آپ گھر کب جائیں گے۔",
+          "bangla": "আহমেদ। আসাদ ভাই, বাড়ি যাবেন কবে?",
+          "roman": "ahmed. asad vai, bari jaben kobe?"
+        },
+        {
+          "urdu": "۱۵۱۔ اسد ۔ میں ابھی گھر نہیں جاؤں گا ۔",
+          "bangla": "আসাদ আমি এখন বাড়ি যাব না।",
+          "roman": "asad ami ekhon bari jabo na."
+        },
+        {
+          "urdu": "۱۵۲۔ احمد ۔ لیکن آج تو امتحان ختم ہوجائیں گے ۔",
+          "bangla": "আহমেদ। কিন্তু পরীক্ষা শেষ হবে আজ।",
+          "roman": "ahmed. kintu porikkha shesh habe az."
+        },
+        {
+          "urdu": "۱۵۳۔ اسد ۔ گھر جا کر بہت کام کرنا پڑتا ہے",
+          "bangla": "আসাদ বাসায় যাওয়ার পর অনেক কাজ করতে হয়",
+          "roman": "asad basay jaoar por onek kaj korte hay"
+        },
+        {
+          "urdu": "۱۵۴۔ احمد ۔ یہ تو بہت آچھی بات ہے ۔",
+          "bangla": "আহমেদ। এটি একটি খুব ভাল জিনিস.",
+          "roman": "ahmed. eti ekti khub bhalo jinis."
+        },
+        {
+          "urdu": "۱۵۵۔ اسد ۔ اتنا مشکل کام ہوتا ہے اور آپ بول رہیں کہ بہت آچھی بات ہے",
+          "bangla": "আসাদ এটা একটা কঠিন কাজ এবং আপনি বলতে থাকেন এটা একটা ভালো জিনিস",
+          "roman": "asad eta ekta kothin kaj ebong aapni bolte thaken eta ekta bhalo jinis"
+        },
+        {
+          "urdu": "۱۵۶۔ احمد ۔ جی والدین کے ساتھ ہاتھ بڑھنا سنت ہے",
+          "bangla": "আহমেদ। হ্যাঁ, পিতা-মাতার হাত ধরা সুন্নত",
+          "roman": "ahmed. hyan, pita-matar haat dhora sunnoto"
+        }
+      ]
+    },
+    {
+      "id": "bangla-038",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "رہائشی روم میں",
+      "bangla": "বসার ঘরে",
+      "roman": "bosar ghore",
+      "urdu": "رہائشی روم میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۵۷۔ احمد ۔ سد بھائی اس کمرےمیں کون رہتا ہے ۔",
+          "bangla": "আহমেদ। এই ঘরে কে থাকে?",
+          "roman": "ahmed. ei ghore ke thake?"
+        },
+        {
+          "urdu": "۱۵۸۔ اسد ۔ یہ میرا کمرہ ہے کیوں کیا ہوا ۔",
+          "bangla": "আসাদ এটা আমার রুম, কেন কি হয়েছে?",
+          "roman": "asad eta aamar rum, keno ki hayeeche?"
+        },
+        {
+          "urdu": "۱۵۹۔ احمد ۔ یہ تو بہت گندہ ہوا ہے اس کی صفائی نہیں کرتے کیا ۔",
+          "bangla": "আহমেদ। এটা খুব নোংরা, আপনি এটা পরিষ্কার করেন না কেন?",
+          "roman": "ahmed. eta khub nongra, aapni eta porishkar koren na ken?"
+        },
+        {
+          "urdu": "۱۶۰۔ اسد۔ پیارے بھائی اتنا ٹائم ہی نہیں ملتا ۔",
+          "bangla": "আসাদ। প্রিয় ভাই, আমাদের হাতে পর্যাপ্ত সময় নেই।",
+          "roman": "asad. priyo vai, amader hate porjapto shomoy nei."
+        },
+        {
+          "urdu": "۱۶۱۔ احمد ۔ لیکن جناب صفائی تو نصف ایمان ہے۔",
+          "bangla": "আহমেদ। কিন্তু সাফাই সাহেব অর্ধেক ঈমান মাত্র।",
+          "roman": "ahmed. kintu safai saheb ordhek iman matro."
+        },
+        {
+          "urdu": "۱۶۲۔ اسد ۔ اچھا احمد بھائی مجھے تو پتا ہی نہیں تھا ۔",
+          "bangla": "আসাদ ওয়েল আহমেদ ভাই, জানতাম না।",
+          "roman": "asad well ahmed vai, jantam na."
+        },
+        {
+          "urdu": "۱۶۳۔ احمد ۔ چلیں ابھی مل کر صفائی کرتے ہیں۔",
+          "bangla": "আহমেদ। এখন একসাথে পরিষ্কার করা যাক.",
+          "roman": "ahmed. ekhon aksathe porishkar kora jak."
+        }
+      ]
+    },
+    {
+      "id": "bangla-039",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "چلنے کے وقت",
+      "bangla": "দৌড়ানোর সময়",
+      "roman": "douranor samay",
+      "urdu": "چلنے کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۶۴۔ احمد ۔ اسد بھائی اس بار آپ رمضان کہاں گزاریں گے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, এবারের রমজান কোথায় কাটাবেন?",
+          "roman": "ahmed. asad vai, ebarer ramjan kothay kataben?"
+        },
+        {
+          "urdu": "۱۶۵۔ اسد ۔ اس بار چھٹیوں میں گھومنے کا ذہن ہے ۔",
+          "bangla": "আসাদ এবার ছুটিতে যাওয়ার মন আছে।",
+          "roman": "asad ebar chhutite jaoar mon ache."
+        },
+        {
+          "urdu": "۱۶۶۔ احمد۔ کیا آپ روزے کے مسائل جانتے ہیں ۔",
+          "bangla": "আহমেদ। আপনি কি রোজার সমস্যা জানেন?",
+          "roman": "ahmed. aapni ki rojar samasya janen?"
+        },
+        {
+          "urdu": "۱۶۷۔ اسد ۔ نہیں لیکن وہ تو کیسی بھی کتاب سےپڑھے جا سکتے ہیں ۔",
+          "bangla": "আসাদ না, তবে যেকোনো বই থেকে এগুলো পড়া যায়।",
+          "roman": "asad na, tabe jekono boi theke egulo pora jay."
+        },
+        {
+          "urdu": "۱۶۸۔ احمد ۔ پیارے بھائی بہت ساری ایسی چیزیں ہوتی ہیں جو ہمیں سمجھ میں نہیں آتی ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, এমন অনেক বিষয় আছে যা আমরা বুঝি না।",
+          "roman": "ahmed. priyo vai, emon onek bishoy ache jaa amra bujhi na."
+        },
+        {
+          "urdu": "۱۶۹۔ اسد ۔تو پھر کیا کیا جائے ۔",
+          "bangla": "আসাদ: তাহলে কি করতে হবে?",
+          "roman": "asad: tahole ki korte hobe?"
+        },
+        {
+          "urdu": "۱۷۰۔ احمد ۔ آپ رمضان میں اعتکاف بیٹھ جائے عبادت بھی ہو جائے گی اور بہت سارے مسائل بھی سیکھ جائے گے ۔",
+          "bangla": "আহমেদ। রমজানে ইতিকাফে বসলে ইবাদতও হবে এবং অনেক সমস্যাও শিখবে।",
+          "roman": "ahmed. romjane itikafe bosle ibadato habe ebong onek samasyao sikhbe."
+        }
+      ]
+    },
+    {
+      "id": "bangla-040",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "ریسٹورنٹ میں",
+      "bangla": "একটা হোটেলে",
+      "roman": "ekta hotele",
+      "urdu": "ریسٹورنٹ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۷۱۔ اسد ۔ احمد بھائی آپ کھانا کھائے گے کیا ۔",
+          "bangla": "আসাদ আহমেদ ভাই, খাবেন?",
+          "roman": "asad ahmed vai, khaben?"
+        },
+        {
+          "urdu": "۱۷۲۔ احمد ۔ نہیں میں صرف چائے پیؤں گا ۔",
+          "bangla": "আহমেদ। না, আমি শুধু চা খাব।",
+          "roman": "ahmed. na, ami shudhu cha khab."
+        },
+        {
+          "urdu": "۱۷۳۔ اسد۔ مجھے تو بہت بھوک لگی ہے میں کھانا کھاؤں گا ۔",
+          "bangla": "আসাদ। আমার খুব খিদে পেয়েছে, আমি খাব।",
+          "roman": "asad. aamar khub khide peyeche, ami khab."
+        },
+        {
+          "urdu": "۱۷۴۔ احمد ۔ جی ٹھیک ہے لیکن جب بھی کھانا کھائے تو پہلے بسم اللہ پڑھ لینی چاہیے ۔",
+          "bangla": "আহমেদ। হ্যাঁ, ঠিক আছে, তবে প্রতিবার খাওয়ার সময় প্রথমে বিসমিল্লাহ পড়তে হবে।",
+          "roman": "ahmed. hyan, thik ache, tabe protibar khawar shomoy prothome bismillah porte hobe."
+        },
+        {
+          "urdu": "۱۷۵۔ اسد ۔ اس کے کیا فوائد ہیں۔",
+          "bangla": "আসাদ এর সুবিধা কি?",
+          "roman": "asad er subidha ki?"
+        },
+        {
+          "urdu": "۱۷۶۔ احمد ۔ کھانا شروع کرنے سے پہلے اگر کوئی بسم اللہ پڑھ لے تو اس کے ساتھ کھانے میں شیطان شریک نہیں ہوتا۔",
+          "bangla": "আহমেদ। খাবার শুরু করার আগে যদি কেউ বিসমিল্লাহ পাঠ করে তবে শয়তান তার সাথে খাবারে যোগ দেবে না।",
+          "roman": "ahmed. khabar shuru korar age jodi keu bismillah path kore tabe shaytan tar sathe khabare jog debe na."
+        }
+      ]
+    },
+    {
+      "id": "bangla-041",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "چائے پیتے وقت",
+      "bangla": "চায়ের সময়",
+      "roman": "chayer samay",
+      "urdu": "چائے پیتے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۷۷۔ احمد ۔ اسد بھائی چائے اس طرح پیے کہ کسی کو آواز نہ آئے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই এমনভাবে চা পান করবেন যেন কেউ আওয়াজ না পায়।",
+          "roman": "ahmed. asad bhai emonvabe cha pan korben jeno keu awaz na pay."
+        },
+        {
+          "urdu": "۱۷۸۔ اسد ۔ آواز آنے سے کیا ہوتا ہے ۔",
+          "bangla": "আসাদ শব্দ এলে কি হয়?",
+          "roman": "asad shobdo ele ki hay?"
+        },
+        {
+          "urdu": "۱۷۹۔ احمد ۔ پیارے بھائی یہ مجلس کہ آداب کے خلاف ہے ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, এই সমাবেশ শিষ্টাচার বিরোধী।",
+          "roman": "ahmed. priyo vai, ei samabesh shistachar birodhi."
+        },
+        {
+          "urdu": "۱۸۰۔ اسد ۔ مجلس کے آداب میں کچھ سمجھا نہیں ۔",
+          "bangla": "আসাদ মজলিসের আদব-কায়দা কিছুই বুঝলাম না।",
+          "roman": "asad mojliser adob-kayada kichui bujhlam na."
+        },
+        {
+          "urdu": "۱۸۱۔ احمد ۔ یعنی جب چند افراد ایک ساتھ بیٹھ ہوں تو اسوقت ایسے کام نہیں کرنے چاہیے جس دوسروں کو برا لگے ۔",
+          "bangla": "আহমেদ। অন্য কথায়, যখন কয়েকজন একসাথে বসে থাকে, তখন তাদের এমন কাজ করা উচিত নয় যাতে অন্যদের খারাপ লাগে।",
+          "roman": "ahmed. anno kothay, jokhon koyekjon aksathe bose thake, tokhon taader emon kaj kora uchit noy jate anyader kharap lage."
+        }
+      ]
+    },
+    {
+      "id": "bangla-042",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کھانا کھانے کے وقت",
+      "bangla": "খাওয়ার সময়",
+      "roman": "khawar samay",
+      "urdu": "کھانا کھانے کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۸۲۔ احمد ۔ پیارے بھائی کھانے سے پہلے ہاتھ تو دھو لیں ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, খাওয়ার আগে হাত ধুয়ে নিন।",
+          "roman": "ahmed. priyo vai, khawar age haat dhuye nin."
+        },
+        {
+          "urdu": "۱۸۳۔ اسد ۔ کیوں کھانے سے پہلے ہاتھ دھونا ضروری ہے کیا ۔",
+          "bangla": "আসাদ খাওয়ার আগে হাত ধোয়া কেন জরুরী?",
+          "roman": "asad khawar age haat dhoya keno joruri?"
+        },
+        {
+          "urdu": "۱۸۴۔ احمد ۔ جی اسد بھائی کھانے سے پہلے ہاتھ دھونا سنت مبارکہ بھی ہے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, খাওয়ার আগে হাত ধোয়াও বরকতময় সুন্নত।",
+          "roman": "ahmed. asad vai, khawar age haat dhooyao barkatmoy sunnoto."
+        },
+        {
+          "urdu": "۱۸۵۔ اسد ۔ کیا آپ مجھے کھانے کا سنت طریقہ بتا سکتے ہیں ۔",
+          "bangla": "আসাদ খাওয়ার সুন্নত উপায় বলতে পারবেন?",
+          "roman": "asad khawar sunnat upay bolte parben?"
+        },
+        {
+          "urdu": "۱۸۶۔ احمد ۔ اسد بھائی اگر آپ تین دن کے مدنی قافلے میں سفر کر لیں تو بہت کچھ سیکھ جائے گے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, মাদানী কাফেলায় তিনদিন ভ্রমণ করলে অনেক কিছু জানতে পারবেন।",
+          "roman": "ahmed. asad vai, madani kafelay tindin bhraman korle onek kichu jante parben."
+        },
+        {
+          "urdu": "۱۸۷۔ اسد ۔ جی ضرور انشاءاللہ ۔",
+          "bangla": "আসাদ হ্যাঁ, ইনশাআল্লাহ।",
+          "roman": "asad hyan, insaallah."
+        }
+      ]
+    },
+    {
+      "id": "bangla-043",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "دوست کے گھر",
+      "bangla": "এক বন্ধুর বাড়িতে",
+      "roman": "ek bondhur barite",
+      "urdu": "دوست کے گھر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۸۸۔ احمد ۔ اسد بھائی کیا کر رہے ہو ۔",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি কি করছেন?",
+          "roman": "ahmed. asad bhai aapni ki korchen?"
+        },
+        {
+          "urdu": "۱۸۹۔ اسد ۔ موبائل استعمال کر رہاہوں ۔",
+          "bangla": "আসাদ আমি মোবাইল ব্যবহার করছি।",
+          "roman": "asad ami mobile byabohar korchi."
+        },
+        {
+          "urdu": "۱۹۰۔ احمد ۔ اسد بھائی ابھی دوست کے گھر میں ہیں تو ہمیں چاہیے کے اس کے ساتھ بات چیت کریں ۔",
+          "bangla": "আহমেদ। আসাদ ভাই বর্তমানে তার বন্ধুর বাসায় আছেন, তাই তার সাথে কথা বলা উচিত।",
+          "roman": "ahmed. asad bhai bortomane tar bondhur basay achen, tai tar sathe kotha bola uchito."
+        },
+        {
+          "urdu": "۱۹۱۔ اسد ۔ آپ کر تو رہے ہیں ۔",
+          "bangla": "আসাদ আপনি এটা করছেন।",
+          "roman": "asad aapni eta korchen."
+        },
+        {
+          "urdu": "۱۹۲۔ احمد ۔ لیکن آپ کو بھی انکے ساتھ باتھ کرنی چاہے اس طرح کرنا محفل کے آداب کے خلاف ہے",
+          "bangla": "আহমেদ। কিন্তু তাদের সঙ্গে গোসল করতে চাইলেও তা করা দলের শিষ্টাচারের পরিপন্থী",
+          "roman": "ahmed. kintu taader sange gosol korte chaileo ta kora daler sistacharer poripanthi"
+        }
+      ]
+    },
+    {
+      "id": "bangla-044",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "موبائل فون",
+      "bangla": "মোবাইল ফোনে",
+      "roman": "mobile phoney",
+      "urdu": "موبائل فون",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۱۹۳۔ احمد۔ اسد بھائی آپ کیسے ہیں ۔",
+          "bangla": "আহমেদ। কেমন আছেন ভাইয়া?",
+          "roman": "ahmed. kemon achen vaiya?"
+        },
+        {
+          "urdu": "۱۹۴۔ اسد۔ ٹھیک آپ سنائیں کیسے ہیں ۔",
+          "bangla": "আসাদ। আচ্ছা, কেমন আছেন?",
+          "roman": "asad. accha, kemon achen?"
+        },
+        {
+          "urdu": "۱۹۵۔ احمد۔ میں بھی ٹھیک ہوں آپ یہ بتائیں گھر کب جا ریے ہیں ۔",
+          "bangla": "আহমেদ। আমিও ভালো আছি, তুমি কখন বাসায় যাবে বলো।",
+          "roman": "ahmed. amio bhalo achi, tumi kokhon basay jabe bolo."
+        },
+        {
+          "urdu": "۱۹۶۔ اسد۔ یہ سمیسٹر مکمل کرنے کے بعد ۔",
+          "bangla": "আসাদ। এই সেমিস্টার শেষ করার পর।",
+          "roman": "asad. ei semester shesh korar por."
+        },
+        {
+          "urdu": "۱۹۷۔ احمد۔ لیکن آپ گھر تو بہت قریب ہے",
+          "bangla": "আহমেদ। কিন্তু তোমার বাসা খুব কাছে",
+          "roman": "ahmed. kintu tomar basa khub kache"
+        },
+        {
+          "urdu": "۱۹۸۔ اسد۔ گھر جا کر بہت سے کام کرنے پڑتے ہیں",
+          "bangla": "আসাদ। বাসায় গিয়ে অনেক কিছু করতে হয়",
+          "roman": "asad. basay giye onek kichu korte hoy"
+        },
+        {
+          "urdu": "۱۹۹۔ احمد۔ لیکن آپ کو جلدی گھر جانا چاہیے آپ کو پتا ہے ایک مرتبہ ماں باپ کی زیارت کرنے سے اہک ححج اور عمرہ کا ثواب ملتا ہے",
+          "bangla": "আহমেদ। তবে তাড়াতাড়ি বাড়ি যেতে হবে। আপনি জানেন যে একবার আপনার পিতামাতার সাথে দেখা করা আপনাকে হজ এবং ওমরার সওয়াব দেয়।",
+          "roman": "ahmed. tabe taratari bari jete hobe. aapni janen je akbar aapnar pitamatar sathe dekha kora aapnake haz ebong omrar saoab dey."
+        }
+      ]
+    },
+    {
+      "id": "bangla-045",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "لائبریری",
+      "bangla": "লাইব্রেরি",
+      "roman": "libreri",
+      "urdu": "لائبریری",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۰۰۔ اسد ۔ آپ یہاں بیٹھے ہیں ارو آپ کا کینٹین پر انتظار کر رہا تھا",
+          "bangla": "আসাদ তুমি এখানে বসে আছ অরু ক্যান্টিনে তোমার জন্য অপেক্ষা করছিল",
+          "roman": "asad tumi ekhane bose acho aru canteene tomar jonno apekkha korchil"
+        },
+        {
+          "urdu": "۲۰۱۔ احمد ۔ بس یہ ایک کتاب مل گئی بہت اچھی ہے",
+          "bangla": "আহমেদ। এই একটি বই খুব ভাল পাওয়া গেছে",
+          "roman": "ahmed. ei ekti boi khub bhalo pawa geche"
+        },
+        {
+          "urdu": "۲۰۲۔ اسد۔ کس موضوع پر ہے",
+          "bangla": "আসাদ। এটা কি বিষয়?",
+          "roman": "asad. eta ki bishay?"
+        },
+        {
+          "urdu": "۲۰۳۔ احمد ۔وہی کتاب جس کا تذکرہ آج اسلامیات کے استاد کر رہے تھے",
+          "bangla": "আহমেদ। যে বইটির কথা বলছিলেন আজ ইসলামিয়াতের শিক্ষক",
+          "roman": "ahmed. je boitir kotha bolchilen aaj islamiyater shikkhok"
+        },
+        {
+          "urdu": "۲۰۴۔ اسد ۔ احمد بھائی وہ تو بہت عجیب سی کتاب ہے",
+          "bangla": "আসাদ আহমদ ভাই, খুবই অদ্ভুত একটা বই",
+          "roman": "asad ahmad vai, khubi advuto ekta boi"
+        },
+        {
+          "urdu": "۲۰۵۔ احمد ۔ پیارے بھائی اس کتاب میں لکھا ہوا ہے کے ہمیں والدین کے ساتھ کیسا سلوک کرنا چاہیے ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, এই বইয়ে লেখা আছে আমাদের পিতামাতার সাথে কেমন আচরণ করা উচিত।",
+          "roman": "ahmed. priyo vai, ei boiye lekha ache amader pitamatar sathe kemon achoron kora uchito."
+        },
+        {
+          "urdu": "۲۰۶۔ اسد ۔ یار وہ تو استاد کلاس میں بتاتے ہی رہتے ہیں ۔",
+          "bangla": "আসাদ ভাই, শিক্ষক ক্লাসে তাদের বলতে থাকেন।",
+          "roman": "asad vai, shikkhak classe taader bolte thaken."
+        },
+        {
+          "urdu": "۲۰۷۔ احمد ۔ لیکن آپ خود بھی مطالعہ کرنے عادت بنائیں اس طرح ٹائم ضائع کرنا آچھی بات نہیں ہے ۔",
+          "bangla": "আহমেদ। কিন্তু নিজে পড়াশুনার অভ্যাস গড়ে তুলুন, এভাবে সময় নষ্ট করা ঠিক নয়।",
+          "roman": "ahmed. kintu nije porashunar ovyas gore tulun, evabe shomoy noshto kora thik nay."
+        }
+      ]
+    },
+    {
+      "id": "bangla-046",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کلاس میں",
+      "bangla": "ক্লাসে",
+      "roman": "clase",
+      "urdu": "کلاس میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۰۸۔ احمد ۔ کیابات ہے آج بڑے پریشان بیٹھے ہو۔",
+          "bangla": "আহমেদ। আজ এত মন খারাপ কেন?",
+          "roman": "ahmed. aaj eto mon kharap ken?"
+        },
+        {
+          "urdu": "۲۰۹۔ اسد۔ ہاں لیکن کچھ سمجھ میں نہیں آرہا ۔",
+          "bangla": "আসাদ। হ্যাঁ, কিন্তু আমি কিছুই বুঝতে পারছি না।",
+          "roman": "asad. hyan, kintu ami kichui bujhte parchi na."
+        },
+        {
+          "urdu": "۲۱۰۔ احمد۔ کیا سمجھ میں نہیں آرہا ۔",
+          "bangla": "আহমেদ। বুঝবেন না?",
+          "roman": "ahmed. bujhben na?"
+        },
+        {
+          "urdu": "۲۱۱۔ اسد۔ جاب کے لئے آپلائی کیا تھا لیکن وہ رشوت مانگ رہے ہیں ۔",
+          "bangla": "আসাদ। আমি চাকরির জন্য আবেদন করেছিলাম কিন্তু তারা ঘুষ চাইছে।",
+          "roman": "asad. ami chakrir jonno abedon korechilam kintu tara ghush chaiche."
+        },
+        {
+          "urdu": "۲۱۲۔ احمد ۔ رشوت دینا تو بہت بڑا گناہ ہے ۔",
+          "bangla": "আহমেদ। ঘুষ দেওয়া মহাপাপ।",
+          "roman": "ahmed. ghush deoa mohapap."
+        },
+        {
+          "urdu": "۲۱۳۔ اسد۔ کیا صرف رشوت لینے والا گناہ گار ہوتا ہے۔",
+          "bangla": "আসাদ। শুধু ঘুষখোরই কি দোষী?",
+          "roman": "asad. shudhu ghuskhori ki doshi?"
+        },
+        {
+          "urdu": "۲۱۴۔ احمد۔ نہیں اسد بھائی رشوت لینے اور دینے والا دونوں گناہ گار ہوتے ہیں ۔",
+          "bangla": "আহমেদ। না আসাদ ভাই, ঘুষ গ্রহীতা এবং দাতা উভয়েই পাপী।",
+          "roman": "ahmed. na asad vai, ghush grohita ebong data ubhoyei papi."
+        },
+        {
+          "urdu": "۲۱۵۔ اسد۔ کیا اس کے بارے قران پاک میں کچھ آیا ہے۔",
+          "bangla": "আসাদ। পবিত্র কুরআনে এ বিষয়ে কিছু আছে কি?",
+          "roman": "asad. pobitro kurane a bishoye kichu ache ki?"
+        },
+        {
+          "urdu": "۲۱۶۔ احمد۔ قران پاک میں ہے جس کا ترجمہ یہ ہے کہ یہ لوگ جھوٹ سننے والے اور حرام مال (رشوت)کھانے والے ہیں ۔",
+          "bangla": "আহমেদ। পবিত্র কোরানে আছে, যার তরজমা হচ্ছে এই লোকগুলো যারা মিথ্যা শোনে এবং ঘুষ খায়।",
+          "roman": "ahmed. pobitro korane ache, jaar torjoma hachche ei lokgulo jara mithya shone ebong ghush khay."
+        },
+        {
+          "urdu": "۲۱۷۔ اسد۔ بہت شکریہ میں تو بہت پریشان تھا ۔",
+          "bangla": "আসাদ। আপনাকে অনেক ধন্যবাদ, আমি খুব চিন্তিত ছিলাম.",
+          "roman": "asad. aapnake onek dhonyabad, ami khub chintito chilam."
+        }
+      ]
+    },
+    {
+      "id": "bangla-047",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "ہاسٹل پارکنگ میں",
+      "bangla": "হোস্টেলের পার্কিং লটে",
+      "roman": "hosteler parking late",
+      "urdu": "ہاسٹل پارکنگ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۱۸۔ احمد۔ جناب یہاں کیا کرہے ہیں ۔",
+          "bangla": "আহমেদ। আপনি এখানে কি করছেন স্যার?",
+          "roman": "ahmed. aapni ekhane ki korchen syar?"
+        },
+        {
+          "urdu": "۲۱۹۔ اسد۔ کچھ خاص نہیں بس انٹرنیٹ استعمال کرہا ہوں ۔",
+          "bangla": "আসাদ। বিশেষ কিছু না, শুধু ইন্টারনেট ব্যবহার করে।",
+          "roman": "asad. bishesh kichu na, shudhu internet byabohar kore."
+        },
+        {
+          "urdu": "۲۲۰۔ احمد۔ آپ بہت زیادہ انٹرنیٹ استعمال کرتے ہیں ۔",
+          "bangla": "আহমেদ। আপনি অনেক ইন্টারনেট ব্যবহার করেন।",
+          "roman": "ahmed. aapni onek internet byabohar koren."
+        },
+        {
+          "urdu": "۲۲۱۔ اسد ۔ جی نیٹ پر بہت زیادہ معلومات مل جاتی ہے۔",
+          "bangla": "আসাদ জিনেটে অনেক তথ্য পাওয়া যায়।",
+          "roman": "asad jinete onek tathya pawa jay."
+        },
+        {
+          "urdu": "۲۲۲۔ احمد۔ لیکن ابھی نماز کا ٹائم ہے تو پہلے نماز پڑھ لیتے ہیں۔",
+          "bangla": "আহমেদ। কিন্তু এখন নামাজের সময় হয়েছে, তাই আগে নামাজ পড়ি।",
+          "roman": "ahmed. kintu ekhon namajer shomoy hayeeche, tai age namaj pori."
+        },
+        {
+          "urdu": "۲۲۳۔ اسد۔ آپ چلیں میں آتا ہوں ۔",
+          "bangla": "আসাদ। তুমি যাও, আমি আসছি।",
+          "roman": "asad. tumi jao, ami aschi."
+        },
+        {
+          "urdu": "۲۲۴۔ احمد ۔ پیارے بھائی جماعت کے ساتھ نمازپڑھنا واجب ہے۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, জামাতের সাথে নামাজ পড়া ওয়াজিব।",
+          "roman": "ahmed. priyo vai, jamater sathe namaj pora oyajib."
+        }
+      ]
+    },
+    {
+      "id": "bangla-048",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "یونیورسٹی کے باہر",
+      "bangla": "বিশ্ববিদ্যালয়ের বাইরে",
+      "roman": "bishwavidyalayer baire",
+      "urdu": "یونیورسٹی کے باہر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۲۵۔ احمد۔جناب کدھر جا رہے ہیہں ۔",
+          "bangla": "আহমেদ। কোথায় যাচ্ছেন স্যার?",
+          "roman": "ahmed. kothay jachchen syar?"
+        },
+        {
+          "urdu": "۲۲۶۔ اسد۔ میں بائیک خریدنے جا رہا ہوں ۔",
+          "bangla": "আসাদ। আমি একটি বাইক কিনতে যাচ্ছি.",
+          "roman": "asad. ami ekti bike kinte jacchi."
+        },
+        {
+          "urdu": "۲۲۷۔ احمد۔ لیکن آپ کے پاس تو پہلے دو بائیکس ہیں ۔",
+          "bangla": "আহমেদ। কিন্তু আপনার কাছে প্রথমে দুটি বাইক আছে।",
+          "roman": "ahmed. kintu aapnar kache prothome duti bike ache."
+        },
+        {
+          "urdu": "۲۲۸۔ اسد ۔ مجھے شوق ہے زیادہ بائیکس رکھنے کا ۔",
+          "bangla": "আসাদ আমার বাইক বেশি পছন্দ করে।",
+          "roman": "asad aamar bike beshi pochondo kore."
+        },
+        {
+          "urdu": "۲۲۹۔ احمد ۔ لیکن اسد بھائی جتنی ضروت ہو اتنی چیز ہی لینی چاہیے۔",
+          "bangla": "আহমেদ। তবে আসাদ ভাই, আপনার যতটুকু প্রয়োজন ততটুকুই নিতে হবে।",
+          "roman": "ahmed. tabe asad vai, aapnar jatotuku proyojon tototukui nite hobe."
+        },
+        {
+          "urdu": "۲۳۰۔ اسد ۔ احمد بھائی اب وہ پرانی ہوں گئی ہیں",
+          "bangla": "আসাদ আহমদ ভাই, এখন তার বয়স হয়েছে",
+          "roman": "asad ahmad vai, ekhon tar boyos hoyeche"
+        },
+        {
+          "urdu": "۲۳۱۔ احمد ۔ لیکن اسد بھائی قرآن پاک میں فضول خاہشات سے بچنے کا حکم ہے",
+          "bangla": "আহমেদ। কিন্তু আসাদ ভাই, পবিত্র কুরআনে অনর্থক কামনা-বাসনা পরিহার করার নির্দেশ আছে",
+          "roman": "ahmed. kintu asad vai, pobitro kurane anarthak kamna-basna porihar korar nirdesh ache"
+        },
+        {
+          "urdu": "۲۳۲۔ اسد ۔ تو پھر آپ بتائیں میں کیا کروں ۔",
+          "bangla": "আসাদ তারপর কি করব বলুন।",
+          "roman": "asad tarpor ki korbo bolun."
+        },
+        {
+          "urdu": "۲۳۳۔ احمد ۔ اگر آپ کے پاس زیادہ پیسے ہیں تو انسے آپ کسی غریب کی مدد کردیں",
+          "bangla": "আহমেদ। বেশি টাকা থাকলে কোন গরীবকে দিয়ে দাও",
+          "roman": "ahmed. beshi taka thakle kono garibke diye dao"
+        },
+        {
+          "urdu": "۲۳۴۔ اسد ۔ احمد بھائی بھت شکریہ آپ نے میری اچھی رہنمائی کی ۔",
+          "bangla": "আসাদ আপনাকে ধন্যবাদ আহমেদ ভাই ভাট আমাকে ভালোভাবে গাইড করার জন্য।",
+          "roman": "asad aapnake dhonnobad ahmed bhai bhat aamake bhalobhabe guide korar janyo."
+        }
+      ]
+    },
+    {
+      "id": "bangla-049",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "فون پر",
+      "bangla": "ফোনে",
+      "roman": "fone",
+      "urdu": "فون پر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۳۵۔ احمد ۔ اسد بھائی اس چھٹیاں کہاں گزاریں گے۔",
+          "bangla": "আহমেদ। আসাদ ভাই এই ছুটি কোথায় কাটাবেন?",
+          "roman": "ahmed. asad bhai ei chhuti kothay kataben?"
+        },
+        {
+          "urdu": "۲۳۶۔ اسد ۔ اس بار چھٹیوں میں میں آپنے گاؤں جاؤں گا ۔",
+          "bangla": "আসাদ এবার ছুটির দিনে তোমার গ্রামে যাবো।",
+          "roman": "asad ebar chhutir dine tomar grame jabo."
+        },
+        {
+          "urdu": "۲۳۷۔ احمد ۔ گاؤں سے واپس کب آئے گے۔",
+          "bangla": "আহমেদ। গ্রাম থেকে কবে ফিরবেন?",
+          "roman": "ahmed. gram theke kobe firben?"
+        },
+        {
+          "urdu": "۲۳۸۔ اسد ۔ جب چھٹیاں ختم ہوں گی۔",
+          "bangla": "ছুটি শেষ হলে আসাদ।",
+          "roman": "chhuti shesh hale asad."
+        },
+        {
+          "urdu": "۲۳۹۔ احمد ۔ تو آپ وہاں پر کیا کرو گے ۔",
+          "bangla": "আহমেদ। তাহলে আপনি সেখানে কি করবেন?",
+          "roman": "ahmed. tahole aapni sekhane ki korben?"
+        },
+        {
+          "urdu": "۲۴۰۔ اسد ۔ کچھ نہیں بس گھموں پھروں گا ۔",
+          "bangla": "আসাদ কিছু না, আমি শুধু ঘুরবো।",
+          "roman": "asad kichu na, ami shudhu ghurbo."
+        },
+        {
+          "urdu": "۲۴۱۔ احمد ۔ یس طرح تو آپ کا بہت سارا وقت ضائع ہو جائے گا ۔",
+          "bangla": "আহমেদ। এভাবে আপনার অনেক সময় নষ্ট হবে।",
+          "roman": "ahmed. evabe aapnar onek shomoy noshto hobe."
+        },
+        {
+          "urdu": "۲۴۲۔ اسد ۔ تو پھر مجھے کیا کرنا چاہیے ۔",
+          "bangla": "আসাদ তাহলে আমি কি করব?",
+          "roman": "asad tahole ami ki korob?"
+        },
+        {
+          "urdu": "۲۴۳۔ احمد۔ آپ چھٹیوں میں نماز کورس کر لیں ۔",
+          "bangla": "আহমেদ। ছুটির দিনে নামাজ পড়া উচিত।",
+          "roman": "ahmed. chhutir dine namaj pora uchito."
+        }
+      ]
+    },
+    {
+      "id": "bangla-050",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "دوستوں کے درمیان",
+      "bangla": "বন্ধুদের মধ্যে",
+      "roman": "bondhuder modhye",
+      "urdu": "دوستوں کے درمیان",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۴۴۔ احمد ۔اسد بھائی جب چند دوست ایک ساتھ بیٹھے ہوں تو اس طرح کان میں بات نہیں کرتے ۔",
+          "bangla": "আহমেদ- আসাদ ভাই, কয়েকটা বন্ধু যখন একসাথে বসে থাকে, তখন ওরা এভাবে কানে কানে কথা বলে না।",
+          "roman": "ahmed- asad vai, kayekta bondhu jokhon aksathe bose thake, tokhon ora evabe kane kane kotha bole na."
+        },
+        {
+          "urdu": "۲۴۵۔ اسد ۔ ہماری پرسنل بات ہے اس لئے میں کسی کو بتانا نہیں چاہتا ۔",
+          "bangla": "আসাদ এটা আমাদের ব্যক্তিগত ব্যাপার, তাই কাউকে বলতে চাই না।",
+          "roman": "asad eta amader byaktigoto byapar, tai kauke bolte chai na."
+        },
+        {
+          "urdu": "۲۴۶۔ احمد۔ لیکن اس طرح کرنا مجلس کے آداب کے خلاف ہے ۔",
+          "bangla": "আহমেদ। কিন্তু এভাবে করা মজলিসের শিষ্টাচারের পরিপন্থী।",
+          "roman": "ahmed. kintu evabe kora mojliser sistacharer poripanthi."
+        }
+      ]
+    },
+    {
+      "id": "bangla-051",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "مسجد میں",
+      "bangla": "মসজিদে",
+      "roman": "mosjide",
+      "urdu": "مسجد میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۴۷۔ احمد ۔ اسد بھائی کیا کر رہے ہیں ۔",
+          "bangla": "আহমেদ। আসাদ ভাই কি করছেন?",
+          "roman": "ahmed. asad bhai ki korchen?"
+        },
+        {
+          "urdu": "۲۴۸۔ اسد ۔ میں قران پاک ہڑھ رہا یوں ۔",
+          "bangla": "আসাদ আমি এভাবে পবিত্র কোরআন তেলাওয়াত করছি।",
+          "roman": "asad ami evabe pobitro quran telawat korchi."
+        },
+        {
+          "urdu": "۲۴۹۔ احمد ۔ کیا آپ کو تجوید کے ساتھ قران پاک پڑھنا آتا ہے ۔",
+          "bangla": "আহমেদ। আপনি কি তাজবীদ সহ পবিত্র কুরআন পড়েন?",
+          "roman": "ahmed. aapni ki tajbeed soho pobitro kuran poren?"
+        },
+        {
+          "urdu": "۲۵۰۔ اسد ۔ تجوید کے ساتھ کیا مطلب ۔",
+          "bangla": "আসাদ তাজবীদ বলতে কি বোঝ?",
+          "roman": "asad tajbeed bolte ki bojho?"
+        },
+        {
+          "urdu": "۲۵۱۔ احمد۔ تجوید یعنی صحیح مخارج کے ساتھ قران پاک پڑھنا ضروی ہے ۔",
+          "bangla": "আহমেদ। তাজবীদ অর্থাৎ সঠিক উচ্চারণ সহ পবিত্র কোরআন তেলাওয়াত করা আবশ্যক।",
+          "roman": "ahmed. tajbeed orthat sathik uccaron soho pobitro quran telawat kora aboshyak."
+        },
+        {
+          "urdu": "۲۵۲۔ اسد ۔ کیا اس کے بغیر قران پاک نہیں پڑھ سکتے ۔",
+          "bangla": "আসাদ ছাড়া পবিত্র কোরআন তেলাওয়াত করা যায় না?",
+          "roman": "asad chara pobitro quran telawat kora jay na?"
+        },
+        {
+          "urdu": "۲۵۳۔ احمد ۔",
+          "bangla": "আহমেদ।",
+          "roman": "ahmed."
+        }
+      ]
+    },
+    {
+      "id": "bangla-052",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "یونیورسٹی کے گراوئنڈ میں",
+      "bangla": "বিশ্ববিদ্যালয়ের মাঠে",
+      "roman": "bishwavidyalayer mathe",
+      "urdu": "یونیورسٹی کے گراوئنڈ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۵۴۔ اسد-احمد بھائی اتوار کو میں اپنی سالگرہ کے سلسلے میں ایک پروگرام کر رہا ہوں آپ بھی ضرور آئیے گا",
+          "bangla": "আসাদ-আহমেদ ভাই, আমি রবিবার আমার জন্মদিনে একটি প্রোগ্রাম করছি, আপনিও আসবেন",
+          "roman": "asad-ahmed vai, ami rabibar aamar jonmodine ekti program korchi, apnio asben"
+        },
+        {
+          "urdu": "۲۵۵۔ احمد بھائی- اسد بھائی آپ کو بہت بہت مبارک ہو مگر میں نہیں آ پاؤں گا",
+          "bangla": "আহমদ ভাই- আসাদ ভাই, আপনাকে অভিনন্দন, কিন্তু আমি আসতে পারব না",
+          "roman": "ahmad vai- asad vai, aapnake ovinandon, kintu ami ashte parbo na"
+        },
+        {
+          "urdu": "۲۵۶۔ اسد بھائی- احمد بھائی کچھ دیر کی تو بات ہے آجائیے گا سارے دوست ہوں گے ناچ گانا کریں گے خوب مزہ آئے گا",
+          "bangla": "আসাদ ভাই - আহমেদ ভাই কুছ হরিণ কি তো বাত হ্যায়, সমস্ত বন্ধুরা সেখানে থাকবে, নাচ এবং গান করবে, খুব মজা হবে",
+          "roman": "asad bhai - ahmed bhai kuch harin ki to bat hai, samasta bondhura sekhane thakbe, nach ebong gan korbe, khub moja hobe"
+        },
+        {
+          "urdu": "۲۵۷۔ احمد بھائی- اسد بھائی یہ آپ کیا کہ رہے ہیں ناچ گانا یہ درست نہیں آپ ضرور سالگرہ کریں مگر دین اسلام کے مطابق",
+          "bangla": "আহমেদ ভাই- আসাদ ভাই আপনি কি বলছেন, নাচ, গান, এটা ঠিক না, আপনার জন্মদিন পালন করতেই হবে, তবে ইসলাম ধর্ম অনুযায়ী",
+          "roman": "ahmed vai- asad bhai aapni ki bolchen, nach, gan, eta thik na, aapnar jonmodin palon kortei hobe, tabe islam dharma anuzayi"
+        },
+        {
+          "urdu": "۲۵۸۔ اسد بھائی- کیا مطلب میں سمجھا نہیں",
+          "bangla": "আসাদ ভাই- কি বলতে চাইছেন বুঝতে পারছি না",
+          "roman": "asad vai- ki bolte chaichen bujhte parchi na"
+        },
+        {
+          "urdu": "۲۵۹۔ احمد بھائی- مطلب یہ کے سالگرہ کرنا درست ہے مگر اس میں کوئی بھی ایسا کام نہ ہو جو دین اسلام میں منعہ ہے اور ناچ گانا اس کی مضمت میں تو احدیث پاک بھی موجود ہیں",
+          "bangla": "আহমদ ভাই- মানে তার জন্মদিন পালন করা ঠিক, কিন্তু নাচ-গান ও ইসলামে হারাম এমন কোনো কাজ করা উচিত নয়, এর প্রেক্ষিতে হাদিসও আছে।",
+          "roman": "ahmad vai- mane tar jonmodin palon kora thik, kintu nach-gan o islame haram emon kono kaj kora uchit nay, er prekkhite hadiso ache."
+        },
+        {
+          "urdu": "۲۶۰۔ اسد بھائی- کیسی حدیث پاک",
+          "bangla": "আসাদ ভাই- কি বিশুদ্ধ হাদিস",
+          "roman": "asad vai- ki bishuddho hadis"
+        },
+        {
+          "urdu": "۲۶۱۔ احمد بھائی- پیارے آقا صلی اللہ علیہ وآلہ وسلم نے فرمایا \"مجھے آلات موسیقی توڑنے کے لیے بھیجا گیا ہے\"",
+          "bangla": "ভাই আহমদ- প্রিয় নবী (সা.) বলেছেন, আমাকে বাদ্যযন্ত্র ভাঙ্গার জন্য পাঠানো হয়েছে।",
+          "roman": "bhai ahmod- priyo nabi (sa.) bolechen, aamake baddyojontro vangar jonno pathano hayeeche."
+        },
+        {
+          "urdu": "۲۶۲۔ اسد بھائی-احمد بھائی آپ کا بہت بہت شکریہ آپ نے میری اصلاح فرمائی اب میں ناچ گانے سے بچتے ہوئے پروگرام کروں گا",
+          "bangla": "আসাদ ভাই-আহমেদ ভাই আপনাকে অনেক ধন্যবাদ আমাকে সংশোধন করার জন্য, এখন আমি নাচ-গান ছাড়াই অনুষ্ঠান করব।",
+          "roman": "asad vai-ahmed bhai aapnake onek dhonnobad aamake sanshodhan korar janyo, ekhon ami nach-gan charai anusthan korob."
+        },
+        {
+          "urdu": "۲۶۳۔ احمد بھائی- ماشاءاللہ میں شرکت کی کوشش کروں گا",
+          "bangla": "আহমদ ভাই- মাশাআল্লাহ আমি অংশগ্রহণ করার চেষ্টা করব",
+          "roman": "ahmad vai- mashaallah ami ongshogrohon korar chesta korob"
+        },
+        {
+          "urdu": "۲۶۴۔ اسد بھائی- جزاک اللہ احمد بھائی",
+          "bangla": "আসাদ ভাই-জাযাকুল্লাহ আহমেদ ভাই",
+          "roman": "asad vai-jazakullah ahmed vai"
+        }
+      ]
+    },
+    {
+      "id": "bangla-053",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "ہسپتال میں",
+      "bangla": "হাসপাতালে",
+      "roman": "haspatale",
+      "urdu": "ہسپتال میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۶۵۔ احمد۔ اسد بھائی کل ہم ہسپتال جائیں گے",
+          "bangla": "আহমেদ। আসাদ ভাই কাল আমরা হাসপাতালে যাব",
+          "roman": "ahmed. asad bhai kal amra haspatale jab"
+        },
+        {
+          "urdu": "۲۶۶۔ اسد۔ ہسپتال! خیریت سے",
+          "bangla": "আসাদ। হাসপাতাল ! বিদায়",
+          "roman": "asad. haspatal ! biday"
+        },
+        {
+          "urdu": "۲۶۷۔ احمد۔ ہمارے فیضان بھائی ہسپتال میں داخل ہیں ان کی عیادت کے لیے",
+          "bangla": "আহমেদ। আমাদের ফাইজান ভাই তার দেখা করার জন্য হাসপাতালে ভর্তি",
+          "roman": "ahmed. amader faijan bhai tar dekha korar jonno haspatale vorti"
+        },
+        {
+          "urdu": "۲۶۸۔ اسد۔ احمد بھائی آپ ہو آئیں میں عیادت کر کے کیا کروں گا",
+          "bangla": "আসাদ। আহমেদ ভাই, গিয়ে কি করব?",
+          "roman": "asad. ahmed vai, giye ki korob?"
+        },
+        {
+          "urdu": "۲۶۹۔ احمد۔ اسد بھائی عیادت کرنے کا ثواب ہے اس پر تو احادیث مبارکہ بھی موجود ہیں",
+          "bangla": "আহমেদ। আসাদ ভাইকে দেখার সওয়াব রয়েছে এবং এ সম্পর্কে বরকতময় হাদীস রয়েছে",
+          "roman": "ahmed. asad bhaike dekhar saoab royeche ebong a somporke barkatmoy hadis rayeeche"
+        },
+        {
+          "urdu": "۲۷۰۔ اسد۔ حدیث پاک وہ کیا",
+          "bangla": "আসাদ। হাদীসে পাক তা করেছেন",
+          "roman": "asad. hadise pak ta korechen"
+        },
+        {
+          "urdu": "۲۷۱۔ احمد-جی جی کئی احدیث پاک موجود ہیں چناچہ پیارے آقا صلی اللہ علیہ وآلہ وسلم نے فرمایا \"جب تو مریض کے پاس جائے تو اس سے کہہ کہ تیرے لیے دعا کرے کہ اس کی دعا فرشتوں کی دعا کے مانند ہے\"",
+          "bangla": "আহমাদ-জিজি অনেক বিশুদ্ধ হাদিস আছে, তাই প্রিয় নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, \"যখন তুমি কোন অসুস্থ ব্যক্তির কাছে যাও, তখন তাকে বল তোমার জন্য দোয়া করতে, তার দোয়া ফেরেশতাদের দোয়ার মত।\"",
+          "roman": "ahmad-jiji onek bishuddho hadis ache, tai priyo nabi sallallahu alaihi wasallam bolechen, \"jakhan tumi kono oshustho byaktir kache jao, tokhon take ball tomar jonno doya korte, tar doya ferestader doyar moto.\""
+        },
+        {
+          "urdu": "۲۷۲۔ اسدـ۔اچھا احمد بھائی پھر تو میں کل آپ کے ساتھ ضرور چلوں گا",
+          "bangla": "আসাদ- আচ্ছা আহমেদ ভাই, তাহলে আমি অবশ্যই কালকে তোমার সাথে যাব",
+          "roman": "asad- achcha ahmed vai, tahole ami abashyai kalke tomar sathe jab"
+        }
+      ]
+    },
+    {
+      "id": "bangla-054",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "موبائل کا زائد استعمال نقصان کا باعث",
+      "bangla": "মোবাইল ফোনের অতিরিক্ত ব্যবহার ক্ষতি করে",
+      "roman": "mobile phoner otirikto byabohar khoti kore",
+      "urdu": "موبائل کا زائد استعمال نقصان کا باعث",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۷۳۔ اسد۔ احمد بھائی صبح سے میری آنکھوں اور سر میں درد ہو رہا ہے",
+          "bangla": "আসাদ। আহমেদ ভাই সকাল থেকে আমার চোখ ও মাথা ব্যাথা করছে",
+          "roman": "asad. ahmed bhai sakal theke aamar chokh o matha byatha korche"
+        },
+        {
+          "urdu": "۲۷۴۔ احمد۔ اسد بھائی اپ کو معلوم ہے کہ ایسا کیوں ہو رہا ہے",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি জানেন কেন এমন হচ্ছে",
+          "roman": "ahmed. asad bhai aapni janen keno emon hocche"
+        },
+        {
+          "urdu": "۲۷۵۔ اسد۔ نہیں احمد بھائی کچھ سمجھ نہیں آ رہا",
+          "bangla": "আসাদ। না আহমেদ ভাই আমি কিছুই বুঝতে পারছি না",
+          "roman": "asad. na ahmed bhai ami kichui bujhte parchi na"
+        },
+        {
+          "urdu": "۲۷۶۔ احمد- اسد بھائی دراصل اس کی وجہ آپ کا موبائل کا زیادہ استعمال کرنا ہے ابھی دیکھ لیں آپ بات مجھ سے کر رہے ہیں اور موبائل استعمال کر رہے ہیں",
+          "bangla": "আহমেদ- আসাদ ভাই, আসলে এর কারণ আপনার অতিরিক্ত মোবাইল ফোন ব্যবহার করা। এখন দেখুন, আপনি আমার সাথে কথা বলছেন এবং মোবাইল ফোন ব্যবহার করছেন।",
+          "roman": "ahmed- asad vai, asole er karon aapnar otirikto mobile phone byabohar kora. ekhon dekhun, aapni aamar sathe kotha bolchen ebong mobile phone byabohar korchen."
+        },
+        {
+          "urdu": "۲۷۷۔ اسد۔ احمد بھائی آپ سہی فرما رہے ہیں میں آئندہ احتیاط کروں گا",
+          "bangla": "আসাদ। আহমেদ ভাই, আপনি ঠিক বলেছেন, আমি ভবিষ্যতে সতর্ক থাকব",
+          "roman": "asad. ahmed vai, aapni thik bolechen, ami vobissote sotorko thakab"
+        }
+      ]
+    },
+    {
+      "id": "bangla-055",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کمرہ امتحان میں نقل",
+      "bangla": "পরীক্ষার কক্ষে নকল",
+      "roman": "porikkhar kakkhe nakol",
+      "urdu": "کمرہ امتحان میں نقل",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۷۸۔ اسد۔ احمد بھائی آپ کا پیپر کیسا ہوا میرا تو بہت زبردست ہوا",
+          "bangla": "আসাদ। আহমদ ভাই, আপনার পেপার কেমন লাগলো, আমার খুব ভালো লাগলো",
+          "roman": "asad. ahmad vai, aapnar paper kemon laglo, aamar khub bhalo laglo"
+        },
+        {
+          "urdu": "۲۷۹۔ احمد۔ جی اسد بھائی پیپر تو بہت اچھا ہوا اگر آپ برا نہ مانے تو ایک بات کہوں",
+          "bangla": "আহমেদ। হ্যা আসাদ ভাই, কাগজটা খুব ভালো, কিছু মনে না করলে একটা কথা বলি",
+          "roman": "ahmed. hya asad vai, kagojta khub valo, kichu mone na korle ekta kotha boli"
+        },
+        {
+          "urdu": "۲۸۰۔ اسد۔ نہیں نہیں احمد بھائی آپ بولیں",
+          "bangla": "আসাদ। না, না, আহমেদ, তুমি কথা বল",
+          "roman": "asad. na, na, ahmed, tumi kotha bol"
+        },
+        {
+          "urdu": "۲۸۱۔ احمد۔ کمرہ امتحان میں میری نظر آپ پر پڑی تھی آپ طلحہ بھائی سے نقل کر رہے تھے یہ تو بہت غلط بات ہے",
+          "bangla": "আহমেদ। পরীক্ষার কক্ষে আমার চোখ পড়ে তোমার দিকে। আপনি তালহা ভাইয়ের কাছ থেকে কপি করতেন। এটা খুবই অন্যায়",
+          "roman": "ahmed. porikkhar kakkhe aamar chokh pore tomar dike. aapni talha bhaiyer kach theke copy korten. eta khubi anyay"
+        },
+        {
+          "urdu": "۲۸۲۔ اسد- احمد بھائی میں توبہ کرتا ہوں آئندہ کبھی ایسا نہیں کروں گا اصلاح کے لیے بہت شکریہ",
+          "bangla": "আসাদ-আহমদ ভাই আমি অনুতপ্ত, আমি আর কখনও এই কাজ করব না, সংশোধনের জন্য আপনাকে অনেক ধন্যবাদ",
+          "roman": "asad-ahmod bhai ami anutopto, ami r kokhono ei kaj korbo na, sanshodhoner jonno aapnake onek dhonyabad"
+        }
+      ]
+    },
+    {
+      "id": "bangla-056",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "فیشن",
+      "bangla": "ফ্যাশন",
+      "roman": "fation",
+      "urdu": "فیشن",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۸۳۔ احمد۔ اسد بھائی یہ آپ نے داڑھی کا کیا ڈیزائن بنایا ہوا ہے",
+          "bangla": "আহমেদ। আসাদ ভাই, দাড়ির ডিজাইন কি রকম করেছেন?",
+          "roman": "ahmed. asad vai, darir design ki rokom korechen?"
+        },
+        {
+          "urdu": "۲۸۴۔ اسد۔ احمد بھائی یہ آج کل کے نامور اداکاروں کا فیشن ہے",
+          "bangla": "আসাদ। আহমদ ভাই এটাই এখনকার বিখ্যাত অভিনেতাদের ফ্যাশন",
+          "roman": "asad. ahmad bhai etai ekhankar bikhyato abhinetader fation"
+        },
+        {
+          "urdu": "۲۸۵۔ احمد۔ اسد بھائی کیا آپ کو معلوم نہیں کے حدیث پاک میں ہے\"جو شخص کسی قوم کی مشابہت اختیار کرے گا اس کا شمار اسی قوم میں ہو گا\"",
+          "bangla": "আহমেদ। আসাদ ভাই, আপনি কি জানেন না যে পবিত্র হাদিসে আছে, “যে ব্যক্তি কোন জাতির উপমা গ্রহণ করবে, সে সেই জাতির মধ্যে গণ্য হবে”।",
+          "roman": "ahmed. asad vai, aapni ki janen na je pobitro hadise ache, “je byakti kono jatir upoma grohon korbe, se sei jatir modhye gonyo hobe”."
+        },
+        {
+          "urdu": "۲۸۶۔ اسد۔ احمد بھائی مجھے معلوم نہیں تھے میں آج سے ہی سنت داڑھی رکھنے کی نیت کرتا ہوں",
+          "bangla": "আসাদ। আহমদ ভাই, আমি জানতাম না যে আজ থেকে দাড়ি রাখা সুন্নাত",
+          "roman": "asad. ahmad vai, ami jantam na je aaj theke dari rakha sunnat"
+        }
+      ]
+    },
+    {
+      "id": "bangla-057",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "راستے میں",
+      "bangla": "পথে",
+      "roman": "pothe",
+      "urdu": "راستے میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۸۷۔ اسد۔ احمد بھائی یہ آپ کیا کر رہے ہیں",
+          "bangla": "আসাদ। আহমদ, তুমি কি করছ?",
+          "roman": "asad. ahmod, tumi ki korch?"
+        },
+        {
+          "urdu": "۲۸۸۔ احمد۔ میں شجر کاری کررہا ہوں",
+          "bangla": "আহমেদ। আমি গাছ লাগাচ্ছি",
+          "roman": "ahmed. ami gach lagacchi"
+        },
+        {
+          "urdu": "۲۸۹۔ اسد۔ اس کا کیا فائدہ جگہ ضائعہ کرنے والی بات ہے",
+          "bangla": "আসাদ। এটার ব্যবহার কি জায়গার অপচয়",
+          "roman": "asad. etar byabohar ki jayegar apochay"
+        },
+        {
+          "urdu": "۲۹۰۔ احمد۔ نہیں اسد بھائی حدیث پاک میں ہے\" درخت لگانا ایک ایسی نیکی ہے جو بندے کی موت کے بعد بھی جاری رہتی ہے جب کہ وہ اپنی قبر میں ہوتا ہے\"",
+          "bangla": "আহমেদ। না, আসাদ ভাই, পবিত্র হাদিসে আছে, \"গাছ রোপণ করা এমন একটি নেক আমল যা বান্দার কবরে থাকা অবস্থায় মৃত্যুর পরেও অব্যাহত থাকে।\"",
+          "roman": "ahmed. na, asad vai, pobitro hadise ache, \"gach ropon kora emon ekti nek amol jaa bandar kabore thaka abosthay mrityur poreo abyahoto thake.\""
+        },
+        {
+          "urdu": "۲۹۱۔ اسد۔ اچھا احمد بھائی پھر تو میں بھی پودے لگاؤں گا",
+          "bangla": "আসাদ। আচ্ছা আহমেদ ভাই, তাহলে আমিও গাছ লাগাব",
+          "roman": "asad. achcha ahmed vai, tahole amio gach lagab"
+        }
+      ]
+    },
+    {
+      "id": "bangla-058",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "دفتر میں",
+      "bangla": "অফিসে",
+      "roman": "officey",
+      "urdu": "دفتر میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۹۲۔ احمد۔ اسد بھائی دفتر کی لائٹ جلا دی جئیے گا",
+          "bangla": "আহমেদ। আসাদ ভাই, অফিসের লাইট জ্বালিয়ে দেওয়া হবে",
+          "roman": "ahmed. asad vai, officer light jaliye deoa habe"
+        },
+        {
+          "urdu": "۲۹۳۔ احمد۔ اسد بھائی یہ آپ نے کیا کیا",
+          "bangla": "আহমেদ। আসাদ ভাই আপনি কি করলেন?",
+          "roman": "ahmed. asad bhai aapni ki korlen?"
+        },
+        {
+          "urdu": "۲۹۴۔ اسد۔ احمد بھائی آپ ہی نے تو کہا تھا کہ لائٹ جلا دی جیئے",
+          "bangla": "আসাদ। আহমদ ভাই, আপনি বলেছিলেন আলো জ্বালাতে হবে",
+          "roman": "asad. ahmad vai, aapni bolechilen alo jalate hobe"
+        },
+        {
+          "urdu": "۲۹۵۔ احمد۔ جی جی میں نے کہا تھا مگر آپ نے تو چار چار لائٹیں جلا دیں جبکہ ایک بہت ہے",
+          "bangla": "আহমেদ। জিজি আমি বললাম কিন্তু আপনি চারটি বাতি জ্বালিয়েছেন যখন একটি অনেক বেশি",
+          "roman": "ahmed. gg ami bollam kintu aapni charti bati jaliyechen jokhon ekti onek beshi"
+        },
+        {
+          "urdu": "۲۹۶۔ اسد۔ احمد بھائی چار سے زیادہ روشنی ہوجائے گی",
+          "bangla": "আসাদ। আহমদ ভাইয়ের চর আরও আলোকিত হবে",
+          "roman": "asad. ahmad bhaiyer char aro alokito hobe"
+        },
+        {
+          "urdu": "۲۹۷۔ احمد۔ اسد بھائی ایک کی ضرورت ہے باقیوں کی حاجت نہیں اور آپ کو معلوم ہے کہ ہمیں اللہ پاک کی نعمتوں کی قدر کرنی چاہیے",
+          "bangla": "আহমেদ। আসাদ ভাই, একজনের প্রয়োজন, অন্যদের প্রয়োজন নেই, এবং আপনি জানেন যে আমাদের আল্লাহর নেয়ামতের প্রশংসা করা উচিত।",
+          "roman": "ahmed. asad vai, ekjoner prayojon, anyader proyojon nei, ebong aapni janen je amader allahar neyamoter prashansa kora uchito."
+        },
+        {
+          "urdu": "۲۹۸۔ اسد۔ جی احمد بھائی آپ سہی فرما رہے ہیں میں آئندہ احتیاط کروں گا",
+          "bangla": "আসাদ। হ্যাঁ, আহমেদ ভাই, আপনি ঠিক বলেছেন, আমি ভবিষ্যতে সতর্ক থাকব",
+          "roman": "asad. hyan, ahmed vai, aapni thik bolechen, ami vobissote sotorko thakab"
+        }
+      ]
+    },
+    {
+      "id": "bangla-059",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "گاڑی میں",
+      "bangla": "গাড়িতে",
+      "roman": "garite",
+      "urdu": "گاڑی میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۲۹۹۔ احمد۔ اسد بھائی آپ کھڑے ہو جائے اور سیٹ ان بابا جی کو دے دیں",
+          "bangla": "আহমেদ। আসাদ ভাই, প্লিজ উঠে দাঁড়ান এবং সিটটি বাবাজিকে দেন",
+          "roman": "ahmed. asad vai, please uthe daanraan ebong seatti babajike den"
+        },
+        {
+          "urdu": "۳۰۰۔ اسد۔ لیکن میں بھی سکون سے بیٹھنا چاہتا ہوں ۔",
+          "bangla": "আসাদ। কিন্তু আমিও চুপচাপ বসে থাকতে চাই।",
+          "roman": "asad. kintu amio chupchap bose thakte chai."
+        },
+        {
+          "urdu": "۳۰۱۔ احمد ۔پیارے بھائی حدیث پاک کا مفہوم ہے کہ اللہ کے نزدیک فرائض کی ادائیگی کے بعد سب سے افضل عمل کسی مسلمان کا دل خوش کرنا ہے۔",
+          "bangla": "আহমাদ, প্রিয় ভাই, পবিত্র হাদিসের অর্থ হলো, আল্লাহর কাছে কর্তব্য পালনের পর সর্বোত্তম কাজ হলো একজন মুসলমানের অন্তরকে খুশি করা।",
+          "roman": "ahmad, priyo vai, pobitro hadiser ortho holo, allahar kache kartabya paloner por sorbottom kaj holo ekjon musalmaner antarke khushi kora."
+        },
+        {
+          "urdu": "۳۰۲۔ اسد ۔ بہت شکریہ احمد بھائی",
+          "bangla": "আসাদ ভাই আপনাকে অনেক ধন্যবাদ আহমেদ",
+          "roman": "asad bhai aapnake onek dhonnobad ahmed"
+        }
+      ]
+    },
+    {
+      "id": "bangla-060",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کلاس روم میں",
+      "bangla": "শ্রেণীকক্ষে",
+      "roman": "shrenikakkhe",
+      "urdu": "کلاس روم میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۰۳۔ احمد ۔ اسد بھائی ہمارے طلحہ بھائی یونیورسٹی کیوں آرہے۔",
+          "bangla": "আহমেদ। আসাদ ভাই, আমাদের তালহা ভাই বিশ্ববিদ্যালয়ে আসছেন কেন?",
+          "roman": "ahmed. asad vai, amader talha bhai bishwabidyaloye aschen ken?"
+        },
+        {
+          "urdu": "۳۰۴۔ اسد ۔ میری ان سے بات ہوئی تھی کہ رہے تھے کہ کچھ پریشانی ہے اس لئے نہیں آسکتا ۔",
+          "bangla": "আসাদের সাথে আমার কথা হয়েছে এবং তারা বলছে কিছু সমস্যা আছে তাই তারা আসতে পারবে না।",
+          "roman": "asader sathe aamar kotha hoyeche ebong tara bolche kichu samasya ache tai tara ashte parbe na."
+        },
+        {
+          "urdu": "۳۰۵۔ احمد ۔ آپ نے ان سے پوچھا نہیں کہ کیا پریشان ہے ۔",
+          "bangla": "আহমেদ। আপনি তাকে জিজ্ঞাসা করেননি যে তাকে কী বিরক্ত করছে।",
+          "roman": "ahmed. aapni take jignasa korenni je take ki birokto korche."
+        },
+        {
+          "urdu": "۳۰۶۔ اسد ۔ پوچھا تھا بتا رہے تھے کہ فیس کا مسئلہ ہے ۔",
+          "bangla": "আসাদকে জিজ্ঞেস করেছিলাম, ওরা আমাকে বলছে ফি সমস্যা আছে।",
+          "roman": "asadke jignesh korechilam, ora aamake bolche fi samasya ache."
+        },
+        {
+          "urdu": "۳۰۷۔ احمد۔ تو اسد بھائی ہم انکی مدد کر دیتے ہیں ۔",
+          "bangla": "আহমেদ। তাই আসাদ ভাই, আমরা তাদের সাহায্য করি।",
+          "roman": "ahmed. tai asad vai, amra taader sahajjo kori."
+        },
+        {
+          "urdu": "۳۰۸۔ اسد ۔ اس کی مدد کرنے سے ہمیں کیا ملے گا ۔",
+          "bangla": "আসাদকে সাহায্য করে আমরা কী পাব?",
+          "roman": "asadke sahajjo kore amra ki pab?"
+        },
+        {
+          "urdu": "۳۰۹۔ احمد۔ حدیث پاک میں ہے کہ جو کسی مسلمان کی پریشان دور گا اللہ قیامت کی پریشانیوں میں سے اس کی ایک پریشان دور کرے گا ۔",
+          "bangla": "আহমেদ। পবিত্র হাদিসে ইরশাদ হয়েছে, যে ব্যক্তি কোনো মুসলমানের কষ্ট দূর করবে, আল্লাহ কিয়ামতের দিন থেকে তার একটি কষ্ট দূর করবেন।",
+          "roman": "ahmed. pobitro hadise irshad hayeeche, je byakti kono musalmaner kosto dur korbe, allah kiyamoter din theke tar ekti kosto dur korben."
+        },
+        {
+          "urdu": "۳۱۰۔ اسد ۔ اچھا اس کی اتنی بڑی فضیلت ہے تو میں ضرور اس کی مدد کروں گا ۔",
+          "bangla": "আসাদ আচ্ছা, তার এত বড় গুণ আছে, তাই আমি অবশ্যই তাকে সাহায্য করব।",
+          "roman": "asad accha, tar eto boro gun ache, tai ami abashyai take sahajjo korob."
+        }
+      ]
+    },
+    {
+      "id": "bangla-061",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "بازار میں",
+      "bangla": "বাজারে",
+      "roman": "bazare",
+      "urdu": "بازار میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۱۱۔ احمد۔ اسد بھائی راستے میں چلتے ہو ادھر اودھر نہیں دیکھنا چاہیے۔",
+          "bangla": "আহমেদ। আসাদ ভাই, রাস্তা দিয়ে হাঁটার সময় এদিক ওদিক তাকাতে হবে না।",
+          "roman": "ahmed. asad vai, rasta diye hatar shomoy edik odik takate habe na."
+        },
+        {
+          "urdu": "۳۱۲۔ اسد ۔ اس طرح دیکھنے سے کیا ہوتا ہے ۔",
+          "bangla": "আসাদ এটা দেখতে কেমন?",
+          "roman": "asad eta dekhte kemon?"
+        },
+        {
+          "urdu": "۳۱۳۔ احمد۔اسد بھائی بہت سارے سائن بورڈ ایسے ہوتے ہیں کہ ان پر بہت عجیب تصویریں بنی ہوتی ہیں اور انکی طرف دیکھنا جائز بھی نہیں ہوتا ۔",
+          "bangla": "আহমেদ- আসাদ ভাই, অনেক সাইনবোর্ড আছে যেগুলোতে খুব অদ্ভুত ছবি আছে এবং সেগুলো দেখাও জায়েজ নয়।",
+          "roman": "ahmed- asad vai, onek signboard ache jegulote khub advuto chobi ache ebong segulo dekhao jayez nay."
+        },
+        {
+          "urdu": "۳۱۴۔ اسد ۔ تو پھر کس طرح چلنا چاہیے ۔",
+          "bangla": "আসাদ তাহলে আমরা কিভাবে এগোব?",
+          "roman": "asad tahole amra kibhabe egob?"
+        },
+        {
+          "urdu": "۳۱۵۔ احمد۔ سنت طریقہ یہ ہے کہ نیچی نظریں کئے پروقار طریوے سے چلنا ۔",
+          "bangla": "আহমেদ। সুন্নত পথ হল নিচের দিকে তাকানো এবং মর্যাদাপূর্ণভাবে চলা।",
+          "roman": "ahmed. sunnat poth hal nicher dike takano ebong morjadapurnovabe chla."
+        },
+        {
+          "urdu": "۳۱۶۔ اسد ۔ کیا اس کے علاوہ بھی اور سنتیں او ر آداب ہیں ۔",
+          "bangla": "আসাদ এ ছাড়া অন্য কোন ঐতিহ্য ও প্রথা আছে কি?",
+          "roman": "asad a chara anno kono oitijhyo o protha ache ki?"
+        },
+        {
+          "urdu": "۳۱۷۔ احمد ۔ جی بہت سارے ہیں اسی طرح قران پاک میں ہے اور میانہ چال چل ۔",
+          "bangla": "আহমেদ। হ্যাঁ, তাদের অনেক আছে. একইভাবে পবিত্র কোরআনে রয়েছে এবং অনেক কৌশল রয়েছে।",
+          "roman": "ahmed. hyan, taader onek ache. ekibhabe pobitro korane royeche ebong onek koushal rayeeche."
+        },
+        {
+          "urdu": "۳۱۸۔ اسد ۔ کیا آپ کے پاس اس کے متعلق کوئی کتاب ہے ۔",
+          "bangla": "আসাদ আপনার কি এই সম্পর্কিত কোন বই আছে?",
+          "roman": "asad aapnar ki ei samparkito kono boi ache?"
+        },
+        {
+          "urdu": "۳۱۹۔ احمد۔ جی اسد بھائی دعوت اسلامی کا ایک ماہنامہ فیضان مدینہ ہے اس چلنے کا سیت طریقہ لکھا ہوا ہے",
+          "bangla": "আহমেদ। জনাব আসাদ ভাই, দাওয়াত-ই-ইসলামীর মাসিক পত্রিকা ফয়জান মদীনা",
+          "roman": "ahmed. jonab asad vai, dawat-i-islamir masik patrika faizan modina"
+        },
+        {
+          "urdu": "۳۲۰۔ اسد ۔ بہت شکریہ میں یہ کتاب ضرور پڑھوں گا ۔",
+          "bangla": "আসাদ আপনাকে অনেক ধন্যবাদ, আমি অবশ্যই এই বইটি পড়ব।",
+          "roman": "asad aapnake onek dhonyabad, ami abashyai ei boiti porb."
+        }
+      ]
+    },
+    {
+      "id": "bangla-062",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کلاس روم میں",
+      "bangla": "শ্রেণীকক্ষে",
+      "roman": "shrenikakkhe",
+      "urdu": "کلاس روم میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۲۱۔ احمد ۔ اسد بھائی اس طرح کسی کی چیزبغیر اجازت کے استعمال کرنا جائز نہیں ہے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, অনুমতি ছাড়া এমন কিছু ব্যবহার করা জায়েজ নয়।",
+          "roman": "ahmed. asad vai, anumati chara emon kichu byabohar kora jayez nay."
+        },
+        {
+          "urdu": "۳۲۲۔ اسد ۔احمد بھائی پسنل ہی تو استعمال کی ہے۔",
+          "bangla": "আসাদ-আহমদ ভাই ব্যবহার করেছেন।",
+          "roman": "asad-ahmod bhai byabohar korechen."
+        },
+        {
+          "urdu": "۳۲۳۔ احمد ۔ اگرچہ پسنل ہے لیکن بغیر اجازت کے استعمال کرنا گناہ ہے کیونکہ یہ چوری کے حکم میں ہے اور ناجائز استعمال ہے کیونکہ شریعت میں چوری کرنا ناجائز اور کبیرہ گناہ ہے",
+          "bangla": "আহমেদ। যদিও এটি ব্যক্তিগত, তবে অনুমতি ছাড়া এটি ব্যবহার করা একটি পাপ কারণ এটি চুরি এবং অবৈধ ব্যবহারের আদেশের অংশ কারণ চুরি করা অবৈধ এবং শরিয়া আইনে একটি বড় পাপ।",
+          "roman": "ahmed. jodio eti byaktigato, tabe anumati chara eti byabohar kora ekti paap karon eti churi ebong aboidho byaboharer adesher angsho karon churi kora aboidho ebong shoriya aaine ekti boro pap."
+        },
+        {
+          "urdu": "۳۲۴۔ اسد۔ بہت شکریہ احمد بھائی آپ نے مجھے چوری سے بچا لیا ۔",
+          "bangla": "আসাদ। আপনাকে অনেক ধন্যবাদ আহমেদ ভাই আপনি আমাকে চুরির হাত থেকে বাঁচিয়েছেন।",
+          "roman": "asad. aapnake onek dhonnobad ahmed bhai aapni aamake churir haat theke bachiyechen."
+        }
+      ]
+    },
+    {
+      "id": "bangla-063",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "سحری کے وقت",
+      "bangla": "সেহরির সময়",
+      "roman": "seharir samay",
+      "urdu": "سحری کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۲۵۔ احمد ۔ اسد بھائی بس سحری کا ٹائم ختم ہو گیا ہے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, সুহরীর সময় শেষ।",
+          "roman": "ahmed. asad vai, suharir shomoy sesh."
+        },
+        {
+          "urdu": "۳۲۶۔ اسد۔ ابھی تو اذان ہو رہی ہے تو ٹائم کیسے ختم ہو گیا ۔",
+          "bangla": "আসাদ। এখন আযান হচ্ছে, তাহলে সময় শেষ হলো কিভাবে?",
+          "roman": "asad. ekhon ajan hocche, tahole shomoy shesh holo kivabe?"
+        },
+        {
+          "urdu": "۳۲۷۔ احمد ۔ جناب اذان نماز فجر کے لئے ہوتی ہے اور سحری کا وقت اذان سے ختم ہو جاتا ہے ۔",
+          "bangla": "আহমেদ। হুজুর, নামাজের আযান হলো ফজরের নামাজের জন্য আর সেহরির সময় শেষ হলো নামাজের আযানের মাধ্যমে।",
+          "roman": "ahmed. hujur, namajer ajan holo fojorer namajer jonno r seharir shomoy shesh holo namajer ajaner madhyome."
+        },
+        {
+          "urdu": "۳۲۸۔ اسد ۔ تو جو لوگ اذان ہونے تک کھانا کھاتے رہتے ہیں انکے روزے کا کیا حکم ہے ۔",
+          "bangla": "আসাদ তাহলে যারা আযান না হওয়া পর্যন্ত খেতে থাকে তাদের রোযার বিধান কি?",
+          "roman": "asad tahole jara ajan na haoa porjonto khete thake taader rojar bidhan ki?"
+        },
+        {
+          "urdu": "۳۲۹۔ احمد ۔ جی جناب جو لوگ اذن ہونے تک کھانا کھاتے رہتے ہیں انکا روزہ نہیں ہوتا ۔",
+          "bangla": "আহমেদ। হ্যাঁ, হুজুর, যারা অনুমতি না দেওয়া পর্যন্ত খেতে থাকে তাদের রোজা নেই।",
+          "roman": "ahmed. hyan, hujur, jara anumati na deoa porjonto khete thake taader roja nei."
+        },
+        {
+          "urdu": "۳۳۰۔ اسد ۔ تو جو روزے میں نے اسی طرح رکھے تھے انکا کیا ہوگا ۔",
+          "bangla": "আসাদ তো কি হবে রোজা রেখেছি একইভাবে।",
+          "roman": "asad to ki habe roja rekhechi ekivabe."
+        },
+        {
+          "urdu": "۳۳۱۔ احمد۔ اب آپ ان روزوں کی قضا کریں ۔",
+          "bangla": "আহমেদ। এখন আপনি এই রোজার বিচার করুন।",
+          "roman": "ahmed. ekhon aapni ei rojar bichar korun."
+        },
+        {
+          "urdu": "۳۳۲۔ اسد ۔ جزاکم اللہ خیرا ۔",
+          "bangla": "আসাদ জাযাকুম আল্লাহ খায়ের।",
+          "roman": "asad jazakum allah khayer."
+        }
+      ]
+    },
+    {
+      "id": "bangla-064",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کھانا کھانے کے وقت",
+      "bangla": "খাওয়ার সময়",
+      "roman": "khawar samay",
+      "urdu": "کھانا کھانے کے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۳۳۔ احمد۔اسد بھائی کھانا کھانے سے پہلے ہاتھ دھوئے تھے کیا ۔",
+          "bangla": "আহমেদ- আসাদ ভাই খাওয়ার আগে হাত ধুয়েছেন?",
+          "roman": "ahmed- asad bhai khawar age haat dhuyeechen?"
+        },
+        {
+          "urdu": "۳۳۴۔ اسد ۔ نہیں میں ہاتھ نہیں دھوئے۔",
+          "bangla": "আসাদ না, আমি হাত ধুইনি।",
+          "roman": "asad na, ami haat dhuini."
+        },
+        {
+          "urdu": "۳۳۵۔ احمد ۔ حدیث پاک میں ہے کہ کھانے کی برکت اس سے پہلے وضو اور بعد میں وضو کرنے میں ہے",
+          "bangla": "আহমেদ। পবিত্র হাদিসে আছে, খাওয়ার বরকত হচ্ছে এর আগে ওযু এবং পরে ওযু করা",
+          "roman": "ahmed. pobitro hadise ache, khawar barkat hachche er age oju ebong pore oju kora"
+        },
+        {
+          "urdu": "۳۳۶۔ اسد ۔اس کے علاوہ کیا اور بھی سنتیں ہیں ۔",
+          "bangla": "আসাদ। এ ছাড়া আর কোন সুন্নাত আছে কি?",
+          "roman": "asad. a chara r kono sunnat ache ki?"
+        },
+        {
+          "urdu": "۳۳۷۔ احمد ۔ جی دعوت اسلامی کی ایک کتاب ہے فیضان سنت اس میں پورا ایک باب ہے کھانا کھانے کے متعلق ۔",
+          "bangla": "আহমেদ। হ্যাঁ, দাওয়াতে ইসলামীর একটি কিতাব আছে, ফাইজান সুন্নাহ, এবং তাতে খাবার খাওয়ার বিষয়ে পুরো একটি অধ্যায় রয়েছে।",
+          "roman": "ahmed. hyan, dawate islamir ekti kitab ache, faijan sunnah, ebong tate khabar khawar bishoye puro ekti adhyay rayeeche."
+        },
+        {
+          "urdu": "۳۳۸۔ اسد۔ بہت شکریہ میں اس کتاب کا ضرور مطالعہ کروں گا ۔",
+          "bangla": "আসাদ। আপনাকে অনেক ধন্যবাদ, আমি অবশ্যই এই বইটি অধ্যয়ন করব।",
+          "roman": "asad. aapnake onek dhonyabad, ami abashyai ei boiti adhyayan korob."
+        }
+      ]
+    },
+    {
+      "id": "bangla-065",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "رہائشی کمرہ میں",
+      "bangla": "বসার ঘরে",
+      "roman": "bosar ghore",
+      "urdu": "رہائشی کمرہ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۳۹۔ احمد ۔ پیارے بھائی پانی بیٹھ کر پینا چاہیے ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, বসে বসে পানি পান করা উচিত।",
+          "roman": "ahmed. priyo vai, bose bose pani pan kora uchito."
+        },
+        {
+          "urdu": "۳۴۰۔ اسد ۔ کیا کھٹرے ہو کر پانی پینا گنا ہ ہے ۔",
+          "bangla": "আসাদ মাতাল অবস্থায় পানি পান করা কি পাপ?",
+          "roman": "asad matal abosthay pani pan kora ki pap?"
+        },
+        {
+          "urdu": "۳۴۱۔ احمد۔اسد بھائی گناہ تو نہیں ہے لیکن سنت کے خلاف ہے ۔",
+          "bangla": "আহমাদ- আসাদ ভাই, এটা কোন গুনাহ নয়, এটা সুন্নাহ বিরোধী।",
+          "roman": "ahmad- asad vai, eta kono gunah nay, eta sunnah birodhi."
+        },
+        {
+          "urdu": "۳۴۲۔ اسد ۔ تو سنت طریقہ کیا ہے ۔",
+          "bangla": "আসাদ তাহলে সুন্নাত পদ্ধতি কি?",
+          "roman": "asad tahole sunnat poddhoti ki?"
+        },
+        {
+          "urdu": "۳۴۳۔ احمد ۔ سنت طریقہ یہ ہے کہ بیٹھ کر پانی پیا جائے اجالے میں دیکھ کر پانی پیا جائے ۔",
+          "bangla": "আহমেদ। সুন্নত পদ্ধতি হলো বসে বসে পানি পান করা এবং আলোর দিকে তাকিয়ে পানি পান করা।",
+          "roman": "ahmed. sunnat poddhoti holo bose bose pani pan kora ebong alor dike takiye pani pan kora."
+        },
+        {
+          "urdu": "۳۴۴۔ اسد ۔کیا ایک سانس میں پانی پیہ سکتے ہیں ۔",
+          "bangla": "আসাদ: এক নিঃশ্বাসে পানি পান করতে পারবেন?",
+          "roman": "asad: ek nihshwase pani pan korte parben?"
+        },
+        {
+          "urdu": "۳۴۵۔ احمد۔ حدیث پاک مفہوم ہے کہ ایک سانس میں پانی پینا شیطان کا طریقہ ہے ۔",
+          "bangla": "আহমেদ। পবিত্র হাদিস মানে এক নিঃশ্বাসে পানি পান করা শয়তানের পদ্ধতি।",
+          "roman": "ahmed. pobitro hadis mane ek nihshwase pani pan kora shoytaner poddhoti."
+        },
+        {
+          "urdu": "۳۴۶۔ اسد ۔ میں آئندہ کوشش کروں گا کہ پامی سنت کے ،طابق پیؤں ۔",
+          "bangla": "আসাদ আমি ভবিষ্যতে খেজুর সুন্নাহ অনুযায়ী পান করার চেষ্টা করব।",
+          "roman": "asad ami vobissote khejur sunnah anujaye pan korar chesta korob."
+        }
+      ]
+    },
+    {
+      "id": "bangla-066",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "یونیورسٹی کے گراؤنڈ میں",
+      "bangla": "বিশ্ববিদ্যালয়ের মাঠে",
+      "roman": "bishwavidyalayer mathe",
+      "urdu": "یونیورسٹی کے گراؤنڈ میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۴۷۔ اسد ۔ احمد بھائی آج میں موبائل بیچ دیا ہے ۔",
+          "bangla": "আসাদ আহমেদ ভাই আজ মোবাইল বিক্রি করে দিয়েছেন।",
+          "roman": "asad ahmed bhai aaj mobile bikri kore diyechen."
+        },
+        {
+          "urdu": "۳۴۸۔ احمد۔ لیکن وہ تو خراب تھا آپ نے کیسے بیچ دیا ۔",
+          "bangla": "আহমেদ। কিন্তু খারাপ লাগল, বিক্রি করলেন কীভাবে?",
+          "roman": "ahmed. kintu kharap lagol, bikri korlen kivabe?"
+        },
+        {
+          "urdu": "۳۴۹۔ اسد ۔ بس جھوٹ بو ل کر بیچ دیا ۔",
+          "bangla": "আসাদ শুধু মিথ্যা বলে বিক্রি করে দিয়েছে।",
+          "roman": "asad shudhu mithya bole bikri kore diyeche."
+        },
+        {
+          "urdu": "۳۵۰۔ احمد ۔ لیکن اسد بھائی جھوٹ بولنا تو بہت بڑا گناہ ہے ۔",
+          "bangla": "আহমেদ। কিন্তু আসাদ ভাই, মিথ্যা বলা বড় পাপ।",
+          "roman": "ahmed. kintu asad vai, mithya bola boro pap."
+        },
+        {
+          "urdu": "۳۵۱۔ اسد۔اچھا تو کیا اس کے متعلق قران پاک میں بیان ہوا ہے ۔",
+          "bangla": "আসাদ। আচ্ছা, পবিত্র কুরআনে কি এ বিষয়ে কোনো বক্তব্য আছে?",
+          "roman": "asad. accha, pobitro kurane ki a bishoye kono boktabya ache?"
+        },
+        {
+          "urdu": "۳۵۲۔ احمد۔ قران پاک میں ہے کہ جھوٹوں پر اللہ کی لعنت ہے۔",
+          "bangla": "আহমেদ। পবিত্র কোরানে আছে মিথ্যাবাদীর উপর আল্লাহর অভিশাপ।",
+          "roman": "ahmed. pobitro korane ache mithyabadir upor allahar ovishap."
+        },
+        {
+          "urdu": "۳۵۳۔ اسد۔آپ بتائیں پھر میں کیا کروں ۔",
+          "bangla": "আসাদ। আপনি বলুন তাহলে আমার কি করা উচিত।",
+          "roman": "asad. aapni bolun tahole aamar ki kora uchito."
+        },
+        {
+          "urdu": "۳۵۴۔ احمد۔ آپ اس کو سچ بتا دیں بس اور توبہ کر لیں ۔",
+          "bangla": "আহমেদ। শুধু তাকে সত্য বলুন এবং অনুতাপ করুন।",
+          "roman": "ahmed. shudhu take satya bolun ebong anutap korun."
+        },
+        {
+          "urdu": "۳۵۵۔ اسد۔ بہت شکریہ ۔",
+          "bangla": "আসাদ। আপনাকে অনেক ধন্যবাদ.",
+          "roman": "asad. aapnake onek dhonyabad."
+        }
+      ]
+    },
+    {
+      "id": "bangla-067",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کھیلتے وقت",
+      "bangla": "খেলার সময়",
+      "roman": "khelar shomoy",
+      "urdu": "کھیلتے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۵۶۔ احمد۔ اسد بھائی آپ نے کپڑئے اتنی چھوٹے کیں پہنے ہیں ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, এত ছোট জামা পরেছেন কেন?",
+          "roman": "ahmed. asad vai, eto chhota jama porechen ken?"
+        },
+        {
+          "urdu": "۳۵۷۔ اسد ۔ان میں بھاگنا آسان ہوتا ہے ۔",
+          "bangla": "আসাদ: তাদের মধ্যে দৌড়ানো সহজ।",
+          "roman": "asad: taader modhye dourano sahoj."
+        },
+        {
+          "urdu": "۳۵۸۔ احمد۔ لیکن ان میں سے تو آپ کے گھٹنے نظر آرہے ہیں۔",
+          "bangla": "আহমেদ। তবে তাদের মধ্যে আপনার হাঁটু দৃশ্যমান।",
+          "roman": "ahmed. tabe taader modhye aapnar hatu drishyoman."
+        },
+        {
+          "urdu": "۳۵۹۔ اسد۔ تو پھر کیا ہوا جناب ۔",
+          "bangla": "আসাদ। তাহলে কি হল স্যার?",
+          "roman": "asad. tahole ki hal syar?"
+        },
+        {
+          "urdu": "۳۶۰۔ احمد ۔ پیارے بھائی مردکے لئے فرض ہے کہ وہ ناف سے کر گھٹنوں تک اپنے جسم کو چھپائے۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, নাভি থেকে হাঁটু পর্যন্ত শরীর ঢেকে রাখা পুরুষের জন্য ওয়াজিব।",
+          "roman": "ahmed. priyo vai, navi theke hatu porjonto shorir dheke rakha purusher jonno oyajib."
+        },
+        {
+          "urdu": "۳۶۱۔ اسد ۔اگر نہ چھپائیں تو کیا گناہ ہو گا ۔",
+          "bangla": "আসাদ: লুকিয়ে না রাখলে কি পাপ হবে?",
+          "roman": "asad: lukiye na rakhle ki paap hobe?"
+        },
+        {
+          "urdu": "۳۶۲۔ احمد۔جی بلکل اگر نہیں چھاپئیں گےتو گناہ گار ہوں گے ۔",
+          "bangla": "আহমদ: হ্যাঁ, ছাপা না হলে অপরাধী হবে।",
+          "roman": "ahmod: hyan, chhapa na hale aporadhi hobe."
+        }
+      ]
+    },
+    {
+      "id": "bangla-068",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کینٹین پر",
+      "bangla": "ক্যান্টিনে",
+      "roman": "cantine",
+      "urdu": "کینٹین پر",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۶۳۔ احمد ۔ اسد بھائی آپ اکیلے ہی آئے ہیں فیضان بھائی کیوں نہیں آئے۔",
+          "bangla": "আহমেদ। আসাদ ভাই, আপনি একা এসেছেন, ফাইজান ভাই আসেননি কেন?",
+          "roman": "ahmed. asad vai, aapni eka esechen, faijan bhai asenni ken?"
+        },
+        {
+          "urdu": "۳۶۴۔ اسد۔ میں خود ہی نہیں بولایا انکو ۔",
+          "bangla": "আসাদ। আমি নিজে তাদের ডাকিনি।",
+          "roman": "asad. ami nije taader dakini."
+        },
+        {
+          "urdu": "۳۶۵۔ احمد ۔ وہ کیوں جب کے انہوں نے کہا بھی تھا ۔",
+          "bangla": "আহমেদ। কেন তিনি এমন বললেন?",
+          "roman": "ahmed. keno tini emon bollen?"
+        },
+        {
+          "urdu": "۳۶۶۔ اسد۔ وہ موٹو اتنا کھاتا ہے اور پیسے بھی نہیں دیتا ۔",
+          "bangla": "আসাদ। যে মোটো এত খায় এবং টাকাও দেয় না।",
+          "roman": "asad. je moto eto khay ebong takao dey na."
+        },
+        {
+          "urdu": "۳۶۷۔ احمد۔ پیارے بھائی اس طرح کسی کا نام نہیں بگاڑتے اس طرح گباہ ہے ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, এভাবে কারো নাম নষ্ট করবেন না, এটা অপবাদ।",
+          "roman": "ahmed. priyo vai, evabe karo naam noshto korben na, eta apobad."
+        },
+        {
+          "urdu": "۳۶۸۔ اسد۔ جی میں توبہ کعتا ہوں اور آئندہ کسی کا نام نہیں بگاڑوں گا ۔",
+          "bangla": "আসাদ। হ্যাঁ, আমি অনুতপ্ত এবং ভবিষ্যতে কারও নাম নষ্ট করব না।",
+          "roman": "asad. hyan, ami anutapto ebong vobissote karo naam noshto korbo na."
+        }
+      ]
+    },
+    {
+      "id": "bangla-069",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کلاس کے بعد",
+      "bangla": "ক্লাসের পর",
+      "roman": "classer por",
+      "urdu": "کلاس کے بعد",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۶۹۔ احمد۔اسد بابھائی آج جس طر ح آپ نے کلاس میں استاد صاحب سے بات کی وہ بہت غلط طریقہ ہے ۔",
+          "bangla": "আহমেদ- আসাদ বাবা, তুমি আজকে ক্লাসে শিক্ষকের সাথে যেভাবে কথা বললে তা খুবই ভুল।",
+          "roman": "ahmed- asad baba, tumi aajke classe shikkhaker sathe jebhabe kotha bolle ta khubi vul."
+        },
+        {
+          "urdu": "۳۷۰۔ اسد ۔احمد۔ ھائی وہ میری بات ہی نہیں سن رہے تھے اور بول رہے تھے کہ میں جھوٹ بول رہا ہوں ۔",
+          "bangla": "আসাদ আহমেদ। হাই, তারা আমার কথা শুনছিল না এবং বলছে যে আমি মিথ্যা বলছি।",
+          "roman": "asad ahmed. hai, tara aamar kotha shunchilo na ebong bolche je ami mithya bolchi."
+        },
+        {
+          "urdu": "۳۷۱۔ احمد ۔استاد کے ساتھ اس انداز میں بات کرنا بے آدبی کہلاتا ہے ۔",
+          "bangla": "আহমেদ: একজন শিক্ষকের সাথে এইভাবে কথা বলা অশ্লীল বলে বিবেচিত হয়।",
+          "roman": "ahmed: ekjon shikkhaker sathe eibhabe kotha bola aslil bole bibechito hay."
+        },
+        {
+          "urdu": "۳۷۲۔ اسد ۔ اب مجھے کیا کرنا چاہیے ۔",
+          "bangla": "আসাদ এখন কি করব?",
+          "roman": "asad ekhon ki korob?"
+        },
+        {
+          "urdu": "۳۷۳۔ احمد ۔ آپ استاد صاحب سے معافی مانگ لیں ۔",
+          "bangla": "আহমেদ। তুমি শিক্ষকের কাছে ক্ষমা চাও।",
+          "roman": "ahmed. tumi shikkhaker kache khoma chao."
+        },
+        {
+          "urdu": "۳۷۴۔ اسد ۔ جی ٹھیک ہے",
+          "bangla": "আসাদ হ্যাঁ ঠিক আছে",
+          "roman": "asad ha thik ache"
+        }
+      ]
+    },
+    {
+      "id": "bangla-070",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "میس پر کھانا کھاتے ہوئے",
+      "bangla": "মেসে খাচ্ছে",
+      "roman": "mese khacche",
+      "urdu": "میس پر کھانا کھاتے ہوئے",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۷۵۔ احمد۔ اسد بھائی اس طرح جلدی جلدی کھانا نہیں کھانا چاہیے ۔",
+          "bangla": "আহমেদ। আসাদ ভাই, এত তাড়াহুড়ো করে খাওয়া উচিত নয়।",
+          "roman": "ahmed. asad vai, eto tarahuro kore khaoa uchit nay."
+        },
+        {
+          "urdu": "۳۷۶۔ اسد ۔ میرے ٹائم بہت کم ہے اس لئے ۔",
+          "bangla": "আসাদ আমার সময় খুব কম।",
+          "roman": "asad aamar shomoy khub kom."
+        },
+        {
+          "urdu": "۳۷۷۔ احمد۔ لیکن یہ سنت طریقہ نہیں ہے پیارے بھائی ۔",
+          "bangla": "আহমেদ। তবে এটা সুন্নাহ পদ্ধতি নয় প্রিয় ভাই।",
+          "roman": "ahmed. tabe eta sunnah poddhoti noy priyo vai."
+        },
+        {
+          "urdu": "۳۷۸۔ اسد ۔ سنت طریقہ وہ کیا ہے ۔",
+          "bangla": "আসাদ সুন্নত পদ্ধতি কি?",
+          "roman": "asad sunnat poddhoti ki?"
+        },
+        {
+          "urdu": "۳۷۹۔ احمد۔ سنت طریقہ یہ ہے کہ کھانا تین انگللیوں سے کھایا جائے اور چبا چبا کر کھایا جائے اور اس بات کا بھی خیال رکھا جائے کہ کھانا کھاتے وقت منہ سے آواز نہ آئے ۔",
+          "bangla": "আহমেদ। সুন্নত পদ্ধতি হলো খাবার তিন আঙ্গুল দিয়ে খাওয়া এবং খাওয়ার সময় চিবানো এবং খাওয়ার সময় মুখ থেকে যেন কোনো শব্দ না হয় সেদিকে খেয়াল রাখা।",
+          "roman": "ahmed. sunnat poddhoti holo khabar tin angul diye khaoa ebong khawar shomoy chibano ebong khawar shomoy mukh theke jeno kono shobdo na hoy sedike kheyal rakha."
+        }
+      ]
+    },
+    {
+      "id": "bangla-071",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "وضو کرتے ہوئے",
+      "bangla": "অযু করার সময়",
+      "roman": "aju korar samay",
+      "urdu": "وضو کرتے ہوئے",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۸۰۔ احمد۔ پیارے بھائی آپ نے ایک ہاتھ دھویا ہے اس طرح تو وضو نہیں ہوتا۔",
+          "bangla": "আহমেদ। প্রিয় ভাই, আপনি এক হাত ধৌত করেছেন, তাই ওযু হয়নি।",
+          "roman": "ahmed. priyo vai, aapni ek haat dhouto korechen, tai oju hayani."
+        },
+        {
+          "urdu": "۳۸۱۔ اسد۔ میرا دوسرا ہاتھ زخمی ہے اس لئے اسے نہیں دھو سکتا ۔",
+          "bangla": "আসাদ। আমার অন্য হাতে আঘাত লেগেছে তাই আমি ধুতে পারছি না।",
+          "roman": "asad. aamar anno hate aghat legeche tai ami dhute parchi na."
+        },
+        {
+          "urdu": "۳۸۲۔ احمد ۔ پیارے بھائی لیکن آپ مسح تو کر سکتے ہیں ۔",
+          "bangla": "আহমেদ। প্রিয় ভাই আপনি কিন্তু মুছতে পারেন।",
+          "roman": "ahmed. priyo bhai aapni kintu muchte paren."
+        },
+        {
+          "urdu": "۳۸۳۔ اسد ۔جی ٹھیک ہے آپ مجھے وضو کے فرائض بتا سکتے ہیں کیا ۔",
+          "bangla": "আসাদ: হ্যাঁ, ওযুর কর্তব্য বলতে পারবেন?",
+          "roman": "asad: hyan, ojur kartabya bolte parben?"
+        },
+        {
+          "urdu": "۳۸۴۔ احمد ۔ جی وضو کے چار فرائض ہیں چہرہ دھونا دونوں ہاتھ کہنیوں سمیت دھونا اور سر کا مسح کرنا اور دونوں پاؤں ٹخنوں سمیت دھونا ۔",
+          "bangla": "আহমেদ। ওযুর চারটি কর্তব্য: মুখমণ্ডল ধৌত করা, কনুইসহ উভয় হাত ধৌত করা, মাথার মাসাহ করা এবং গোড়ালিসহ উভয় পা ধৌত করা।",
+          "roman": "ahmed. ojur charti kortobyo: mukhomandal dhouto kora, konuisoho ubhoy haat dhouto kora, mathar masah kora ebong goralisoho ubhoy pa dhouto kora."
+        }
+      ]
+    },
+    {
+      "id": "bangla-072",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "چائے پیتے وقت",
+      "bangla": "চা খাওয়ার সময়",
+      "roman": "cha khawar samay",
+      "urdu": "چائے پیتے وقت",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۸۵۔ اسد ۔ احمد بھائی میں اس یونیورسٹی میں نہیں پڑھنا چاہتا ۔",
+          "bangla": "আসাদ আহমেদ ভাই আমি এই বিশ্ববিদ্যালয়ে পড়তে চাই না।",
+          "roman": "asad ahmed bhai ami ei bishwabidyaloye porte chai na."
+        },
+        {
+          "urdu": "۳۸۶۔ احمد۔ وہ کیوں یہ تو یونیورسٹی بہت اچھی ہے ۔",
+          "bangla": "আহমেদ। কেন এই বিশ্ববিদ্যালয় খুব ভাল?",
+          "roman": "ahmed. keno ei bishwabidyalay khub val?"
+        },
+        {
+          "urdu": "۳۸۷۔ اسد ۔لیکن اس میں کو ایجوکیشن نہیں ہے اس لئے مزہ نہیں آتا ۔",
+          "bangla": "আসাদ। কিন্তু তাতে শিক্ষা নেই, তাই মজা নেই।",
+          "roman": "asad. kintu tate shikkha nei, tai moja nei."
+        },
+        {
+          "urdu": "۳۸۸۔ احمد۔ لیکن اسد بھائی ایسی یونیورسٹی جس میں کوایجوکیشن ہو اس میں تو پڑھنا جائز نہیں ہے",
+          "bangla": "আহমেদ। কিন্তু আসাদ ভাই, সহশিক্ষা আছে এমন বিশ্ববিদ্যালয়ে পড়া জায়েজ নয়",
+          "roman": "ahmed. kintu asad vai, sahashikkha ache emon bishwabidyaloye pora jayez nay"
+        },
+        {
+          "urdu": "۳۸۹۔ اسد ۔ کو ایجوکیشن یونیورسٹی میں کیوں پڑھنا جائز نہیں ہے ۔",
+          "bangla": "আসাদ শিক্ষা বিশ্ববিদ্যালয়ে পড়া জায়েজ কেন?",
+          "roman": "asad shikkha bishwabidyaloye pora jayez ken?"
+        },
+        {
+          "urdu": "۳۹۰۔ احمد۔ اس لئے کہ اس میں لرکیاں اور لڑکے ایک ساتھ پڑھتے ہیں اور اس طرح کسی غیر محرم کے ساتھ بیٹھنا جائز نہیں ہے",
+          "bangla": "আহমেদ। কেননা এতে লার্ক ও ছেলেরা একসাথে পড়ে তাই অ-মাহরামের সাথে বসা জায়েজ নয়।",
+          "roman": "ahmed. kenna ete lark o chelera aksathe pore tai a-mahramer sathe bosa jayez nay."
+        }
+      ]
+    },
+    {
+      "id": "bangla-073",
+      "category": "نیکی کی دعوت کے مکمل مکالمے",
+      "title": "کلاس میں",
+      "bangla": "ক্লাসে",
+      "roman": "clase",
+      "urdu": "کلاس میں",
+      "words": [],
+      "dialogue": [
+        {
+          "urdu": "۳۹۱۔ احمد ۔ آپ کل کلاس میں نہیں آئے تھےطبعیت تو ٹھیک تھی آپ کی۔",
+          "bangla": "আহমেদ। তুমি গতকাল ক্লাসে আসোনি, তোমার শারীরিক অবস্থা ভালো ছিল।",
+          "roman": "ahmed. tumi gotokal classe asoni, tomar sharirik abostha bhalo chil."
+        },
+        {
+          "urdu": "۳۹۲۔ اسد ۔جی میں کل ایک دوست سالگرہ پاڑٹی میں گیا تھا ۔",
+          "bangla": "আসাদ-জি, গতকাল এক বন্ধুর জন্মদিনের অনুষ্ঠানে গিয়েছিলাম।",
+          "roman": "asad-ji, gotokal ek bondhur jonmodiner anushthane giyechilam."
+        },
+        {
+          "urdu": "۳۹۳۔ احمد ۔ کیسی رہی پاڑتی آپ کی ۔",
+          "bangla": "আহমেদ। আপনার আশেপাশের এলাকা কেমন?",
+          "roman": "ahmed. aapnar ashepasher elaka kemon?"
+        },
+        {
+          "urdu": "۳۹۴۔ اسد ۔بہت اچھی تھی بہت مزا آیا ہم نے شراب بھی تھی ۔",
+          "bangla": "আসাদ: খুব ভালো লাগলো, অনেক মজা করলাম।",
+          "roman": "asad: khub bhalo laglo, onek moja korlam."
+        },
+        {
+          "urdu": "۳۹۵۔ احمد۔ لیکن شراب پینا تو حرام ہے",
+          "bangla": "আহমেদ। কিন্তু মদ পান করা হারাম",
+          "roman": "ahmed. kintu mod pan kora haram"
+        },
+        {
+          "urdu": "۳۹۶۔ اسد ۔ لیکن مجھے تو دوست بتا رہے تھے کہ شراب پینے سے کچھ نہیں ہوتا اور نہ ہی حراب ہے ۔",
+          "bangla": "আসাদ কিন্তু আমার বন্ধুরা আমাকে বলছিলেন যে অ্যালকোহল পান করা কিছুই করে না এবং ক্ষতিকারকও নয়।",
+          "roman": "asad kintu aamar bondhura aamake bolchilen je alcohol pan kora kichui kore na ebong khotikarako nay."
+        },
+        {
+          "urdu": "۳۹۷۔ احمد۔ اسد بھائی قران پاک میں شراب کو حرام قرار دیا گیا ہے اب آپ توبہ کریں اور ایسے دوستوں سے دوستی نہیں رکھنی چاہیئے۔",
+          "bangla": "আহমেদ। আসাদ ভাই, পবিত্র কুরআনে মদকে হারাম ঘোষণা করা হয়েছে, এখন আপনি তওবা করুন এবং এমন বন্ধুদের সাথে বন্ধুত্ব করবেন না।",
+          "roman": "ahmed. asad vai, pobitro kurane modke haram ghoshona kora hayeeche, ekhon aapni towba karun ebong emon bondhuder sathe bondhutto korben na."
+        }
+      ]
+    }
+  ]
+}
