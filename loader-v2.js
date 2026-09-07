@@ -26,7 +26,7 @@
           culture.src='./culture-v1.js?v=20260907arabic1';
           culture.onload=()=>{
             const operations=document.createElement('script');
-            operations.src='./language-operations.js?v=20260907ops1';
+            operations.src='./language-operations.js?v=20260907ops2';
             operations.onload=()=>{
               const auto=document.createElement('script');
               auto.src='./auth-autostart.js?v=20260901auto1';
