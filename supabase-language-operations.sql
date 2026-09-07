@@ -56,6 +56,21 @@ create table if not exists public.language_plan_assignments (
   primary key (language_code, plan_item_id)
 );
 
+create table if not exists public.language_plan_items (
+  id text primary key,
+  language_code text not null,
+  section text not null,
+  work text not null,
+  current_value numeric not null default 0,
+  unit text not null default 'count',
+  cumulative_targets jsonb not null default '{}'::jsonb,
+  yearly_required jsonb not null default '{}'::jsonb,
+  required_2026 numeric not null default 0,
+  monthly_2026 jsonb not null default '[]'::jsonb,
+  source_row integer,
+  updated_at timestamptz not null default now()
+);
+
 create table if not exists public.language_monthly_submissions (
   id uuid primary key default gen_random_uuid(),
   language_code text not null,
@@ -118,6 +133,7 @@ create table if not exists public.language_step_submissions (
 );
 
 alter table public.language_plan_assignments enable row level security;
+alter table public.language_plan_items enable row level security;
 alter table public.language_monthly_submissions enable row level security;
 alter table public.language_projects enable row level security;
 alter table public.language_project_steps enable row level security;
@@ -125,6 +141,8 @@ alter table public.language_step_submissions enable row level security;
 
 create policy "plan assignments scoped read" on public.language_plan_assignments for select to authenticated using (private.language_has_access(language_code));
 create policy "plan assignments manager write" on public.language_plan_assignments for all to authenticated using (private.language_can_manage(language_code)) with check (private.language_can_manage(language_code));
+create policy "plan items scoped read" on public.language_plan_items for select to authenticated using (private.language_has_access(language_code));
+create policy "plan items manager write" on public.language_plan_items for all to authenticated using (private.language_can_manage(language_code)) with check (private.language_can_manage(language_code));
 create policy "monthly submissions scoped read" on public.language_monthly_submissions for select to authenticated using (submitted_by=(select auth.uid()) or private.language_can_manage(language_code));
 create policy "monthly submissions worker insert" on public.language_monthly_submissions for insert to authenticated with check (
   submitted_by=(select auth.uid()) and private.language_has_access(language_code) and exists (
@@ -151,9 +169,10 @@ create policy "step submissions worker resubmit" on public.language_step_submiss
 using (submitted_by=(select auth.uid()) and status='rejected')
 with check (submitted_by=(select auth.uid()) and status='submitted' and reviewed_by is null and reviewed_at is null);
 
-grant select,insert,update,delete on public.language_plan_assignments,public.language_monthly_submissions,public.language_projects,public.language_project_steps,public.language_step_submissions to authenticated;
+grant select,insert,update,delete on public.language_plan_items,public.language_plan_assignments,public.language_monthly_submissions,public.language_projects,public.language_project_steps,public.language_step_submissions to authenticated;
 
 create index if not exists language_users_codes_idx on public.language_app_users using gin(language_codes);
+create index if not exists language_plan_items_language_idx on public.language_plan_items(language_code,section);
 create index if not exists language_assignments_assignee_idx on public.language_plan_assignments(assignee_id);
 create index if not exists language_assignments_supervisor_idx on public.language_plan_assignments(supervisor_id);
 create index if not exists language_assignments_assigned_by_idx on public.language_plan_assignments(assigned_by);
