@@ -29,7 +29,7 @@ async function load(){
   let mine=await api('language_app_users?user_id=eq.'+encodeURIComponent(uid())+'&select=*');profile=mine?.[0];
   if(!profile)throw Error('Your Language Department profile is not available.');
   let codes=allowed();if(!codes.includes(language))language=codes[0]||'';
-  let calls=[fetch('./chinese-plan.json',{cache:'no-store'}).then(r=>r.ok?r.json():null),api('language_plan_assignments?select=*'),api('language_monthly_submissions?select=*&order=submitted_at.desc'),api('language_projects?select=*&order=created_at.desc'),api('language_project_steps?select=*&order=step_order'),api('language_step_submissions?select=*&order=submitted_at.desc')];
+  let calls=[api('language_plan_items?language_code=eq.chinese&select=*&order=id').then(tasks=>({tasks})),api('language_plan_assignments?select=*'),api('language_monthly_submissions?select=*&order=submitted_at.desc'),api('language_projects?select=*&order=created_at.desc'),api('language_project_steps?select=*&order=step_order'),api('language_step_submissions?select=*&order=submitted_at.desc')];
   if(canUsers()||canManage())calls.push(api('language_app_users?select=user_id,email,full_name,role,status,permissions,language_codes&status=eq.active&order=full_name'));else calls.push(Promise.resolve([profile]));
   [plan,assignments,monthly,projects,steps,stepSubs,users]=await Promise.all(calls);
 }
