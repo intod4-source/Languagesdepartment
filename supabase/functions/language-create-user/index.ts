@@ -3,13 +3,13 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 const cors = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, apikey, content-type, x-client-info",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
 };
 const json = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { ...cors, "Content-Type": "application/json" } });
 
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
-  if (req.method !== "POST") return json({ error: "Method not allowed" }, 405);
+  if (!["GET", "POST"].includes(req.method)) return json({ error: "Method not allowed" }, 405);
   const url = Deno.env.get("SUPABASE_URL")!;
   const service = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
   const authorization = req.headers.get("Authorization") || "";
@@ -18,12 +18,25 @@ Deno.serve(async (req: Request) => {
   const callerResponse = await fetch(`${url}/auth/v1/user`, { headers: { Authorization: authorization, apikey: service } });
   if (!callerResponse.ok) return json({ error: "Invalid session" }, 401);
   const caller = await callerResponse.json();
-  const profileResponse = await fetch(`${url}/rest/v1/language_app_users?user_id=eq.${encodeURIComponent(caller.id)}&select=role,status,permissions`, {
+  const profileResponse = await fetch(`${url}/rest/v1/language_app_users?user_id=eq.${encodeURIComponent(caller.id)}&select=role,status,permissions,language_codes`, {
     headers: { Authorization: `Bearer ${service}`, apikey: service },
   });
   const profiles = profileResponse.ok ? await profileResponse.json() : [];
   const profile = profiles[0];
-  if (!profile || profile.status !== "active" || (profile.role !== "super_admin" && profile.permissions?.manage_users !== true)) {
+  if (req.method === "GET") {
+    if (!profile || profile.status !== "active" || !["super_admin", "admin", "manager"].includes(profile.role)) return json({ error: "Manager access required" }, 403);
+    const listResponse = await fetch(`${url}/rest/v1/language_app_users?select=user_id,email,full_name,role,status,permissions,language_codes&status=eq.active&order=full_name`, {
+      headers: { Authorization: `Bearer ${service}`, apikey: service },
+    });
+    const allUsers = listResponse.ok ? await listResponse.json() : [];
+    const ownCodes = Array.isArray(profile.language_codes) ? profile.language_codes : [];
+    const visible = profile.role === "super_admin" || ownCodes.includes("*") ? allUsers : allUsers.filter((u: Record<string, unknown>) => {
+      const codes = Array.isArray(u.language_codes) ? u.language_codes : [];
+      return codes.some((code: unknown) => ownCodes.includes(String(code)));
+    });
+    return json({ users: visible });
+  }
+  if (!profile || profile.status !== "active" || (!["super_admin", "admin"].includes(profile.role) && profile.permissions?.manage_users !== true)) {
     return json({ error: "Only an authorized administrator can create accounts" }, 403);
   }
 
