@@ -23,7 +23,7 @@
         recovery.src='./auth-recovery.js?v=20260901reset2';
         recovery.onload=()=>{
           const culture=document.createElement('script');
-          culture.src='./culture-v1.js?v=20260907arabic2';
+          culture.src='./culture-v1.js?v=20260907culture3';
           culture.onload=()=>{
             const operations=document.createElement('script');
             operations.src='./language-operations.js?v=20260907ops2';
