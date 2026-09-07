@@ -1,0 +1,5226 @@
+{
+  "schema_version": 1,
+  "course_slug": "arabic-hajj-umrah",
+  "country_slug": "saudi-arabia",
+  "country_name": "Saudi Arabia",
+  "language": "Arabic",
+  "native_language": "العربية",
+  "flag": "🇸🇦",
+  "title": "Arabic for Hajj & Umrah",
+  "urdu_title": "حج و عمرہ کے لیے 200 ضروری عربی جملے",
+  "description": "Learn essential Arabic phrases with full vowel marks, word-by-word Urdu meanings, complete Urdu translation and English meaning.",
+  "categories": [
+    "ضروری جملے",
+    "حرم شریف",
+    "طواف",
+    "سعی",
+    "نماز و عبادت",
+    "ہوٹل و رہائش",
+    "ٹیکسی، بس اور سفر",
+    "کھانا پینا",
+    "خریداری اور رقم",
+    "راستہ، صحت اور ہنگامی حالت"
+  ],
+  "lessons": [
+    {
+      "id": "arabic-001",
+      "category": "ضروری جملے",
+      "title": "بیت الخلا کہاں ہے؟",
+      "native": "أَيْنَ دَوْرَةُ الْمِيَاهِ؟",
+      "urdu": "بیت الخلا کہاں ہے؟",
+      "english": "Where is the restroom?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمِيَاهِ؟",
+          "urdu": "پانی"
+        },
+        {
+          "native": "دَوْرَةُ",
+          "urdu": "بیت الخلا / جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-002",
+      "category": "ضروری جملے",
+      "title": "براہِ کرم، میری مدد کریں۔",
+      "native": "مِنْ فَضْلِكَ، سَاعِدْنِي.",
+      "urdu": "براہِ کرم، میری مدد کریں۔",
+      "english": "Please help me.",
+      "roman": "",
+      "words": [
+        {
+          "native": "سَاعِدْنِي.",
+          "urdu": "میری مدد کریں"
+        },
+        {
+          "native": "فَضْلِكَ،",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-003",
+      "category": "ضروری جملے",
+      "title": "بہت بہت شکریہ۔",
+      "native": "شُكْرًا جَزِيلًا.",
+      "urdu": "بہت بہت شکریہ۔",
+      "english": "Thank you very much.",
+      "roman": "",
+      "words": [
+        {
+          "native": "جَزِيلًا.",
+          "urdu": "بہت زیادہ"
+        },
+        {
+          "native": "شُكْرًا",
+          "urdu": "شکریہ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-004",
+      "category": "ضروری جملے",
+      "title": "معاف کیجیے / کوئی بات نہیں۔",
+      "native": "عَفْوًا.",
+      "urdu": "معاف کیجیے / کوئی بات نہیں۔",
+      "english": "Excuse me / You're welcome.",
+      "roman": "",
+      "words": [
+        {
+          "native": "عَفْوًا.",
+          "urdu": "معاف کیجیے / کوئی بات نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-005",
+      "category": "ضروری جملے",
+      "title": "میں نہیں سمجھتا۔",
+      "native": "لَا أَفْهَمُ.",
+      "urdu": "میں نہیں سمجھتا۔",
+      "english": "I do not understand.",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَفْهَمُ.",
+          "urdu": "میں سمجھتا ہوں"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-006",
+      "category": "ضروری جملے",
+      "title": "براہِ کرم، آہستہ بولیں۔",
+      "native": "تَكَلَّمْ بِبُطْءٍ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، آہستہ بولیں۔",
+      "english": "Please speak slowly.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "بِبُطْءٍ،",
+          "urdu": "آہستہ"
+        },
+        {
+          "native": "تَكَلَّمْ",
+          "urdu": "بولیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-007",
+      "category": "ضروری جملے",
+      "title": "کیا آپ اردو بولتے ہیں؟",
+      "native": "هَلْ تَتَكَلَّمُ الْأُرْدِيَّةَ؟",
+      "urdu": "کیا آپ اردو بولتے ہیں؟",
+      "english": "Do you speak Urdu?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأُرْدِيَّةَ؟",
+          "urdu": "اردو"
+        },
+        {
+          "native": "تَتَكَلَّمُ",
+          "urdu": "آپ بولتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-008",
+      "category": "ضروری جملے",
+      "title": "کیا آپ انگریزی بولتے ہیں؟",
+      "native": "هَلْ تَتَكَلَّمُ الْإِنْجِلِيزِيَّةَ؟",
+      "urdu": "کیا آپ انگریزی بولتے ہیں؟",
+      "english": "Do you speak English?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْإِنْجِلِيزِيَّةَ؟",
+          "urdu": "انگریزی"
+        },
+        {
+          "native": "تَتَكَلَّمُ",
+          "urdu": "آپ بولتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-009",
+      "category": "ضروری جملے",
+      "title": "اس کا کیا مطلب ہے؟",
+      "native": "مَاذَا يَعْنِي هَذَا؟",
+      "urdu": "اس کا کیا مطلب ہے؟",
+      "english": "What does this mean?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا؟",
+          "urdu": "یہ"
+        },
+        {
+          "native": "يَعْنِي",
+          "urdu": "مطلب ہے"
+        },
+        {
+          "native": "مَاذَا",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-010",
+      "category": "ضروری جملے",
+      "title": "براہِ کرم، دوبارہ کہیں۔",
+      "native": "أَعِدْ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، دوبارہ کہیں۔",
+      "english": "Please repeat.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "أَعِدْ،",
+          "urdu": "دوبارہ کہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-011",
+      "category": "ضروری جملے",
+      "title": "مجھے یہ چاہیے۔",
+      "native": "أُرِيدُ هَذَا.",
+      "urdu": "مجھے یہ چاہیے۔",
+      "english": "I want this.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا.",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-012",
+      "category": "ضروری جملے",
+      "title": "مجھے یہ نہیں چاہیے۔",
+      "native": "لَا أُرِيدُ هَذَا.",
+      "urdu": "مجھے یہ نہیں چاہیے۔",
+      "english": "I do not want this.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا.",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-013",
+      "category": "ضروری جملے",
+      "title": "جی ہاں، براہِ کرم۔",
+      "native": "نَعَمْ، مِنْ فَضْلِكَ.",
+      "urdu": "جی ہاں، براہِ کرم۔",
+      "english": "Yes, please.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "نَعَمْ،",
+          "urdu": "ہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-014",
+      "category": "ضروری جملے",
+      "title": "نہیں، شکریہ۔",
+      "native": "لَا، شُكْرًا.",
+      "urdu": "نہیں، شکریہ۔",
+      "english": "No, thank you.",
+      "roman": "",
+      "words": [
+        {
+          "native": "شُكْرًا.",
+          "urdu": "شکریہ"
+        },
+        {
+          "native": "لَا،",
+          "urdu": "نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-015",
+      "category": "ضروری جملے",
+      "title": "اب کیا وقت ہوا ہے؟",
+      "native": "كَمِ الْوَقْتُ الْآنَ؟",
+      "urdu": "اب کیا وقت ہوا ہے؟",
+      "english": "What time is it now?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْآنَ؟",
+          "urdu": "اب"
+        },
+        {
+          "native": "الْوَقْتُ",
+          "urdu": "وقت"
+        },
+        {
+          "native": "كَمِ",
+          "urdu": "کتنا / کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-016",
+      "category": "ضروری جملے",
+      "title": "میں کہاں بیٹھ سکتا ہوں؟",
+      "native": "أَيْنَ أَسْتَطِيعُ أَنْ أَجْلِسَ؟",
+      "urdu": "میں کہاں بیٹھ سکتا ہوں؟",
+      "english": "Where can I sit?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَجْلِسَ؟",
+          "urdu": "میں بیٹھوں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أَسْتَطِيعُ",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-017",
+      "category": "ضروری جملے",
+      "title": "کیا میں اندر جا سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الدُّخُولُ؟",
+      "urdu": "کیا میں اندر جا سکتا ہوں؟",
+      "english": "May I enter?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الدُّخُولُ؟",
+          "urdu": "داخل ہونا"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-018",
+      "category": "ضروری جملے",
+      "title": "کیا میں یہاں سے باہر جا سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الْخُرُوجُ مِنْ هُنَا؟",
+      "urdu": "کیا میں یہاں سے باہر جا سکتا ہوں؟",
+      "english": "Can I exit from here?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هُنَا؟",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "الْخُرُوجُ",
+          "urdu": "باہر نکلنا"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-019",
+      "category": "ضروری جملے",
+      "title": "براہِ کرم، تھوڑی دیر انتظار کریں۔",
+      "native": "اِنْتَظِرْ قَلِيلًا، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، تھوڑی دیر انتظار کریں۔",
+      "english": "Please wait a little.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "قَلِيلًا،",
+          "urdu": "تھوڑی دیر"
+        },
+        {
+          "native": "اِنْتَظِرْ",
+          "urdu": "انتظار کریں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-020",
+      "category": "ضروری جملے",
+      "title": "میں پاکستان سے ہوں۔",
+      "native": "أَنَا مِنْ بَاكِسْتَانَ.",
+      "urdu": "میں پاکستان سے ہوں۔",
+      "english": "I am from Pakistan.",
+      "roman": "",
+      "words": [
+        {
+          "native": "بَاكِسْتَانَ.",
+          "urdu": "پاکستان"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "أَنَا",
+          "urdu": "میں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-021",
+      "category": "حرم شریف",
+      "title": "باب الملک عبدالعزیز کہاں ہے؟",
+      "native": "أَيْنَ بَابُ الْمَلِكِ عَبْدِ الْعَزِيزِ؟",
+      "urdu": "باب الملک عبدالعزیز کہاں ہے؟",
+      "english": "Where is King Abdulaziz Gate?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْعَزِيزِ؟",
+          "urdu": "العزیز"
+        },
+        {
+          "native": "عَبْدِ",
+          "urdu": "عبد"
+        },
+        {
+          "native": "الْمَلِكِ",
+          "urdu": "بادشاہ"
+        },
+        {
+          "native": "بَابُ",
+          "urdu": "دروازہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-022",
+      "category": "حرم شریف",
+      "title": "کعبہ کے قریب ترین دروازہ کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ بَابٍ إِلَى الْكَعْبَةِ؟",
+      "urdu": "کعبہ کے قریب ترین دروازہ کہاں ہے؟",
+      "english": "Where is the nearest gate to the Kaaba?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْكَعْبَةِ؟",
+          "urdu": "کعبہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "بَابٍ",
+          "urdu": "دروازہ"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-023",
+      "category": "حرم شریف",
+      "title": "میں صحنِ مطاف تک کیسے پہنچوں؟",
+      "native": "كَيْفَ أَصِلُ إِلَى صَحْنِ الْمَطَافِ؟",
+      "urdu": "میں صحنِ مطاف تک کیسے پہنچوں؟",
+      "english": "How do I get to the Mataf courtyard?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَطَافِ؟",
+          "urdu": "مطاف"
+        },
+        {
+          "native": "صَحْنِ",
+          "urdu": "صحن"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَصِلُ",
+          "urdu": "میں پہنچوں"
+        },
+        {
+          "native": "كَيْفَ",
+          "urdu": "کیسے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-024",
+      "category": "حرم شریف",
+      "title": "خواتین کی نماز کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مُصَلَّى النِّسَاءِ؟",
+      "urdu": "خواتین کی نماز کی جگہ کہاں ہے؟",
+      "english": "Where is the women's prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "النِّسَاءِ؟",
+          "urdu": "خواتین"
+        },
+        {
+          "native": "مُصَلَّى",
+          "urdu": "نماز کی جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-025",
+      "category": "حرم شریف",
+      "title": "مردوں کی نماز کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مُصَلَّى الرِّجَالِ؟",
+      "urdu": "مردوں کی نماز کی جگہ کہاں ہے؟",
+      "english": "Where is the men's prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الرِّجَالِ؟",
+          "urdu": "مردوں"
+        },
+        {
+          "native": "مُصَلَّى",
+          "urdu": "نماز کی جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-026",
+      "category": "حرم شریف",
+      "title": "نمازِ جنازہ کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مُصَلَّى الْجَنَائِزِ؟",
+      "urdu": "نمازِ جنازہ کی جگہ کہاں ہے؟",
+      "english": "Where is the funeral prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْجَنَائِزِ؟",
+          "urdu": "جنازوں"
+        },
+        {
+          "native": "مُصَلَّى",
+          "urdu": "نماز کی جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-027",
+      "category": "حرم شریف",
+      "title": "زمزم کا پانی کہاں ہے؟",
+      "native": "أَيْنَ مَاءُ زَمْزَمَ؟",
+      "urdu": "زمزم کا پانی کہاں ہے؟",
+      "english": "Where is Zamzam water?",
+      "roman": "",
+      "words": [
+        {
+          "native": "زَمْزَمَ؟",
+          "urdu": "زمزم"
+        },
+        {
+          "native": "مَاءُ",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-028",
+      "category": "حرم شریف",
+      "title": "قریب ترین پانی کا کولر کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ بَرَّادَةِ مَاءٍ؟",
+      "urdu": "قریب ترین پانی کا کولر کہاں ہے؟",
+      "english": "Where is the nearest water cooler?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَاءٍ؟",
+          "urdu": "پانی"
+        },
+        {
+          "native": "بَرَّادَةِ",
+          "urdu": "کولر"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-029",
+      "category": "حرم شریف",
+      "title": "لفٹیں کہاں ہیں؟",
+      "native": "أَيْنَ الْمَصَاعِدُ؟",
+      "urdu": "لفٹیں کہاں ہیں؟",
+      "english": "Where are the elevators?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَصَاعِدُ؟",
+          "urdu": "لفٹیں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-030",
+      "category": "حرم شریف",
+      "title": "برقی سیڑھیاں کہاں ہیں؟",
+      "native": "أَيْنَ السَّلَالِمُ الْمُتَحَرِّكَةُ؟",
+      "urdu": "برقی سیڑھیاں کہاں ہیں؟",
+      "english": "Where are the escalators?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمُتَحَرِّكَةُ؟",
+          "urdu": "برقی / چلنے والی"
+        },
+        {
+          "native": "السَّلَالِمُ",
+          "urdu": "سیڑھیاں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-031",
+      "category": "حرم شریف",
+      "title": "کیا یہ راستہ حرم کی طرف جاتا ہے؟",
+      "native": "هَلْ هَذَا الطَّرِيقُ إِلَى الْحَرَمِ؟",
+      "urdu": "کیا یہ راستہ حرم کی طرف جاتا ہے؟",
+      "english": "Is this the way to the Haram?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ؟",
+          "urdu": "حرم"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الطَّرِيقُ",
+          "urdu": "راستہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-032",
+      "category": "حرم شریف",
+      "title": "کیا یہ دروازہ کھلا ہے؟",
+      "native": "هَلْ هَذَا الْبَابُ مَفْتُوحٌ؟",
+      "urdu": "کیا یہ دروازہ کھلا ہے؟",
+      "english": "Is this gate open?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَفْتُوحٌ؟",
+          "urdu": "کھلا ہے"
+        },
+        {
+          "native": "الْبَابُ",
+          "urdu": "دروازہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-033",
+      "category": "حرم شریف",
+      "title": "میں کس دروازے سے باہر نکلوں؟",
+      "native": "مِنْ أَيِّ بَابٍ أَخْرُجُ؟",
+      "urdu": "میں کس دروازے سے باہر نکلوں؟",
+      "english": "Which gate should I exit from?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَخْرُجُ؟",
+          "urdu": "میں نکلوں"
+        },
+        {
+          "native": "بَابٍ",
+          "urdu": "دروازہ"
+        },
+        {
+          "native": "أَيِّ",
+          "urdu": "کس"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-034",
+      "category": "حرم شریف",
+      "title": "بزرگوں کے لیے وہیل چیئر کہاں ملے گی؟",
+      "native": "أَيْنَ أَجِدُ عَرَبَةً لِكِبَارِ السِّنِّ؟",
+      "urdu": "بزرگوں کے لیے وہیل چیئر کہاں ملے گی؟",
+      "english": "Where can I find a wheelchair for the elderly?",
+      "roman": "",
+      "words": [
+        {
+          "native": "السِّنِّ؟",
+          "urdu": "عمر"
+        },
+        {
+          "native": "لِكِبَارِ",
+          "urdu": "بزرگوں کے لیے"
+        },
+        {
+          "native": "عَرَبَةً",
+          "urdu": "وہیل چیئر / گاڑی"
+        },
+        {
+          "native": "أَجِدُ",
+          "urdu": "میں پاؤں / ملے"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-035",
+      "category": "حرم شریف",
+      "title": "گمشدہ اشیاء کا دفتر کہاں ہے؟",
+      "native": "أَيْنَ مَكْتَبُ الْمَفْقُودَاتِ؟",
+      "urdu": "گمشدہ اشیاء کا دفتر کہاں ہے؟",
+      "english": "Where is the lost and found office?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَفْقُودَاتِ؟",
+          "urdu": "گمشدہ اشیاء"
+        },
+        {
+          "native": "مَكْتَبُ",
+          "urdu": "دفتر"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-036",
+      "category": "حرم شریف",
+      "title": "میرا بیگ حرم میں گم ہو گیا ہے۔",
+      "native": "فَقَدْتُ حَقِيبَتِي فِي الْحَرَمِ.",
+      "urdu": "میرا بیگ حرم میں گم ہو گیا ہے۔",
+      "english": "I lost my bag in the Haram.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ.",
+          "urdu": "حرم"
+        },
+        {
+          "native": "فِي",
+          "urdu": "میں"
+        },
+        {
+          "native": "حَقِيبَتِي",
+          "urdu": "میرا بیگ"
+        },
+        {
+          "native": "فَقَدْتُ",
+          "urdu": "میں نے کھو دیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-037",
+      "category": "حرم شریف",
+      "title": "جمع ہونے کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ نُقْطَةُ التَّجَمُّعِ؟",
+      "urdu": "جمع ہونے کی جگہ کہاں ہے؟",
+      "english": "Where is the meeting point?",
+      "roman": "",
+      "words": [
+        {
+          "native": "التَّجَمُّعِ؟",
+          "urdu": "جمع ہونے کی"
+        },
+        {
+          "native": "نُقْطَةُ",
+          "urdu": "نقطہ / جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-038",
+      "category": "حرم شریف",
+      "title": "حرم کے قریب ترین بیت الخلا کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ دَوْرَةِ مِيَاهٍ مِنَ الْحَرَمِ؟",
+      "urdu": "حرم کے قریب ترین بیت الخلا کہاں ہے؟",
+      "english": "Where is the nearest restroom to the Haram?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ؟",
+          "urdu": "حرم"
+        },
+        {
+          "native": "مِنَ",
+          "urdu": "سے"
+        },
+        {
+          "native": "مِيَاهٍ",
+          "urdu": "پانی"
+        },
+        {
+          "native": "دَوْرَةِ",
+          "urdu": "بیت الخلا / جگہ"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-039",
+      "category": "حرم شریف",
+      "title": "کیا میں یہاں بیٹھ سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الْجُلُوسُ هُنَا؟",
+      "urdu": "کیا میں یہاں بیٹھ سکتا ہوں؟",
+      "english": "May I sit here?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هُنَا؟",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "الْجُلُوسُ",
+          "urdu": "بیٹھنا"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-040",
+      "category": "حرم شریف",
+      "title": "میں باب السلام جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى بَابِ السَّلَامِ.",
+      "urdu": "میں باب السلام جانا چاہتا ہوں۔",
+      "english": "I want to go to Bab as-Salam.",
+      "roman": "",
+      "words": [
+        {
+          "native": "السَّلَامِ.",
+          "urdu": "السلام"
+        },
+        {
+          "native": "بَابِ",
+          "urdu": "دروازہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-041",
+      "category": "طواف",
+      "title": "میں طواف کہاں سے شروع کروں؟",
+      "native": "مِنْ أَيْنَ أَبْدَأُ الطَّوَافَ؟",
+      "urdu": "میں طواف کہاں سے شروع کروں؟",
+      "english": "Where do I start Tawaf?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الطَّوَافَ؟",
+          "urdu": "طواف"
+        },
+        {
+          "native": "أَبْدَأُ",
+          "urdu": "شروع کروں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-042",
+      "category": "طواف",
+      "title": "کیا یہ چکر کی ابتدا ہے؟",
+      "native": "هَلْ هَذِهِ بِدَايَةُ الشَّوْطِ؟",
+      "urdu": "کیا یہ چکر کی ابتدا ہے؟",
+      "english": "Is this the start of the circuit?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الشَّوْطِ؟",
+          "urdu": "چکر"
+        },
+        {
+          "native": "بِدَايَةُ",
+          "urdu": "ابتدا"
+        },
+        {
+          "native": "هَذِهِ",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-043",
+      "category": "طواف",
+      "title": "میرے کتنے چکر باقی ہیں؟",
+      "native": "كَمْ شَوْطًا بَقِيَ لِي؟",
+      "urdu": "میرے کتنے چکر باقی ہیں؟",
+      "english": "How many circuits do I have left?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِي؟",
+          "urdu": "میرے لیے / میرے"
+        },
+        {
+          "native": "بَقِيَ",
+          "urdu": "باقی ہے"
+        },
+        {
+          "native": "شَوْطًا",
+          "urdu": "چکر"
+        },
+        {
+          "native": "كَمْ",
+          "urdu": "کتنے / کتنا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-044",
+      "category": "طواف",
+      "title": "یہ میرا پہلا چکر ہے۔",
+      "native": "هَذَا شَوْطِي الْأَوَّلُ.",
+      "urdu": "یہ میرا پہلا چکر ہے۔",
+      "english": "This is my first circuit.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأَوَّلُ.",
+          "urdu": "پہلا"
+        },
+        {
+          "native": "شَوْطِي",
+          "urdu": "میرا چکر"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-045",
+      "category": "طواف",
+      "title": "یہ میرا ساتواں چکر ہے۔",
+      "native": "هَذَا شَوْطِي السَّابِعُ.",
+      "urdu": "یہ میرا ساتواں چکر ہے۔",
+      "english": "This is my seventh circuit.",
+      "roman": "",
+      "words": [
+        {
+          "native": "السَّابِعُ.",
+          "urdu": "ساتواں"
+        },
+        {
+          "native": "شَوْطِي",
+          "urdu": "میرا چکر"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-046",
+      "category": "طواف",
+      "title": "حجرِ اسود کہاں ہے؟",
+      "native": "أَيْنَ الْحَجَرُ الْأَسْوَدُ؟",
+      "urdu": "حجرِ اسود کہاں ہے؟",
+      "english": "Where is the Black Stone?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأَسْوَدُ؟",
+          "urdu": "سیاہ"
+        },
+        {
+          "native": "الْحَجَرُ",
+          "urdu": "پتھر"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-047",
+      "category": "طواف",
+      "title": "مقامِ ابراہیم کہاں ہے؟",
+      "native": "أَيْنَ مَقَامُ إِبْرَاهِيمَ؟",
+      "urdu": "مقامِ ابراہیم کہاں ہے؟",
+      "english": "Where is Maqam Ibrahim?",
+      "roman": "",
+      "words": [
+        {
+          "native": "إِبْرَاهِيمَ؟",
+          "urdu": "ابراہیم"
+        },
+        {
+          "native": "مَقَامُ",
+          "urdu": "مقام"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-048",
+      "category": "طواف",
+      "title": "ملتزم کہاں ہے؟",
+      "native": "أَيْنَ الْمُلْتَزَمُ؟",
+      "urdu": "ملتزم کہاں ہے؟",
+      "english": "Where is the Multazam?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمُلْتَزَمُ؟",
+          "urdu": "ملتزم"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-049",
+      "category": "طواف",
+      "title": "کیا میں اوپری منزل پر طواف کر سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الطَّوَافُ فِي الدَّوْرِ الْعُلْوِيِّ؟",
+      "urdu": "کیا میں اوپری منزل پر طواف کر سکتا ہوں؟",
+      "english": "Can I perform Tawaf on the upper floor?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْعُلْوِيِّ؟",
+          "urdu": "اوپری"
+        },
+        {
+          "native": "الدَّوْرِ",
+          "urdu": "منزل / فلور"
+        },
+        {
+          "native": "فِي",
+          "urdu": "میں"
+        },
+        {
+          "native": "الطَّوَافُ",
+          "urdu": "طواف"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-050",
+      "category": "طواف",
+      "title": "کیا وہیل چیئرز کے لیے راستہ ہے؟",
+      "native": "هَلْ يُوجَدُ مَسَارٌ لِلْعَرَبَاتِ؟",
+      "urdu": "کیا وہیل چیئرز کے لیے راستہ ہے؟",
+      "english": "Is there a wheelchair track?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلْعَرَبَاتِ؟",
+          "urdu": "وہیل چیئرز کے لیے"
+        },
+        {
+          "native": "مَسَارٌ",
+          "urdu": "راستہ / ٹریک"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-051",
+      "category": "طواف",
+      "title": "مجھے طواف کے لیے وہیل چیئر چاہیے۔",
+      "native": "أُرِيدُ عَرَبَةً لِلطَّوَافِ.",
+      "urdu": "مجھے طواف کے لیے وہیل چیئر چاہیے۔",
+      "english": "I want a wheelchair for Tawaf.",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلطَّوَافِ.",
+          "urdu": "طواف کے لیے"
+        },
+        {
+          "native": "عَرَبَةً",
+          "urdu": "وہیل چیئر / گاڑی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-052",
+      "category": "طواف",
+      "title": "میں وہیل چیئر کہاں سے کرائے پر لے سکتا ہوں؟",
+      "native": "أَيْنَ أَسْتَأْجِرُ عَرَبَةً؟",
+      "urdu": "میں وہیل چیئر کہاں سے کرائے پر لے سکتا ہوں؟",
+      "english": "Where can I rent a wheelchair?",
+      "roman": "",
+      "words": [
+        {
+          "native": "عَرَبَةً؟",
+          "urdu": "وہیل چیئر / گاڑی"
+        },
+        {
+          "native": "أَسْتَأْجِرُ",
+          "urdu": "میں کرائے پر لوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-053",
+      "category": "طواف",
+      "title": "کیا یہ راستہ طواف کے لیے ہے؟",
+      "native": "هَلْ هَذَا الْمَسَارُ لِلطَّوَافِ؟",
+      "urdu": "کیا یہ راستہ طواف کے لیے ہے؟",
+      "english": "Is this track for Tawaf?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلطَّوَافِ؟",
+          "urdu": "طواف کے لیے"
+        },
+        {
+          "native": "الْمَسَارُ",
+          "urdu": "راستہ / ٹریک"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-054",
+      "category": "طواف",
+      "title": "میں مطاف سے باہر نکلنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أَخْرُجَ مِنَ الْمَطَافِ.",
+      "urdu": "میں مطاف سے باہر نکلنا چاہتا ہوں۔",
+      "english": "I want to leave the Mataf area.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَطَافِ.",
+          "urdu": "مطاف"
+        },
+        {
+          "native": "مِنَ",
+          "urdu": "سے"
+        },
+        {
+          "native": "أَخْرُجَ",
+          "urdu": "میں نکلوں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-055",
+      "category": "طواف",
+      "title": "مطاف سے قریب ترین باہر نکلنے کا راستہ کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ مَخْرَجٍ مِنَ الْمَطَافِ؟",
+      "urdu": "مطاف سے قریب ترین باہر نکلنے کا راستہ کہاں ہے؟",
+      "english": "Where is the nearest exit from the Mataf?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَطَافِ؟",
+          "urdu": "مطاف"
+        },
+        {
+          "native": "مِنَ",
+          "urdu": "سے"
+        },
+        {
+          "native": "مَخْرَجٍ",
+          "urdu": "باہر نکلنے کا راستہ"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-056",
+      "category": "طواف",
+      "title": "کیا ابھی طواف میں بہت رش ہے؟",
+      "native": "هَلِ الطَّوَافُ مُزْدَحِمٌ الْآنَ؟",
+      "urdu": "کیا ابھی طواف میں بہت رش ہے؟",
+      "english": "Is Tawaf crowded now?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْآنَ؟",
+          "urdu": "اب"
+        },
+        {
+          "native": "مُزْدَحِمٌ",
+          "urdu": "بہت رش ہے"
+        },
+        {
+          "native": "الطَّوَافُ",
+          "urdu": "طواف"
+        },
+        {
+          "native": "هَلِ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-057",
+      "category": "طواف",
+      "title": "میں طواف کے بعد کہاں نماز پڑھ سکتا ہوں؟",
+      "native": "أَيْنَ أَسْتَطِيعُ الصَّلَاةَ بَعْدَ الطَّوَافِ؟",
+      "urdu": "میں طواف کے بعد کہاں نماز پڑھ سکتا ہوں؟",
+      "english": "Where can I pray after Tawaf?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الطَّوَافِ؟",
+          "urdu": "طواف"
+        },
+        {
+          "native": "بَعْدَ",
+          "urdu": "بعد"
+        },
+        {
+          "native": "الصَّلَاةَ",
+          "urdu": "نماز"
+        },
+        {
+          "native": "أَسْتَطِيعُ",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-058",
+      "category": "طواف",
+      "title": "میں دو رکعت نماز پڑھنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أُصَلِّيَ رَكْعَتَيْنِ.",
+      "urdu": "میں دو رکعت نماز پڑھنا چاہتا ہوں۔",
+      "english": "I want to pray two rak'ahs.",
+      "roman": "",
+      "words": [
+        {
+          "native": "رَكْعَتَيْنِ.",
+          "urdu": "دو رکعت"
+        },
+        {
+          "native": "أُصَلِّيَ",
+          "urdu": "میں نماز پڑھوں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-059",
+      "category": "طواف",
+      "title": "میں طواف کے بعد زمزم کہاں پی سکتا ہوں؟",
+      "native": "أَيْنَ أَشْرَبُ مَاءَ زَمْزَمَ بَعْدَ الطَّوَافِ؟",
+      "urdu": "میں طواف کے بعد زمزم کہاں پی سکتا ہوں؟",
+      "english": "Where can I drink Zamzam after Tawaf?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الطَّوَافِ؟",
+          "urdu": "طواف"
+        },
+        {
+          "native": "بَعْدَ",
+          "urdu": "بعد"
+        },
+        {
+          "native": "زَمْزَمَ",
+          "urdu": "زمزم"
+        },
+        {
+          "native": "مَاءَ",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أَشْرَبُ",
+          "urdu": "میں پیوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-060",
+      "category": "طواف",
+      "title": "میں طواف مکمل کر چکا ہوں، مسعیٰ کہاں ہے؟",
+      "native": "اِنْتَهَيْتُ مِنَ الطَّوَافِ، أَيْنَ الْمَسْعَى؟",
+      "urdu": "میں طواف مکمل کر چکا ہوں، مسعیٰ کہاں ہے؟",
+      "english": "I have finished Tawaf; where is the Sa'i area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَسْعَى؟",
+          "urdu": "مسعیٰ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        },
+        {
+          "native": "الطَّوَافِ،",
+          "urdu": "طواف"
+        },
+        {
+          "native": "مِنَ",
+          "urdu": "سے"
+        },
+        {
+          "native": "اِنْتَهَيْتُ",
+          "urdu": "میں مکمل کر چکا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-061",
+      "category": "سعی",
+      "title": "مسعیٰ کا داخلہ کہاں ہے؟",
+      "native": "أَيْنَ مَدْخَلُ الْمَسْعَى؟",
+      "urdu": "مسعیٰ کا داخلہ کہاں ہے؟",
+      "english": "Where is the entrance to the Sa'i area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَسْعَى؟",
+          "urdu": "مسعیٰ"
+        },
+        {
+          "native": "مَدْخَلُ",
+          "urdu": "داخلہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-062",
+      "category": "سعی",
+      "title": "صفا کہاں ہے؟",
+      "native": "أَيْنَ الصَّفَا؟",
+      "urdu": "صفا کہاں ہے؟",
+      "english": "Where is Safa?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الصَّفَا؟",
+          "urdu": "صفا"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-063",
+      "category": "سعی",
+      "title": "مروہ کہاں ہے؟",
+      "native": "أَيْنَ الْمَرْوَةُ؟",
+      "urdu": "مروہ کہاں ہے؟",
+      "english": "Where is Marwah?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَرْوَةُ؟",
+          "urdu": "مروہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-064",
+      "category": "سعی",
+      "title": "میں سعی کہاں سے شروع کروں؟",
+      "native": "مِنْ أَيْنَ أَبْدَأُ السَّعْيَ؟",
+      "urdu": "میں سعی کہاں سے شروع کروں؟",
+      "english": "Where do I start Sa'i?",
+      "roman": "",
+      "words": [
+        {
+          "native": "السَّعْيَ؟",
+          "urdu": "سعی"
+        },
+        {
+          "native": "أَبْدَأُ",
+          "urdu": "شروع کروں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-065",
+      "category": "سعی",
+      "title": "کیا یہ پہلا چکر ہے؟",
+      "native": "هَلْ هَذَا الشَّوْطُ الْأَوَّلُ؟",
+      "urdu": "کیا یہ پہلا چکر ہے؟",
+      "english": "Is this the first circuit?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأَوَّلُ؟",
+          "urdu": "پہلا"
+        },
+        {
+          "native": "الشَّوْطُ",
+          "urdu": "چکر"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-066",
+      "category": "سعی",
+      "title": "میرے کتنے چکر باقی ہیں؟",
+      "native": "كَمْ شَوْطًا بَقِيَ لِي؟",
+      "urdu": "میرے کتنے چکر باقی ہیں؟",
+      "english": "How many circuits do I have left?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِي؟",
+          "urdu": "میرے لیے / میرے"
+        },
+        {
+          "native": "بَقِيَ",
+          "urdu": "باقی ہے"
+        },
+        {
+          "native": "شَوْطًا",
+          "urdu": "چکر"
+        },
+        {
+          "native": "كَمْ",
+          "urdu": "کتنے / کتنا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-067",
+      "category": "سعی",
+      "title": "کیا یہ راستہ مروہ کی طرف جاتا ہے؟",
+      "native": "هَلْ هَذَا الطَّرِيقُ إِلَى الْمَرْوَةِ؟",
+      "urdu": "کیا یہ راستہ مروہ کی طرف جاتا ہے؟",
+      "english": "Is this the way to Marwah?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَرْوَةِ؟",
+          "urdu": "مروہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الطَّرِيقُ",
+          "urdu": "راستہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-068",
+      "category": "سعی",
+      "title": "کیا یہ راستہ صفا کی طرف جاتا ہے؟",
+      "native": "هَلْ هَذَا الطَّرِيقُ إِلَى الصَّفَا؟",
+      "urdu": "کیا یہ راستہ صفا کی طرف جاتا ہے؟",
+      "english": "Is this the way to Safa?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الصَّفَا؟",
+          "urdu": "صفا"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الطَّرِيقُ",
+          "urdu": "راستہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-069",
+      "category": "سعی",
+      "title": "سبز نشانیاں کہاں ہیں؟",
+      "native": "أَيْنَ الْعَلَامَاتُ الْخَضْرَاءُ؟",
+      "urdu": "سبز نشانیاں کہاں ہیں؟",
+      "english": "Where are the green markers?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْخَضْرَاءُ؟",
+          "urdu": "سبز"
+        },
+        {
+          "native": "الْعَلَامَاتُ",
+          "urdu": "نشانیاں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-070",
+      "category": "سعی",
+      "title": "کیا وہیل چیئرز کے لیے راستہ ہے؟",
+      "native": "هَلْ يُوجَدُ مَسَارٌ لِلْعَرَبَاتِ؟",
+      "urdu": "کیا وہیل چیئرز کے لیے راستہ ہے؟",
+      "english": "Is there a wheelchair track?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلْعَرَبَاتِ؟",
+          "urdu": "وہیل چیئرز کے لیے"
+        },
+        {
+          "native": "مَسَارٌ",
+          "urdu": "راستہ / ٹریک"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-071",
+      "category": "سعی",
+      "title": "مجھے سعی کے لیے وہیل چیئر چاہیے۔",
+      "native": "أُرِيدُ عَرَبَةً لِلسَّعْيِ.",
+      "urdu": "مجھے سعی کے لیے وہیل چیئر چاہیے۔",
+      "english": "I want a wheelchair for Sa'i.",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلسَّعْيِ.",
+          "urdu": "سعی کے لیے"
+        },
+        {
+          "native": "عَرَبَةً",
+          "urdu": "وہیل چیئر / گاڑی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-072",
+      "category": "سعی",
+      "title": "میں وہیل چیئر کہاں سے کرائے پر لے سکتا ہوں؟",
+      "native": "أَيْنَ أَسْتَأْجِرُ عَرَبَةً؟",
+      "urdu": "میں وہیل چیئر کہاں سے کرائے پر لے سکتا ہوں؟",
+      "english": "Where can I rent a wheelchair?",
+      "roman": "",
+      "words": [
+        {
+          "native": "عَرَبَةً؟",
+          "urdu": "وہیل چیئر / گاڑی"
+        },
+        {
+          "native": "أَسْتَأْجِرُ",
+          "urdu": "میں کرائے پر لوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-073",
+      "category": "سعی",
+      "title": "کیا مسعیٰ میں ابھی بہت رش ہے؟",
+      "native": "هَلِ الْمَسْعَى مُزْدَحِمٌ الْآنَ؟",
+      "urdu": "کیا مسعیٰ میں ابھی بہت رش ہے؟",
+      "english": "Is the Sa'i area crowded now?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْآنَ؟",
+          "urdu": "اب"
+        },
+        {
+          "native": "مُزْدَحِمٌ",
+          "urdu": "بہت رش ہے"
+        },
+        {
+          "native": "الْمَسْعَى",
+          "urdu": "مسعیٰ"
+        },
+        {
+          "native": "هَلِ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-074",
+      "category": "سعی",
+      "title": "میں تھوڑی دیر آرام کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أَسْتَرِيحَ قَلِيلًا.",
+      "urdu": "میں تھوڑی دیر آرام کرنا چاہتا ہوں۔",
+      "english": "I want to rest for a little while.",
+      "roman": "",
+      "words": [
+        {
+          "native": "قَلِيلًا.",
+          "urdu": "تھوڑی دیر"
+        },
+        {
+          "native": "أَسْتَرِيحَ",
+          "urdu": "میں آرام کروں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-075",
+      "category": "سعی",
+      "title": "بیٹھنے کے لیے قریب ترین جگہ کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ مَكَانٍ لِلْجُلُوسِ؟",
+      "urdu": "بیٹھنے کے لیے قریب ترین جگہ کہاں ہے؟",
+      "english": "Where is the nearest place to sit?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلْجُلُوسِ؟",
+          "urdu": "بیٹھنے کے لیے"
+        },
+        {
+          "native": "مَكَانٍ",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-076",
+      "category": "سعی",
+      "title": "مسعیٰ میں زمزم کا پانی کہاں ہے؟",
+      "native": "أَيْنَ مَاءُ زَمْزَمَ فِي الْمَسْعَى؟",
+      "urdu": "مسعیٰ میں زمزم کا پانی کہاں ہے؟",
+      "english": "Where is Zamzam water in the Sa'i area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَسْعَى؟",
+          "urdu": "مسعیٰ"
+        },
+        {
+          "native": "فِي",
+          "urdu": "میں"
+        },
+        {
+          "native": "زَمْزَمَ",
+          "urdu": "زمزم"
+        },
+        {
+          "native": "مَاءُ",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-077",
+      "category": "سعی",
+      "title": "قریب ترین بیت الخلا کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ دَوْرَةِ مِيَاهٍ؟",
+      "urdu": "قریب ترین بیت الخلا کہاں ہے؟",
+      "english": "Where is the nearest restroom?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مِيَاهٍ؟",
+          "urdu": "پانی"
+        },
+        {
+          "native": "دَوْرَةِ",
+          "urdu": "بیت الخلا / جگہ"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-078",
+      "category": "سعی",
+      "title": "کیا میں یہاں سے باہر جا سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الْخُرُوجُ مِنْ هُنَا؟",
+      "urdu": "کیا میں یہاں سے باہر جا سکتا ہوں؟",
+      "english": "Can I exit from here?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هُنَا؟",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "الْخُرُوجُ",
+          "urdu": "باہر نکلنا"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-079",
+      "category": "سعی",
+      "title": "میں سعی مکمل کر چکا ہوں۔",
+      "native": "اِنْتَهَيْتُ مِنَ السَّعْيِ.",
+      "urdu": "میں سعی مکمل کر چکا ہوں۔",
+      "english": "I have finished Sa'i.",
+      "roman": "",
+      "words": [
+        {
+          "native": "السَّعْيِ.",
+          "urdu": "سعی"
+        },
+        {
+          "native": "مِنَ",
+          "urdu": "سے"
+        },
+        {
+          "native": "اِنْتَهَيْتُ",
+          "urdu": "میں مکمل کر چکا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-080",
+      "category": "سعی",
+      "title": "میں سعی کے بعد کہاں جاؤں؟",
+      "native": "أَيْنَ أَذْهَبُ بَعْدَ السَّعْيِ؟",
+      "urdu": "میں سعی کے بعد کہاں جاؤں؟",
+      "english": "Where should I go after Sa'i?",
+      "roman": "",
+      "words": [
+        {
+          "native": "السَّعْيِ؟",
+          "urdu": "سعی"
+        },
+        {
+          "native": "بَعْدَ",
+          "urdu": "بعد"
+        },
+        {
+          "native": "أَذْهَبُ",
+          "urdu": "میں جاؤں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-081",
+      "category": "نماز و عبادت",
+      "title": "وضو کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مَكَانُ الْوُضُوءِ؟",
+      "urdu": "وضو کی جگہ کہاں ہے؟",
+      "english": "Where is the ablution area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْوُضُوءِ؟",
+          "urdu": "وضو"
+        },
+        {
+          "native": "مَكَانُ",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-082",
+      "category": "نماز و عبادت",
+      "title": "میں وضو کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أَتَوَضَّأَ.",
+      "urdu": "میں وضو کرنا چاہتا ہوں۔",
+      "english": "I want to perform wudu.",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَتَوَضَّأَ.",
+          "urdu": "میں وضو کروں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-083",
+      "category": "نماز و عبادت",
+      "title": "قبلہ کس طرف ہے؟",
+      "native": "أَيْنَ الْقِبْلَةُ؟",
+      "urdu": "قبلہ کس طرف ہے؟",
+      "english": "Where is the Qiblah?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْقِبْلَةُ؟",
+          "urdu": "قبلہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-084",
+      "category": "نماز و عبادت",
+      "title": "نماز کب قائم ہوگی؟",
+      "native": "مَتَى تُقَامُ الصَّلَاةُ؟",
+      "urdu": "نماز کب قائم ہوگی؟",
+      "english": "When will the prayer begin?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الصَّلَاةُ؟",
+          "urdu": "نماز"
+        },
+        {
+          "native": "تُقَامُ",
+          "urdu": "قائم ہوگی / ادا ہوگی"
+        },
+        {
+          "native": "مَتَى",
+          "urdu": "کب"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-085",
+      "category": "نماز و عبادت",
+      "title": "کیا نماز کی اذان ہو گئی ہے؟",
+      "native": "هَلْ أُذِّنَ لِلصَّلَاةِ؟",
+      "urdu": "کیا نماز کی اذان ہو گئی ہے؟",
+      "english": "Has the call to prayer been made?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلصَّلَاةِ؟",
+          "urdu": "نماز کے لیے"
+        },
+        {
+          "native": "أُذِّنَ",
+          "urdu": "اذان ہوئی"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-086",
+      "category": "نماز و عبادت",
+      "title": "جماعت کی نماز کہاں ادا ہوتی ہے؟",
+      "native": "أَيْنَ تُقَامُ صَلَاةُ الْجَمَاعَةِ؟",
+      "urdu": "جماعت کی نماز کہاں ادا ہوتی ہے؟",
+      "english": "Where is the congregational prayer held?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْجَمَاعَةِ؟",
+          "urdu": "جماعت"
+        },
+        {
+          "native": "صَلَاةُ",
+          "urdu": "نماز"
+        },
+        {
+          "native": "تُقَامُ",
+          "urdu": "قائم ہوگی / ادا ہوگی"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-087",
+      "category": "نماز و عبادت",
+      "title": "کیا یہ نماز کی جگہ ہے؟",
+      "native": "هَلْ هَذَا مَكَانُ الصَّلَاةِ؟",
+      "urdu": "کیا یہ نماز کی جگہ ہے؟",
+      "english": "Is this the prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الصَّلَاةِ؟",
+          "urdu": "نماز"
+        },
+        {
+          "native": "مَكَانُ",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-088",
+      "category": "نماز و عبادت",
+      "title": "کیا میں یہاں نماز پڑھ سکتا ہوں؟",
+      "native": "هَلْ يُمْكِنُنِي الصَّلَاةُ هُنَا؟",
+      "urdu": "کیا میں یہاں نماز پڑھ سکتا ہوں؟",
+      "english": "May I pray here?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هُنَا؟",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "الصَّلَاةُ",
+          "urdu": "نماز"
+        },
+        {
+          "native": "يُمْكِنُنِي",
+          "urdu": "میں کر سکتا ہوں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-089",
+      "category": "نماز و عبادت",
+      "title": "خواتین کی نماز کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مُصَلَّى النِّسَاءِ؟",
+      "urdu": "خواتین کی نماز کی جگہ کہاں ہے؟",
+      "english": "Where is the women's prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "النِّسَاءِ؟",
+          "urdu": "خواتین"
+        },
+        {
+          "native": "مُصَلَّى",
+          "urdu": "نماز کی جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-090",
+      "category": "نماز و عبادت",
+      "title": "مردوں کی نماز کی جگہ کہاں ہے؟",
+      "native": "أَيْنَ مُصَلَّى الرِّجَالِ؟",
+      "urdu": "مردوں کی نماز کی جگہ کہاں ہے؟",
+      "english": "Where is the men's prayer area?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الرِّجَالِ؟",
+          "urdu": "مردوں"
+        },
+        {
+          "native": "مُصَلَّى",
+          "urdu": "نماز کی جگہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-091",
+      "category": "نماز و عبادت",
+      "title": "مجھے قرآن مجید چاہیے۔",
+      "native": "أُرِيدُ مُصْحَفًا.",
+      "urdu": "مجھے قرآن مجید چاہیے۔",
+      "english": "I would like a copy of the Quran.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مُصْحَفًا.",
+          "urdu": "قرآن مجید"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-092",
+      "category": "نماز و عبادت",
+      "title": "مجھے قرآن مجید کہاں ملے گا؟",
+      "native": "أَيْنَ أَجِدُ مُصْحَفًا؟",
+      "urdu": "مجھے قرآن مجید کہاں ملے گا؟",
+      "english": "Where can I find a copy of the Quran?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مُصْحَفًا؟",
+          "urdu": "قرآن مجید"
+        },
+        {
+          "native": "أَجِدُ",
+          "urdu": "میں پاؤں / ملے"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-093",
+      "category": "نماز و عبادت",
+      "title": "مجھے نماز کے لیے کرسی چاہیے۔",
+      "native": "أُرِيدُ كُرْسِيًّا لِلصَّلَاةِ.",
+      "urdu": "مجھے نماز کے لیے کرسی چاہیے۔",
+      "english": "I need a chair for prayer.",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلصَّلَاةِ.",
+          "urdu": "نماز کے لیے"
+        },
+        {
+          "native": "كُرْسِيًّا",
+          "urdu": "کرسی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-094",
+      "category": "نماز و عبادت",
+      "title": "مجھے کرسی کہاں ملے گی؟",
+      "native": "أَيْنَ أَجِدُ كُرْسِيًّا؟",
+      "urdu": "مجھے کرسی کہاں ملے گی؟",
+      "english": "Where can I find a chair?",
+      "roman": "",
+      "words": [
+        {
+          "native": "كُرْسِيًّا؟",
+          "urdu": "کرسی"
+        },
+        {
+          "native": "أَجِدُ",
+          "urdu": "میں پاؤں / ملے"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-095",
+      "category": "نماز و عبادت",
+      "title": "کیا نماز کے بعد جنازہ ہے؟",
+      "native": "هَلْ تُوجَدُ جَنَازَةٌ بَعْدَ الصَّلَاةِ؟",
+      "urdu": "کیا نماز کے بعد جنازہ ہے؟",
+      "english": "Is there a funeral prayer after the prayer?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الصَّلَاةِ؟",
+          "urdu": "نماز"
+        },
+        {
+          "native": "بَعْدَ",
+          "urdu": "بعد"
+        },
+        {
+          "native": "جَنَازَةٌ",
+          "urdu": "جنازہ"
+        },
+        {
+          "native": "تُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-096",
+      "category": "نماز و عبادت",
+      "title": "میں نمازِ جنازہ کہاں پڑھوں؟",
+      "native": "أَيْنَ أُصَلِّي صَلَاةَ الْجَنَازَةِ؟",
+      "urdu": "میں نمازِ جنازہ کہاں پڑھوں؟",
+      "english": "Where do I pray the funeral prayer?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْجَنَازَةِ؟",
+          "urdu": "جنازہ"
+        },
+        {
+          "native": "صَلَاةَ",
+          "urdu": "نماز"
+        },
+        {
+          "native": "أُصَلِّي",
+          "urdu": "میں نماز پڑھوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-097",
+      "category": "نماز و عبادت",
+      "title": "میں تھوڑی دیر دعا کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أَدْعُوَ قَلِيلًا.",
+      "urdu": "میں تھوڑی دیر دعا کرنا چاہتا ہوں۔",
+      "english": "I want to make dua for a little while.",
+      "roman": "",
+      "words": [
+        {
+          "native": "قَلِيلًا.",
+          "urdu": "تھوڑی دیر"
+        },
+        {
+          "native": "أَدْعُوَ",
+          "urdu": "میں دعا کروں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-098",
+      "category": "نماز و عبادت",
+      "title": "کیا یہ جگہ نماز کے لیے مخصوص ہے؟",
+      "native": "هَلْ هَذَا الْمَكَانُ مُخَصَّصٌ لِلصَّلَاةِ؟",
+      "urdu": "کیا یہ جگہ نماز کے لیے مخصوص ہے؟",
+      "english": "Is this place designated for prayer?",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِلصَّلَاةِ؟",
+          "urdu": "نماز کے لیے"
+        },
+        {
+          "native": "مُخَصَّصٌ",
+          "urdu": "مخصوص ہے"
+        },
+        {
+          "native": "الْمَكَانُ",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-099",
+      "category": "نماز و عبادت",
+      "title": "براہِ کرم، میرے لیے جگہ چھوڑ دیں۔",
+      "native": "مِنْ فَضْلِكَ، اِتْرُكْ لِي مَكَانًا.",
+      "urdu": "براہِ کرم، میرے لیے جگہ چھوڑ دیں۔",
+      "english": "Please leave some space for me.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَكَانًا.",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "لِي",
+          "urdu": "میرے لیے / میرے"
+        },
+        {
+          "native": "اِتْرُكْ",
+          "urdu": "چھوڑ دیں"
+        },
+        {
+          "native": "فَضْلِكَ،",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-100",
+      "category": "نماز و عبادت",
+      "title": "اللہ آپ کو جزائے خیر دے۔",
+      "native": "جَزَاكَ اللَّهُ خَيْرًا.",
+      "urdu": "اللہ آپ کو جزائے خیر دے۔",
+      "english": "May Allah reward you with goodness.",
+      "roman": "",
+      "words": [
+        {
+          "native": "خَيْرًا.",
+          "urdu": "بھلائی / خیر"
+        },
+        {
+          "native": "اللَّهُ",
+          "urdu": "اللہ"
+        },
+        {
+          "native": "جَزَاكَ",
+          "urdu": "آپ کو بدلہ دے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-101",
+      "category": "ہوٹل و رہائش",
+      "title": "ہوٹل کہاں ہے؟",
+      "native": "أَيْنَ الْفُنْدُقُ؟",
+      "urdu": "ہوٹل کہاں ہے؟",
+      "english": "Where is the hotel?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْفُنْدُقُ؟",
+          "urdu": "ہوٹل"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-102",
+      "category": "ہوٹل و رہائش",
+      "title": "یہ میرے ہوٹل کا پتہ ہے۔",
+      "native": "هَذَا عُنْوَانُ فُنْدُقِي.",
+      "urdu": "یہ میرے ہوٹل کا پتہ ہے۔",
+      "english": "This is my hotel's address.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فُنْدُقِي.",
+          "urdu": "میرا ہوٹل"
+        },
+        {
+          "native": "عُنْوَانُ",
+          "urdu": "پتہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-103",
+      "category": "ہوٹل و رہائش",
+      "title": "میں اپنے ہوٹل جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى فُنْدُقِي.",
+      "urdu": "میں اپنے ہوٹل جانا چاہتا ہوں۔",
+      "english": "I want to go to my hotel.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فُنْدُقِي.",
+          "urdu": "میرا ہوٹل"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-104",
+      "category": "ہوٹل و رہائش",
+      "title": "استقبالیہ کہاں ہے؟",
+      "native": "أَيْنَ الِاسْتِقْبَالُ؟",
+      "urdu": "استقبالیہ کہاں ہے؟",
+      "english": "Where is the reception?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الِاسْتِقْبَالُ؟",
+          "urdu": "استقبالیہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-105",
+      "category": "ہوٹل و رہائش",
+      "title": "میری بکنگ ہے۔",
+      "native": "عِنْدِي حَجْزٌ.",
+      "urdu": "میری بکنگ ہے۔",
+      "english": "I have a reservation.",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَجْزٌ.",
+          "urdu": "بکنگ"
+        },
+        {
+          "native": "عِنْدِي",
+          "urdu": "میرے پاس / مجھے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-106",
+      "category": "ہوٹل و رہائش",
+      "title": "میں چیک اِن کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ تَسْجِيلَ الدُّخُولِ.",
+      "urdu": "میں چیک اِن کرنا چاہتا ہوں۔",
+      "english": "I want to check in.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الدُّخُولِ.",
+          "urdu": "داخلہ / اِن"
+        },
+        {
+          "native": "تَسْجِيلَ",
+          "urdu": "اندراج / چیک"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-107",
+      "category": "ہوٹل و رہائش",
+      "title": "میں چیک آؤٹ کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ تَسْجِيلَ الْخُرُوجِ.",
+      "urdu": "میں چیک آؤٹ کرنا چاہتا ہوں۔",
+      "english": "I want to check out.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْخُرُوجِ.",
+          "urdu": "خروج / آؤٹ"
+        },
+        {
+          "native": "تَسْجِيلَ",
+          "urdu": "اندراج / چیک"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-108",
+      "category": "ہوٹل و رہائش",
+      "title": "میرے کمرے کا نمبر کیا ہے؟",
+      "native": "مَا رَقْمُ غُرْفَتِي؟",
+      "urdu": "میرے کمرے کا نمبر کیا ہے؟",
+      "english": "What is my room number?",
+      "roman": "",
+      "words": [
+        {
+          "native": "غُرْفَتِي؟",
+          "urdu": "میرا کمرہ"
+        },
+        {
+          "native": "رَقْمُ",
+          "urdu": "نمبر"
+        },
+        {
+          "native": "مَا",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-109",
+      "category": "ہوٹل و رہائش",
+      "title": "لفٹ کہاں ہے؟",
+      "native": "أَيْنَ الْمِصْعَدُ؟",
+      "urdu": "لفٹ کہاں ہے؟",
+      "english": "Where is the elevator?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمِصْعَدُ؟",
+          "urdu": "لفٹ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-110",
+      "category": "ہوٹل و رہائش",
+      "title": "چابی کام نہیں کر رہی۔",
+      "native": "الْمِفْتَاحُ لَا يَعْمَلُ.",
+      "urdu": "چابی کام نہیں کر رہی۔",
+      "english": "The key is not working.",
+      "roman": "",
+      "words": [
+        {
+          "native": "يَعْمَلُ.",
+          "urdu": "کام کرتا ہے"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        },
+        {
+          "native": "الْمِفْتَاحُ",
+          "urdu": "چابی"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-111",
+      "category": "ہوٹل و رہائش",
+      "title": "کارڈ کام نہیں کر رہا۔",
+      "native": "الْبِطَاقَةُ لَا تَعْمَلُ.",
+      "urdu": "کارڈ کام نہیں کر رہا۔",
+      "english": "The card is not working.",
+      "roman": "",
+      "words": [
+        {
+          "native": "تَعْمَلُ.",
+          "urdu": "کام کرتی ہے"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        },
+        {
+          "native": "الْبِطَاقَةُ",
+          "urdu": "کارڈ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-112",
+      "category": "ہوٹل و رہائش",
+      "title": "مجھے ایک تولیہ چاہیے۔",
+      "native": "أَحْتَاجُ إِلَى مِنْشَفَةٍ.",
+      "urdu": "مجھے ایک تولیہ چاہیے۔",
+      "english": "I need a towel.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مِنْشَفَةٍ.",
+          "urdu": "تولیہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَحْتَاجُ",
+          "urdu": "مجھے ضرورت ہے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-113",
+      "category": "ہوٹل و رہائش",
+      "title": "مجھے پانی چاہیے۔",
+      "native": "أَحْتَاجُ إِلَى مَاءٍ.",
+      "urdu": "مجھے پانی چاہیے۔",
+      "english": "I need water.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَاءٍ.",
+          "urdu": "پانی"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَحْتَاجُ",
+          "urdu": "مجھے ضرورت ہے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-114",
+      "category": "ہوٹل و رہائش",
+      "title": "مجھے کمرہ صاف کروانا ہے۔",
+      "native": "أَحْتَاجُ إِلَى تَنْظِيفِ الْغُرْفَةِ.",
+      "urdu": "مجھے کمرہ صاف کروانا ہے۔",
+      "english": "I need the room cleaned.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْغُرْفَةِ.",
+          "urdu": "کمرے کی"
+        },
+        {
+          "native": "تَنْظِيفِ",
+          "urdu": "صفائی"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَحْتَاجُ",
+          "urdu": "مجھے ضرورت ہے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-115",
+      "category": "ہوٹل و رہائش",
+      "title": "اے سی کام نہیں کر رہا۔",
+      "native": "الْمُكَيِّفُ لَا يَعْمَلُ.",
+      "urdu": "اے سی کام نہیں کر رہا۔",
+      "english": "The air conditioner is not working.",
+      "roman": "",
+      "words": [
+        {
+          "native": "يَعْمَلُ.",
+          "urdu": "کام کرتا ہے"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        },
+        {
+          "native": "الْمُكَيِّفُ",
+          "urdu": "اے سی"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-116",
+      "category": "ہوٹل و رہائش",
+      "title": "گرم پانی نہیں آ رہا۔",
+      "native": "الْمَاءُ السَّاخِنُ لَا يَعْمَلُ.",
+      "urdu": "گرم پانی نہیں آ رہا۔",
+      "english": "The hot water is not working.",
+      "roman": "",
+      "words": [
+        {
+          "native": "يَعْمَلُ.",
+          "urdu": "کام کرتا ہے"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        },
+        {
+          "native": "السَّاخِنُ",
+          "urdu": "گرم"
+        },
+        {
+          "native": "الْمَاءُ",
+          "urdu": "پانی"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-117",
+      "category": "ہوٹل و رہائش",
+      "title": "کیا وائی فائی ہے؟",
+      "native": "هَلْ يُوجَدُ وَاي فَاي؟",
+      "urdu": "کیا وائی فائی ہے؟",
+      "english": "Is there Wi-Fi?",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَاي؟",
+          "urdu": "فائی"
+        },
+        {
+          "native": "وَاي",
+          "urdu": "وائی"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-118",
+      "category": "ہوٹل و رہائش",
+      "title": "وائی فائی کا پاس ورڈ کیا ہے؟",
+      "native": "مَا كَلِمَةُ مُرُورِ الْوَاي فَاي؟",
+      "urdu": "وائی فائی کا پاس ورڈ کیا ہے؟",
+      "english": "What is the Wi-Fi password?",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَاي؟",
+          "urdu": "فائی"
+        },
+        {
+          "native": "الْوَاي",
+          "urdu": "وائی"
+        },
+        {
+          "native": "مُرُورِ",
+          "urdu": "پاس ورڈ / گزرنے کا"
+        },
+        {
+          "native": "كَلِمَةُ",
+          "urdu": "لفظ / کلمہ"
+        },
+        {
+          "native": "مَا",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-119",
+      "category": "ہوٹل و رہائش",
+      "title": "مجھے پرسکون کمرہ چاہیے۔",
+      "native": "أُرِيدُ غُرْفَةً هَادِئَةً.",
+      "urdu": "مجھے پرسکون کمرہ چاہیے۔",
+      "english": "I want a quiet room.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَادِئَةً.",
+          "urdu": "پرسکون"
+        },
+        {
+          "native": "غُرْفَةً",
+          "urdu": "کمرہ"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-120",
+      "category": "ہوٹل و رہائش",
+      "title": "ناشتے کا وقت کب ہے؟",
+      "native": "مَتَى مَوْعِدُ الْإِفْطَارِ؟",
+      "urdu": "ناشتے کا وقت کب ہے؟",
+      "english": "What time is breakfast?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْإِفْطَارِ؟",
+          "urdu": "ناشتہ"
+        },
+        {
+          "native": "مَوْعِدُ",
+          "urdu": "وقت"
+        },
+        {
+          "native": "مَتَى",
+          "urdu": "کب"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-121",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میں حرم جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى الْحَرَمِ.",
+      "urdu": "میں حرم جانا چاہتا ہوں۔",
+      "english": "I want to go to the Haram.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ.",
+          "urdu": "حرم"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-122",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میں ہوٹل جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى الْفُنْدُقِ.",
+      "urdu": "میں ہوٹل جانا چاہتا ہوں۔",
+      "english": "I want to go to the hotel.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْفُنْدُقِ.",
+          "urdu": "ہوٹل"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-123",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "حرم تک کرایہ کتنا ہے؟",
+      "native": "كَمِ الْأُجْرَةُ إِلَى الْحَرَمِ؟",
+      "urdu": "حرم تک کرایہ کتنا ہے؟",
+      "english": "How much is the fare to the Haram?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ؟",
+          "urdu": "حرم"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الْأُجْرَةُ",
+          "urdu": "کرایہ"
+        },
+        {
+          "native": "كَمِ",
+          "urdu": "کتنا / کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-124",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "براہِ کرم، میٹر چلائیں۔",
+      "native": "شَغِّلِ الْعَدَّادَ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، میٹر چلائیں۔",
+      "english": "Please turn on the meter.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "الْعَدَّادَ،",
+          "urdu": "میٹر"
+        },
+        {
+          "native": "شَغِّلِ",
+          "urdu": "چلائیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-125",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "براہِ کرم، یہاں رکیں۔",
+      "native": "تَوَقَّفْ هُنَا، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، یہاں رکیں۔",
+      "english": "Please stop here.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "هُنَا،",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "تَوَقَّفْ",
+          "urdu": "رکیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-126",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "براہِ کرم، میرا یہاں انتظار کریں۔",
+      "native": "اِنْتَظِرْنِي هُنَا، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، میرا یہاں انتظار کریں۔",
+      "english": "Please wait for me here.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "هُنَا،",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "اِنْتَظِرْنِي",
+          "urdu": "میرا انتظار کریں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-127",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "کیا آپ کارڈ سے ادائیگی لیتے ہیں؟",
+      "native": "هَلْ تَقْبَلُ الدَّفْعَ بِالْبِطَاقَةِ؟",
+      "urdu": "کیا آپ کارڈ سے ادائیگی لیتے ہیں؟",
+      "english": "Do you accept card payment?",
+      "roman": "",
+      "words": [
+        {
+          "native": "بِالْبِطَاقَةِ؟",
+          "urdu": "کارڈ سے"
+        },
+        {
+          "native": "الدَّفْعَ",
+          "urdu": "ادائیگی"
+        },
+        {
+          "native": "تَقْبَلُ",
+          "urdu": "آپ قبول کرتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-128",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "کیا آپ نقد رقم لیتے ہیں؟",
+      "native": "هَلْ تَقْبَلُ النَّقْدَ؟",
+      "urdu": "کیا آپ نقد رقم لیتے ہیں؟",
+      "english": "Do you accept cash?",
+      "roman": "",
+      "words": [
+        {
+          "native": "النَّقْدَ؟",
+          "urdu": "نقد رقم"
+        },
+        {
+          "native": "تَقْبَلُ",
+          "urdu": "آپ قبول کرتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-129",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "ٹیکسی اسٹینڈ کہاں ہے؟",
+      "native": "أَيْنَ مَوْقِفُ سَيَّارَاتِ الْأُجْرَةِ؟",
+      "urdu": "ٹیکسی اسٹینڈ کہاں ہے؟",
+      "english": "Where is the taxi stand?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأُجْرَةِ؟",
+          "urdu": "کرائے کی"
+        },
+        {
+          "native": "سَيَّارَاتِ",
+          "urdu": "گاڑیاں"
+        },
+        {
+          "native": "مَوْقِفُ",
+          "urdu": "اسٹینڈ / موقف"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-130",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "بس اسٹینڈ کہاں ہے؟",
+      "native": "أَيْنَ مَوْقِفُ الْحَافِلَاتِ؟",
+      "urdu": "بس اسٹینڈ کہاں ہے؟",
+      "english": "Where is the bus stop?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَافِلَاتِ؟",
+          "urdu": "بسیں"
+        },
+        {
+          "native": "مَوْقِفُ",
+          "urdu": "اسٹینڈ / موقف"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-131",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "کون سی بس حرم جاتی ہے؟",
+      "native": "أَيُّ حَافِلَةٍ تَذْهَبُ إِلَى الْحَرَمِ؟",
+      "urdu": "کون سی بس حرم جاتی ہے؟",
+      "english": "Which bus goes to the Haram?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَرَمِ؟",
+          "urdu": "حرم"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "تَذْهَبُ",
+          "urdu": "جاتی ہے"
+        },
+        {
+          "native": "حَافِلَةٍ",
+          "urdu": "بس"
+        },
+        {
+          "native": "أَيُّ",
+          "urdu": "کون سی / کون سا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-132",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "بس کب آئے گی؟",
+      "native": "مَتَى تَصِلُ الْحَافِلَةُ؟",
+      "urdu": "بس کب آئے گی؟",
+      "english": "When will the bus arrive?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْحَافِلَةُ؟",
+          "urdu": "بس"
+        },
+        {
+          "native": "تَصِلُ",
+          "urdu": "پہنچتی ہے"
+        },
+        {
+          "native": "مَتَى",
+          "urdu": "کب"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-133",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "کیا یہ بس مفت ہے؟",
+      "native": "هَلْ هَذِهِ الْحَافِلَةُ مَجَّانِيَّةٌ؟",
+      "urdu": "کیا یہ بس مفت ہے؟",
+      "english": "Is this bus free?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَجَّانِيَّةٌ؟",
+          "urdu": "مفت"
+        },
+        {
+          "native": "الْحَافِلَةُ",
+          "urdu": "بس"
+        },
+        {
+          "native": "هَذِهِ",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-134",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "ٹرین اسٹیشن کہاں ہے؟",
+      "native": "أَيْنَ مَحَطَّةُ الْقِطَارِ؟",
+      "urdu": "ٹرین اسٹیشن کہاں ہے؟",
+      "english": "Where is the train station?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْقِطَارِ؟",
+          "urdu": "ٹرین"
+        },
+        {
+          "native": "مَحَطَّةُ",
+          "urdu": "اسٹیشن"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-135",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میں مکہ جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى مَكَّةَ.",
+      "urdu": "میں مکہ جانا چاہتا ہوں۔",
+      "english": "I want to go to Makkah.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَكَّةَ.",
+          "urdu": "مکہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-136",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میں مدینہ جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ الذَّهَابَ إِلَى الْمَدِينَةِ.",
+      "urdu": "میں مدینہ جانا چاہتا ہوں۔",
+      "english": "I want to go to Madinah.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْمَدِينَةِ.",
+          "urdu": "مدینہ"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "الذَّهَابَ",
+          "urdu": "جانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-137",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "سفر میں کتنا وقت لگتا ہے؟",
+      "native": "كَمْ تَسْتَغْرِقُ الرِّحْلَةُ؟",
+      "urdu": "سفر میں کتنا وقت لگتا ہے؟",
+      "english": "How long does the journey take?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الرِّحْلَةُ؟",
+          "urdu": "سفر"
+        },
+        {
+          "native": "تَسْتَغْرِقُ",
+          "urdu": "وقت لیتی ہے"
+        },
+        {
+          "native": "كَمْ",
+          "urdu": "کتنے / کتنا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-138",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "کیا یہ سیٹ خالی ہے؟",
+      "native": "هَلْ هَذَا الْمَقْعَدُ فَارِغٌ؟",
+      "urdu": "کیا یہ سیٹ خالی ہے؟",
+      "english": "Is this seat empty?",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَارِغٌ؟",
+          "urdu": "خالی"
+        },
+        {
+          "native": "الْمَقْعَدُ",
+          "urdu": "سیٹ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-139",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میں سامان کہاں رکھوں؟",
+      "native": "أَيْنَ أَضَعُ الْأَمْتِعَةَ؟",
+      "urdu": "میں سامان کہاں رکھوں؟",
+      "english": "Where should I put the luggage?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْأَمْتِعَةَ؟",
+          "urdu": "سامان"
+        },
+        {
+          "native": "أَضَعُ",
+          "urdu": "میں رکھوں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-140",
+      "category": "ٹیکسی، بس اور سفر",
+      "title": "میرا بیگ گم ہو گیا ہے۔",
+      "native": "لَقَدْ ضَاعَتْ حَقِيبَتِي.",
+      "urdu": "میرا بیگ گم ہو گیا ہے۔",
+      "english": "My bag has been lost.",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَقِيبَتِي.",
+          "urdu": "میرا بیگ"
+        },
+        {
+          "native": "ضَاعَتْ",
+          "urdu": "گم ہو گئی"
+        },
+        {
+          "native": "لَقَدْ",
+          "urdu": "یقیناً / ہو چکا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-141",
+      "category": "کھانا پینا",
+      "title": "قریب ترین ریستوران کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ مَطْعَمٍ؟",
+      "urdu": "قریب ترین ریستوران کہاں ہے؟",
+      "english": "Where is the nearest restaurant?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَطْعَمٍ؟",
+          "urdu": "ریستوران"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-142",
+      "category": "کھانا پینا",
+      "title": "مجھے ٹھنڈا پانی چاہیے۔",
+      "native": "أُرِيدُ مَاءً بَارِدًا.",
+      "urdu": "مجھے ٹھنڈا پانی چاہیے۔",
+      "english": "I want cold water.",
+      "roman": "",
+      "words": [
+        {
+          "native": "بَارِدًا.",
+          "urdu": "ٹھنڈا"
+        },
+        {
+          "native": "مَاءً",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-143",
+      "category": "کھانا پینا",
+      "title": "مجھے برف کے بغیر پانی چاہیے۔",
+      "native": "أُرِيدُ مَاءً بِدُونِ ثَلْجٍ.",
+      "urdu": "مجھے برف کے بغیر پانی چاہیے۔",
+      "english": "I want water without ice.",
+      "roman": "",
+      "words": [
+        {
+          "native": "ثَلْجٍ.",
+          "urdu": "برف"
+        },
+        {
+          "native": "بِدُونِ",
+          "urdu": "بغیر"
+        },
+        {
+          "native": "مَاءً",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-144",
+      "category": "کھانا پینا",
+      "title": "مجھے چائے چاہیے۔",
+      "native": "أُرِيدُ شَايًا.",
+      "urdu": "مجھے چائے چاہیے۔",
+      "english": "I want tea.",
+      "roman": "",
+      "words": [
+        {
+          "native": "شَايًا.",
+          "urdu": "چائے"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-145",
+      "category": "کھانا پینا",
+      "title": "مجھے کافی چاہیے۔",
+      "native": "أُرِيدُ قَهْوَةً.",
+      "urdu": "مجھے کافی چاہیے۔",
+      "english": "I want coffee.",
+      "roman": "",
+      "words": [
+        {
+          "native": "قَهْوَةً.",
+          "urdu": "کافی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-146",
+      "category": "کھانا پینا",
+      "title": "مجھے روٹی چاہیے۔",
+      "native": "أُرِيدُ خُبْزًا.",
+      "urdu": "مجھے روٹی چاہیے۔",
+      "english": "I want bread.",
+      "roman": "",
+      "words": [
+        {
+          "native": "خُبْزًا.",
+          "urdu": "روٹی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-147",
+      "category": "کھانا پینا",
+      "title": "مجھے چاول اور مرغی چاہیے۔",
+      "native": "أُرِيدُ أَرُزًّا وَدَجَاجًا.",
+      "urdu": "مجھے چاول اور مرغی چاہیے۔",
+      "english": "I want rice and chicken.",
+      "roman": "",
+      "words": [
+        {
+          "native": "وَدَجَاجًا.",
+          "urdu": "اور مرغی"
+        },
+        {
+          "native": "أَرُزًّا",
+          "urdu": "چاول"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-148",
+      "category": "کھانا پینا",
+      "title": "مجھے کم مرچ والا کھانا چاہیے۔",
+      "native": "أُرِيدُ طَعَامًا غَيْرَ حَارٍّ.",
+      "urdu": "مجھے کم مرچ والا کھانا چاہیے۔",
+      "english": "I want non-spicy food.",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَارٍّ.",
+          "urdu": "مرچ والا / گرم"
+        },
+        {
+          "native": "غَيْرَ",
+          "urdu": "بغیر / غیر"
+        },
+        {
+          "native": "طَعَامًا",
+          "urdu": "کھانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-149",
+      "category": "کھانا پینا",
+      "title": "مجھے تیز مرچ نہیں چاہیے۔",
+      "native": "لَا أُرِيدُ فِلْفِلًا حَارًّا.",
+      "urdu": "مجھے تیز مرچ نہیں چاہیے۔",
+      "english": "I do not want hot chili.",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَارًّا.",
+          "urdu": "تیز / گرم"
+        },
+        {
+          "native": "فِلْفِلًا",
+          "urdu": "مرچ"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-150",
+      "category": "کھانا پینا",
+      "title": "کیا یہ کھانا حلال ہے؟",
+      "native": "هَلْ هَذَا الطَّعَامُ حَلَالٌ؟",
+      "urdu": "کیا یہ کھانا حلال ہے؟",
+      "english": "Is this food halal?",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَلَالٌ؟",
+          "urdu": "حلال"
+        },
+        {
+          "native": "الطَّعَامُ",
+          "urdu": "کھانا"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-151",
+      "category": "کھانا پینا",
+      "title": "کیا سبزی والا کھانا موجود ہے؟",
+      "native": "هَلْ يُوجَدُ طَعَامٌ نَبَاتِيٌّ؟",
+      "urdu": "کیا سبزی والا کھانا موجود ہے؟",
+      "english": "Is vegetarian food available?",
+      "roman": "",
+      "words": [
+        {
+          "native": "نَبَاتِيٌّ؟",
+          "urdu": "سبزی والا / ویجیٹیرین"
+        },
+        {
+          "native": "طَعَامٌ",
+          "urdu": "کھانا"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-152",
+      "category": "کھانا پینا",
+      "title": "کیا چینی کے بغیر کھانا موجود ہے؟",
+      "native": "هَلْ يُوجَدُ طَعَامٌ بِدُونِ سُكَّرٍ؟",
+      "urdu": "کیا چینی کے بغیر کھانا موجود ہے؟",
+      "english": "Is there food without sugar?",
+      "roman": "",
+      "words": [
+        {
+          "native": "سُكَّرٍ؟",
+          "urdu": "چینی"
+        },
+        {
+          "native": "بِدُونِ",
+          "urdu": "بغیر"
+        },
+        {
+          "native": "طَعَامٌ",
+          "urdu": "کھانا"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-153",
+      "category": "کھانا پینا",
+      "title": "کیا اس میں دودھ شامل ہے؟",
+      "native": "هَلْ هَذَا يَحْتَوِي عَلَى حَلِيبٍ؟",
+      "urdu": "کیا اس میں دودھ شامل ہے؟",
+      "english": "Does this contain milk?",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَلِيبٍ؟",
+          "urdu": "دودھ"
+        },
+        {
+          "native": "عَلَى",
+          "urdu": "پر / میں"
+        },
+        {
+          "native": "يَحْتَوِي",
+          "urdu": "شامل ہے"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-154",
+      "category": "کھانا پینا",
+      "title": "کیا اس میں خشک میوے شامل ہیں؟",
+      "native": "هَلْ هَذَا يَحْتَوِي عَلَى مُكَسَّرَاتٍ؟",
+      "urdu": "کیا اس میں خشک میوے شامل ہیں؟",
+      "english": "Does this contain nuts?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مُكَسَّرَاتٍ؟",
+          "urdu": "خشک میوے"
+        },
+        {
+          "native": "عَلَى",
+          "urdu": "پر / میں"
+        },
+        {
+          "native": "يَحْتَوِي",
+          "urdu": "شامل ہے"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-155",
+      "category": "کھانا پینا",
+      "title": "مجھے چھوٹا کھانا چاہیے۔",
+      "native": "أُرِيدُ وَجْبَةً صَغِيرَةً.",
+      "urdu": "مجھے چھوٹا کھانا چاہیے۔",
+      "english": "I want a small meal.",
+      "roman": "",
+      "words": [
+        {
+          "native": "صَغِيرَةً.",
+          "urdu": "چھوٹا"
+        },
+        {
+          "native": "وَجْبَةً",
+          "urdu": "کھانا / ایک وقت کا کھانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-156",
+      "category": "کھانا پینا",
+      "title": "مجھے دو افراد کے لیے کھانا چاہیے۔",
+      "native": "أُرِيدُ وَجْبَةً لِشَخْصَيْنِ.",
+      "urdu": "مجھے دو افراد کے لیے کھانا چاہیے۔",
+      "english": "I want a meal for two people.",
+      "roman": "",
+      "words": [
+        {
+          "native": "لِشَخْصَيْنِ.",
+          "urdu": "دو افراد کے لیے"
+        },
+        {
+          "native": "وَجْبَةً",
+          "urdu": "کھانا / ایک وقت کا کھانا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-157",
+      "category": "کھانا پینا",
+      "title": "اس کھانے کی قیمت کتنی ہے؟",
+      "native": "كَمْ سِعْرُ هَذِهِ الْوَجْبَةِ؟",
+      "urdu": "اس کھانے کی قیمت کتنی ہے؟",
+      "english": "How much is this meal?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْوَجْبَةِ؟",
+          "urdu": "کھانے کی"
+        },
+        {
+          "native": "هَذِهِ",
+          "urdu": "یہ"
+        },
+        {
+          "native": "سِعْرُ",
+          "urdu": "قیمت"
+        },
+        {
+          "native": "كَمْ",
+          "urdu": "کتنے / کتنا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-158",
+      "category": "کھانا پینا",
+      "title": "براہِ کرم، بل دے دیں۔",
+      "native": "الْحِسَابَ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، بل دے دیں۔",
+      "english": "The bill, please.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "الْحِسَابَ،",
+          "urdu": "بل"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-159",
+      "category": "کھانا پینا",
+      "title": "کیا آپ کارڈ لیتے ہیں؟",
+      "native": "هَلْ تَقْبَلُونَ الْبِطَاقَةَ؟",
+      "urdu": "کیا آپ کارڈ لیتے ہیں؟",
+      "english": "Do you accept cards?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْبِطَاقَةَ؟",
+          "urdu": "کارڈ"
+        },
+        {
+          "native": "تَقْبَلُونَ",
+          "urdu": "آپ لوگ قبول کرتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-160",
+      "category": "کھانا پینا",
+      "title": "میں کھانا اپنے ساتھ لے جانا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ آخُذَ الطَّعَامَ مَعِي.",
+      "urdu": "میں کھانا اپنے ساتھ لے جانا چاہتا ہوں۔",
+      "english": "I want to take the food with me.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَعِي.",
+          "urdu": "میرے ساتھ"
+        },
+        {
+          "native": "الطَّعَامَ",
+          "urdu": "کھانا"
+        },
+        {
+          "native": "آخُذَ",
+          "urdu": "میں لے جاؤں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-161",
+      "category": "خریداری اور رقم",
+      "title": "اس کی قیمت کتنی ہے؟",
+      "native": "كَمْ سِعْرُ هَذَا؟",
+      "urdu": "اس کی قیمت کتنی ہے؟",
+      "english": "How much is this?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا؟",
+          "urdu": "یہ"
+        },
+        {
+          "native": "سِعْرُ",
+          "urdu": "قیمت"
+        },
+        {
+          "native": "كَمْ",
+          "urdu": "کتنے / کتنا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-162",
+      "category": "خریداری اور رقم",
+      "title": "یہ بہت مہنگا ہے۔",
+      "native": "هَذَا غَالٍ جِدًّا.",
+      "urdu": "یہ بہت مہنگا ہے۔",
+      "english": "This is very expensive.",
+      "roman": "",
+      "words": [
+        {
+          "native": "جِدًّا.",
+          "urdu": "بہت"
+        },
+        {
+          "native": "غَالٍ",
+          "urdu": "مہنگا"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-163",
+      "category": "خریداری اور رقم",
+      "title": "کیا اس سے سستا موجود ہے؟",
+      "native": "هَلْ يُوجَدُ أَرْخَصُ؟",
+      "urdu": "کیا اس سے سستا موجود ہے؟",
+      "english": "Is there anything cheaper?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَرْخَصُ؟",
+          "urdu": "زیادہ سستا"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-164",
+      "category": "خریداری اور رقم",
+      "title": "براہِ کرم، مجھے یہ چاہیے۔",
+      "native": "أُرِيدُ هَذَا، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، مجھے یہ چاہیے۔",
+      "english": "I want this, please.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "هَذَا،",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-165",
+      "category": "خریداری اور رقم",
+      "title": "مجھے اس میں سے دو چاہیے۔",
+      "native": "أُرِيدُ اثْنَيْنِ مِنْ هَذَا.",
+      "urdu": "مجھے اس میں سے دو چاہیے۔",
+      "english": "I want two of these.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا.",
+          "urdu": "یہ"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "اثْنَيْنِ",
+          "urdu": "دو"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-166",
+      "category": "خریداری اور رقم",
+      "title": "کیا آپ کے پاس بڑا سائز ہے؟",
+      "native": "هَلْ عِنْدَكَ مَقَاسٌ أَكْبَرُ؟",
+      "urdu": "کیا آپ کے پاس بڑا سائز ہے؟",
+      "english": "Do you have a larger size?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَكْبَرُ؟",
+          "urdu": "بڑا"
+        },
+        {
+          "native": "مَقَاسٌ",
+          "urdu": "سائز"
+        },
+        {
+          "native": "عِنْدَكَ",
+          "urdu": "آپ کے پاس"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-167",
+      "category": "خریداری اور رقم",
+      "title": "کیا آپ کے پاس چھوٹا سائز ہے؟",
+      "native": "هَلْ عِنْدَكَ مَقَاسٌ أَصْغَرُ؟",
+      "urdu": "کیا آپ کے پاس چھوٹا سائز ہے؟",
+      "english": "Do you have a smaller size?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَصْغَرُ؟",
+          "urdu": "چھوٹا"
+        },
+        {
+          "native": "مَقَاسٌ",
+          "urdu": "سائز"
+        },
+        {
+          "native": "عِنْدَكَ",
+          "urdu": "آپ کے پاس"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-168",
+      "category": "خریداری اور رقم",
+      "title": "کیا آپ کے پاس دوسرا رنگ ہے؟",
+      "native": "هَلْ عِنْدَكَ لَوْنٌ آخَرُ؟",
+      "urdu": "کیا آپ کے پاس دوسرا رنگ ہے؟",
+      "english": "Do you have another color?",
+      "roman": "",
+      "words": [
+        {
+          "native": "آخَرُ؟",
+          "urdu": "دوسرا"
+        },
+        {
+          "native": "لَوْنٌ",
+          "urdu": "رنگ"
+        },
+        {
+          "native": "عِنْدَكَ",
+          "urdu": "آپ کے پاس"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-169",
+      "category": "خریداری اور رقم",
+      "title": "مجھے عبایا چاہیے۔",
+      "native": "أُرِيدُ عَبَاءَةً.",
+      "urdu": "مجھے عبایا چاہیے۔",
+      "english": "I want an abaya.",
+      "roman": "",
+      "words": [
+        {
+          "native": "عَبَاءَةً.",
+          "urdu": "عبایا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-170",
+      "category": "خریداری اور رقم",
+      "title": "مجھے جائے نماز چاہیے۔",
+      "native": "أُرِيدُ سَجَّادَةَ صَلَاةٍ.",
+      "urdu": "مجھے جائے نماز چاہیے۔",
+      "english": "I want a prayer mat.",
+      "roman": "",
+      "words": [
+        {
+          "native": "صَلَاةٍ.",
+          "urdu": "نماز"
+        },
+        {
+          "native": "سَجَّادَةَ",
+          "urdu": "چٹائی / جائے نماز"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-171",
+      "category": "خریداری اور رقم",
+      "title": "مجھے تسبیح چاہیے۔",
+      "native": "أُرِيدُ مِسْبَحَةً.",
+      "urdu": "مجھے تسبیح چاہیے۔",
+      "english": "I want prayer beads.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مِسْبَحَةً.",
+          "urdu": "تسبیح"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-172",
+      "category": "خریداری اور رقم",
+      "title": "مجھے کھجور چاہیے۔",
+      "native": "أُرِيدُ تَمْرًا.",
+      "urdu": "مجھے کھجور چاہیے۔",
+      "english": "I want dates.",
+      "roman": "",
+      "words": [
+        {
+          "native": "تَمْرًا.",
+          "urdu": "کھجور"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-173",
+      "category": "خریداری اور رقم",
+      "title": "مجھے زمزم کا پانی چاہیے۔",
+      "native": "أُرِيدُ مَاءَ زَمْزَمَ.",
+      "urdu": "مجھے زمزم کا پانی چاہیے۔",
+      "english": "I want Zamzam water.",
+      "roman": "",
+      "words": [
+        {
+          "native": "زَمْزَمَ.",
+          "urdu": "زمزم"
+        },
+        {
+          "native": "مَاءَ",
+          "urdu": "پانی"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-174",
+      "category": "خریداری اور رقم",
+      "title": "میں ادائیگی کہاں کروں؟",
+      "native": "أَيْنَ أَدْفَعُ؟",
+      "urdu": "میں ادائیگی کہاں کروں؟",
+      "english": "Where do I pay?",
+      "roman": "",
+      "words": [
+        {
+          "native": "أَدْفَعُ؟",
+          "urdu": "میں ادائیگی کروں"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-175",
+      "category": "خریداری اور رقم",
+      "title": "کیا آپ کارڈ لیتے ہیں؟",
+      "native": "هَلْ تَقْبَلُونَ الْبِطَاقَةَ؟",
+      "urdu": "کیا آپ کارڈ لیتے ہیں؟",
+      "english": "Do you accept cards?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْبِطَاقَةَ؟",
+          "urdu": "کارڈ"
+        },
+        {
+          "native": "تَقْبَلُونَ",
+          "urdu": "آپ لوگ قبول کرتے ہیں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-176",
+      "category": "خریداری اور رقم",
+      "title": "کیا کوئی رعایت ہے؟",
+      "native": "هَلْ يُوجَدُ خَصْمٌ؟",
+      "urdu": "کیا کوئی رعایت ہے؟",
+      "english": "Is there a discount?",
+      "roman": "",
+      "words": [
+        {
+          "native": "خَصْمٌ؟",
+          "urdu": "رعایت"
+        },
+        {
+          "native": "يُوجَدُ",
+          "urdu": "موجود ہے"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-177",
+      "category": "خریداری اور رقم",
+      "title": "براہِ کرم، مجھے رسید دیں۔",
+      "native": "أَعْطِنِي إِيصَالًا، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، مجھے رسید دیں۔",
+      "english": "Please give me a receipt.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "إِيصَالًا،",
+          "urdu": "رسید"
+        },
+        {
+          "native": "أَعْطِنِي",
+          "urdu": "مجھے دیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-178",
+      "category": "خریداری اور رقم",
+      "title": "میں یہ تبدیل کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أُبَدِّلَ هَذَا.",
+      "urdu": "میں یہ تبدیل کرنا چاہتا ہوں۔",
+      "english": "I want to exchange this.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا.",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أُبَدِّلَ",
+          "urdu": "میں تبدیل کروں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-179",
+      "category": "خریداری اور رقم",
+      "title": "میں یہ واپس کرنا چاہتا ہوں۔",
+      "native": "أُرِيدُ أَنْ أُرْجِعَ هَذَا.",
+      "urdu": "میں یہ واپس کرنا چاہتا ہوں۔",
+      "english": "I want to return this.",
+      "roman": "",
+      "words": [
+        {
+          "native": "هَذَا.",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أُرْجِعَ",
+          "urdu": "میں واپس کروں"
+        },
+        {
+          "native": "أَنْ",
+          "urdu": "کہ / کرنا"
+        },
+        {
+          "native": "أُرِيدُ",
+          "urdu": "میں چاہتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-180",
+      "category": "خریداری اور رقم",
+      "title": "قریب ترین اے ٹی ایم کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ صَرَّافٍ آلِيٍّ؟",
+      "urdu": "قریب ترین اے ٹی ایم کہاں ہے؟",
+      "english": "Where is the nearest ATM?",
+      "roman": "",
+      "words": [
+        {
+          "native": "آلِيٍّ؟",
+          "urdu": "خودکار"
+        },
+        {
+          "native": "صَرَّافٍ",
+          "urdu": "اے ٹی ایم / صراف"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-181",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "یہ جگہ نقشے پر کہاں ہے؟",
+      "native": "أَيْنَ هَذَا الْمَكَانُ عَلَى الْخَرِيطَةِ؟",
+      "urdu": "یہ جگہ نقشے پر کہاں ہے؟",
+      "english": "Where is this place on the map?",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْخَرِيطَةِ؟",
+          "urdu": "نقشہ"
+        },
+        {
+          "native": "عَلَى",
+          "urdu": "پر / میں"
+        },
+        {
+          "native": "الْمَكَانُ",
+          "urdu": "جگہ"
+        },
+        {
+          "native": "هَذَا",
+          "urdu": "یہ"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-182",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "میں یہاں کیسے پہنچوں؟",
+      "native": "كَيْفَ أَصِلُ إِلَى هُنَا؟",
+      "urdu": "میں یہاں کیسے پہنچوں؟",
+      "english": "How do I get here?",
+      "roman": "",
+      "words": [
+        {
+          "native": "هُنَا؟",
+          "urdu": "یہاں"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَصِلُ",
+          "urdu": "میں پہنچوں"
+        },
+        {
+          "native": "كَيْفَ",
+          "urdu": "کیسے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-183",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "کیا یہ دور ہے؟",
+      "native": "هَلْ هُوَ بَعِيدٌ؟",
+      "urdu": "کیا یہ دور ہے؟",
+      "english": "Is it far?",
+      "roman": "",
+      "words": [
+        {
+          "native": "بَعِيدٌ؟",
+          "urdu": "دور"
+        },
+        {
+          "native": "هُوَ",
+          "urdu": "وہ / یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-184",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "کیا یہ قریب ہے؟",
+      "native": "هَلْ هُوَ قَرِيبٌ؟",
+      "urdu": "کیا یہ قریب ہے؟",
+      "english": "Is it near?",
+      "roman": "",
+      "words": [
+        {
+          "native": "قَرِيبٌ؟",
+          "urdu": "قریب"
+        },
+        {
+          "native": "هُوَ",
+          "urdu": "وہ / یہ"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-185",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "کیا میں سیدھا جاؤں؟",
+      "native": "هَلْ أَذْهَبُ مُسْتَقِيمًا؟",
+      "urdu": "کیا میں سیدھا جاؤں؟",
+      "english": "Should I go straight?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مُسْتَقِيمًا؟",
+          "urdu": "سیدھا"
+        },
+        {
+          "native": "أَذْهَبُ",
+          "urdu": "میں جاؤں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-186",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "میں دائیں جاؤں یا بائیں؟",
+      "native": "هَلْ أَذْهَبُ يَمِينًا أَمْ يَسَارًا؟",
+      "urdu": "میں دائیں جاؤں یا بائیں؟",
+      "english": "Should I go right or left?",
+      "roman": "",
+      "words": [
+        {
+          "native": "يَسَارًا؟",
+          "urdu": "بائیں"
+        },
+        {
+          "native": "أَمْ",
+          "urdu": "یا"
+        },
+        {
+          "native": "يَمِينًا",
+          "urdu": "دائیں"
+        },
+        {
+          "native": "أَذْهَبُ",
+          "urdu": "میں جاؤں"
+        },
+        {
+          "native": "هَلْ",
+          "urdu": "کیا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-187",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "میں اپنے گروپ سے بچھڑ گیا ہوں۔",
+      "native": "ضَعْتُ عَنْ مَجْمُوعَتِي.",
+      "urdu": "میں اپنے گروپ سے بچھڑ گیا ہوں۔",
+      "english": "I have been separated from my group.",
+      "roman": "",
+      "words": [
+        {
+          "native": "مَجْمُوعَتِي.",
+          "urdu": "میرا گروپ"
+        },
+        {
+          "native": "عَنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "ضَعْتُ",
+          "urdu": "میں بچھڑ گیا / گم ہوا"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-188",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے ہوٹل کا راستہ معلوم نہیں۔",
+      "native": "لَا أَعْرِفُ طَرِيقَ الْفُنْدُقِ.",
+      "urdu": "مجھے ہوٹل کا راستہ معلوم نہیں۔",
+      "english": "I do not know the way to the hotel.",
+      "roman": "",
+      "words": [
+        {
+          "native": "الْفُنْدُقِ.",
+          "urdu": "ہوٹل"
+        },
+        {
+          "native": "طَرِيقَ",
+          "urdu": "راستہ"
+        },
+        {
+          "native": "أَعْرِفُ",
+          "urdu": "میں جانتا ہوں"
+        },
+        {
+          "native": "لَا",
+          "urdu": "نہیں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-189",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "براہِ کرم، گروپ انچارج کو فون کریں۔",
+      "native": "اِتَّصِلْ بِمُشْرِفِ الْمَجْمُوعَةِ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، گروپ انچارج کو فون کریں۔",
+      "english": "Please call the group supervisor.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "الْمَجْمُوعَةِ،",
+          "urdu": "گروپ"
+        },
+        {
+          "native": "بِمُشْرِفِ",
+          "urdu": "نگران سے"
+        },
+        {
+          "native": "اِتَّصِلْ",
+          "urdu": "فون کریں / رابطہ کریں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-190",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے ڈاکٹر چاہیے۔",
+      "native": "أَحْتَاجُ إِلَى طَبِيبٍ.",
+      "urdu": "مجھے ڈاکٹر چاہیے۔",
+      "english": "I need a doctor.",
+      "roman": "",
+      "words": [
+        {
+          "native": "طَبِيبٍ.",
+          "urdu": "ڈاکٹر"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَحْتَاجُ",
+          "urdu": "مجھے ضرورت ہے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-191",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "قریب ترین ہسپتال کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ مُسْتَشْفًى؟",
+      "urdu": "قریب ترین ہسپتال کہاں ہے؟",
+      "english": "Where is the nearest hospital?",
+      "roman": "",
+      "words": [
+        {
+          "native": "مُسْتَشْفًى؟",
+          "urdu": "ہسپتال"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-192",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "قریب ترین فارمیسی کہاں ہے؟",
+      "native": "أَيْنَ أَقْرَبُ صَيْدَلِيَّةٍ؟",
+      "urdu": "قریب ترین فارمیسی کہاں ہے؟",
+      "english": "Where is the nearest pharmacy?",
+      "roman": "",
+      "words": [
+        {
+          "native": "صَيْدَلِيَّةٍ؟",
+          "urdu": "فارمیسی"
+        },
+        {
+          "native": "أَقْرَبُ",
+          "urdu": "قریب ترین"
+        },
+        {
+          "native": "أَيْنَ",
+          "urdu": "کہاں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-193",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے تھکاوٹ محسوس ہو رہی ہے۔",
+      "native": "أَشْعُرُ بِالتَّعَبِ.",
+      "urdu": "مجھے تھکاوٹ محسوس ہو رہی ہے۔",
+      "english": "I feel tired.",
+      "roman": "",
+      "words": [
+        {
+          "native": "بِالتَّعَبِ.",
+          "urdu": "تھکاوٹ"
+        },
+        {
+          "native": "أَشْعُرُ",
+          "urdu": "میں محسوس کرتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-194",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے چکر آ رہے ہیں۔",
+      "native": "أَشْعُرُ بِالدُّوَارِ.",
+      "urdu": "مجھے چکر آ رہے ہیں۔",
+      "english": "I feel dizzy.",
+      "roman": "",
+      "words": [
+        {
+          "native": "بِالدُّوَارِ.",
+          "urdu": "چکر"
+        },
+        {
+          "native": "أَشْعُرُ",
+          "urdu": "میں محسوس کرتا ہوں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-195",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے سر درد ہے۔",
+      "native": "عِنْدِي صُدَاعٌ.",
+      "urdu": "مجھے سر درد ہے۔",
+      "english": "I have a headache.",
+      "roman": "",
+      "words": [
+        {
+          "native": "صُدَاعٌ.",
+          "urdu": "سر درد"
+        },
+        {
+          "native": "عِنْدِي",
+          "urdu": "میرے پاس / مجھے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-196",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "میرے پیٹ میں درد ہے۔",
+      "native": "عِنْدِي أَلَمٌ فِي بَطْنِي.",
+      "urdu": "میرے پیٹ میں درد ہے۔",
+      "english": "I have stomach pain.",
+      "roman": "",
+      "words": [
+        {
+          "native": "بَطْنِي.",
+          "urdu": "میرا پیٹ"
+        },
+        {
+          "native": "فِي",
+          "urdu": "میں"
+        },
+        {
+          "native": "أَلَمٌ",
+          "urdu": "درد"
+        },
+        {
+          "native": "عِنْدِي",
+          "urdu": "میرے پاس / مجھے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-197",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے الرجی ہے۔",
+      "native": "عِنْدِي حَسَاسِيَّةٌ.",
+      "urdu": "مجھے الرجی ہے۔",
+      "english": "I have an allergy.",
+      "roman": "",
+      "words": [
+        {
+          "native": "حَسَاسِيَّةٌ.",
+          "urdu": "الرجی"
+        },
+        {
+          "native": "عِنْدِي",
+          "urdu": "میرے پاس / مجھے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-198",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "مجھے ایمبولینس چاہیے۔",
+      "native": "أَحْتَاجُ إِلَى إِسْعَافٍ.",
+      "urdu": "مجھے ایمبولینس چاہیے۔",
+      "english": "I need an ambulance.",
+      "roman": "",
+      "words": [
+        {
+          "native": "إِسْعَافٍ.",
+          "urdu": "ایمبولینس / امداد"
+        },
+        {
+          "native": "إِلَى",
+          "urdu": "کی طرف / تک"
+        },
+        {
+          "native": "أَحْتَاجُ",
+          "urdu": "مجھے ضرورت ہے"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-199",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "براہِ کرم، ایمبولینس کو فون کریں۔",
+      "native": "اِتَّصِلْ بِالْإِسْعَافِ، مِنْ فَضْلِكَ.",
+      "urdu": "براہِ کرم، ایمبولینس کو فون کریں۔",
+      "english": "Please call an ambulance.",
+      "roman": "",
+      "words": [
+        {
+          "native": "فَضْلِكَ.",
+          "urdu": "مہربانی"
+        },
+        {
+          "native": "مِنْ",
+          "urdu": "سے"
+        },
+        {
+          "native": "بِالْإِسْعَافِ،",
+          "urdu": "ایمبولینس کو"
+        },
+        {
+          "native": "اِتَّصِلْ",
+          "urdu": "فون کریں / رابطہ کریں"
+        }
+      ],
+      "dialogue": []
+    },
+    {
+      "id": "arabic-200",
+      "category": "راستہ، صحت اور ہنگامی حالت",
+      "title": "یہ ہنگامی حالت ہے۔",
+      "native": "هَذِهِ حَالَةٌ طَارِئَةٌ.",
+      "urdu": "یہ ہنگامی حالت ہے۔",
+      "english": "This is an emergency.",
+      "roman": "",
+      "words": [
+        {
+          "native": "طَارِئَةٌ.",
+          "urdu": "ہنگامی"
+        },
+        {
+          "native": "حَالَةٌ",
+          "urdu": "حالت"
+        },
+        {
+          "native": "هَذِهِ",
+          "urdu": "یہ"
+        }
+      ],
+      "dialogue": []
+    }
+  ]
+}
